@@ -1,0 +1,68 @@
+body {
+ background-color: #000000;
+ color: #00FF00;
+ background-image: url("texture.jpg");
+}
+header {
+text-align: center;
+}
+nav {
+text-align: center;
+}
+h1 {
+color: #FF0;
+}
+footer {
+text-align: center;
+}
+A:link { COLOR: #FFFF00; }
+A:visited { COLOR: #FFFFFF; }
+A:hover { background-color: #1100FF; }
+#hlist li
+{
+display: inline;
+list-style-type: none;
+padding-left:0%;
+padding-right:0%;
+}
+.annotation {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 75%;
+}
+.config {
+	font-family: "Courier New", Courier, mono;
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #00FF00;
+	background-color: #000000;
+}
+button, .button {
+  background-color: #0000FF;
+}
+.navbar {
+ margin-bottom: 0;
+ background-color: #AAFFFF;
+ z-index: 9999;
+ border: 0;
+ font-size: 12px !important;
+ line-height: 1.42857143 !important;
+ letter-spacing: 4px;
+ border-radius: 0;
+ font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+ color: #00f !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+ color: #f4511e !important;
+ background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+ border-color: transparent;
+ color: #fff !important;
+}
+

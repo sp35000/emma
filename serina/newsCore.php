@@ -1,0 +1,90 @@
+<?php
+// Tell PHP that we'll be outputting UTF-8 to the browser
+mb_http_output('UTF-8');
+
+// Create connection
+include("./conf/db.php");
+
+// define variables and set to empty values
+$category = $per = $hashtag = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+ $title = test_input($_POST["title"]);
+ $link = test_input($_POST["link"]);
+ $per = test_input($_POST["per"]);
+ $hashtag = test_input($_POST["hashtag"]);
+ $category = test_input($_POST["category"]);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+  $title = test_input($_GET["title"]);
+  $link = test_input($_GET["link"]);
+  $per = test_input($_GET["per"]);
+  $hashtag = test_input($_GET["hashtag"]);
+  $category = test_input($_GET["category"]);
+}
+
+function test_input($data) {
+ $data = trim($data);
+ $data = stripslashes($data);
+ $data = htmlspecialchars($data);
+ return $data;
+}
+
+// Define period
+$today = date("Ymd");
+$current_year = date("Y");
+$current_month = date("m");
+$current_day = date("d");
+$mt_year = $current_year + 1;
+$mt_date = $mt_year.$current_month.$current_day;
+$lt_year = $current_year + 5;
+$lt_date = $lt_year.$current_month.$current_day;
+
+if ($per == "ST") {
+ $when = "final_date <= ".$mt_date;
+ $per = "Short Term";
+}
+elseif ($per == "MT") {
+ $when = "final_date > ".$mt_date." AND final_date < ".$lt_date;
+ $per = "Medium Term";
+}
+elseif ($per == "LT") {
+ $when = "final_date > ".$lt_date;
+ $per = "Long Term";
+}
+else {
+ $when = "final_date > 0";
+ $per = "All";
+}
+
+// Define category
+if (($category != "") && ($category != "All")) {
+ $clause = " AND category = '".$category."'";
+} else {
+ $category = "All";
+}
+
+// Add hashtag, if exists
+if ($hashtag != "") {
+ $hashtagclause =
+  " AND (title LIKE '%".$hashtag.
+  "%' OR link LIKE '%".$hashtag.
+  "%' OR hashtag LIKE '%".$hashtag."%')";
+}
+
+// Order by date
+$orderby = " ORDER BY initial_date DESC".$limit.";";
+
+$sql = "
+(SELECT title,category,link,initial_date
+FROM ".$database.".cnews
+WHERE ".$when.$clause.$mediaclause.$hashtagclause.")
+UNION
+(SELECT title,category,link,initial_date
+FROM ".$database.".".$table."
+WHERE ".$when.$clause.$mediaclause.$hashtagclause.")"
+.$orderby;
+
+$result = $conn->query($sql);
+?>
