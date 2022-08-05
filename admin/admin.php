@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="../js/sig.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/sig.css" />
-  <title>Serina</title>
+  <title>Serina Admin</title>
  </head>
  <body>
   <div class="container">
@@ -26,9 +26,8 @@
       </p>
       <p>Category:
       <select name="category">
-       <option value="All">All</option>
-       <option value="Nature">Nature</option>
        <option value="World">World</option>
+       <option value="Nature">Nature</option>
        <option value="America">America</option>
        <option value="Brasil">Brasil</option>
        <option value="Europe">Europe</option>
@@ -111,10 +110,10 @@ if ($per == "ST") {
 }
 
 // Define category
-if (($category != "") && ($category != "All")) {
+if (($category != "") && ($category != "World")) {
     $clause = " AND category = '" . $category . "'";
 } else {
-    $category = "All";
+    $category = "World";
 }
 
 // Add hashtag, if exists
@@ -122,8 +121,8 @@ if ($hashtag != "") {
     $hashtagclause = " AND link LIKE '%" . $hashtag . "%' OR hashtag LIKE '%" . $hashtag . "%'";
 }
 
-// if URL is not empty, insert the register
-if ($link != "") {
+// if URL and title are not empty, insert the register
+if (($link != "") && ($title != "")) {
     $sql = "INSERT INTO " . $database . "." . $table . " (title,category,link,media,initial_date,final_date,hashtag) VALUES(";
     $sql = $sql . "'" . $title . "',";
     $sql = $sql . "'" . $category . "',";
@@ -138,6 +137,11 @@ if ($link != "") {
         echo "<p\"bg-danger\">Error: " . $sql . "<br>" . $conn->error;
     }
     echo "<p>Debug [" . $sql . "]</p>";
+} else {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      if ($link == "") {echo "<p\"bg-danger\">Error: empty link.<br>";}
+      else {echo "<p\"bg-danger\">Error: empty title.<br>";}
+  }
 }
 
 $conn->close();
