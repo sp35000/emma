@@ -44,12 +44,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <input type="submit" value="Search">
      </form>
      <br/>
+     <?php
+      //echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
+      //echo "<p>Debug [".$sql."]</p>";
+     ?>
 </div>
-<div class="col-md-12">
-<?php
- //echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
- //echo "<p>Debug [".$sql."]</p>";
-?>
  <div class="col-sm-12 bg-grey">
 <?php
 if ($category <> "All") {
@@ -63,19 +62,21 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc())
   {
    if ($row["initial_date"]<= 20190101) {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>\n";
    } else {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>\n";
    }
   }
 } else {
- echo "<li>No result.</li>";
+ echo "<li>No result.</li>\n";
 }
 
 $conn->close();
 ?>
   </ul>
 <p align="center"><a href="news3.php?category=<?=$category?>">More...</a></p>
+</div>
+</div>
 </div>
  </body>
 </html>

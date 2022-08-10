@@ -43,12 +43,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <input type="submit" value="Search">
      </form>
      <br/>
+     <?php
+     // echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
+     // echo "<p>Debug [".$sql."]</p>";
+     ?>
 </div>
-<div class="col-md-12">
-<?php
-// echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
-// echo "<p>Debug [".$sql."]</p>";
-?>
  <div class="col-sm-12 bg-grey">
 <?php
 if ($category <> "All") {
@@ -71,6 +70,9 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
-  </ul></div>
+  </ul>
+</div>
+</div>
+</div>
  </body>
 </html>

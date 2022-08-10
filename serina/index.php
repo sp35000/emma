@@ -105,9 +105,11 @@ echo "<div class=\"col-sm-12 bg-grey\">\n";
 getAdvTgt(5);
 for($counter = 0; $counter < $lenghtCategories; $counter++) {
 
-// bootstrap: open a new col-sm-12 in each 3 col-sm-4
- echo "<div class=\"col-sm-4\">\n<ul>\n";
- echo "<h2><a href=\"news2.php?category=$categories[$counter]\">$categories[$counter]</a></h2>\n";
+// bootstrap: open a new col-sm-12 in each 2 col-sm-6
+ echo "<div class=\"col-sm-6\">\n";
+ echo "<h2 align=\"center\"><a href=\"news2.php?category=$categories[$counter]\">$categories[$counter]</a></h2>\n";
+ getVideoPlaylist($categories[$counter]);
+ echo "<ul>\n";
 
 // make queries
  $media = "text";
@@ -118,7 +120,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
  echo "</ul></div>\n";
 
 // bootstrap: close col-sm-12 in each 3 col-sm-4
- if ($divBreak == 3) {
+ if ($divBreak == 2) {
   echo "</div>\n";
   echo "<div class=\"col-sm-12 bg-grey\">\n";
   getAdvTgt(5);
