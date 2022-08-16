@@ -10,6 +10,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
 <!-- End Google Tag Manager -->
    <meta charset="utf-8">
+   <title>Work4Love - News</title>
+   <meta  name="description" content="Work4Love.net - Notícias de hoje.">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -17,7 +19,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/sig.css" />
-  <title>Work4Love - News</title>
  </head>
  <body>
    <!-- Google Tag Manager (noscript) -->
@@ -143,7 +144,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 </div>
 
 <div class="col-md-5 text-center">
-  <h2><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLPsbmxzdKacH8eAwqVVW2_OXZVEX6cEsEOoWxJhwpTy4ablWcb1J8uWXZN0IaDqiKfyO4t6qntxIj/pubhtml" target="_blank">F1 Classification</a></h2>
+  <h2><a href="../charlotte/" target="_blank">Formula 1</a></h2>
   <!-- embedding Google spreadsheet-->
   <div class="frame-container">
   <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLPsbmxzdKacH8eAwqVVW2_OXZVEX6cEsEOoWxJhwpTy4ablWcb1J8uWXZN0IaDqiKfyO4t6qntxIj/pubhtml?gid=1518303276&amp;single=true&amp;widget=true&amp;headers=false" width="380 px" height="450 px"></iframe>
