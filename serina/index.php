@@ -1,25 +1,26 @@
 <!doctype html>
 <?php include("util/tools.php"); ?>
 <html class="no-js" lang="en">
- <head>
-   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
-<!-- End Google Tag Manager -->
-   <meta charset="utf-8">
-   <title>Work4Love - News</title>
-   <meta  name="description" content="Work4Love.net - Notícias de hoje.">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../css/sig.css" />
- </head>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>Work4Love - News</title>
+    <meta  name="description" content="Work4Love.net - Notícias de hoje.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="../js/sig.js"></script>
+    <link rel="stylesheet" href="../css/sig.css" />
+   </head>
  <body>
    <!-- Google Tag Manager (noscript) -->
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -27,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <?php include("../include/menusup.html"); ?>
   <div class="container">
    <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-sm-12 text-center">
     <h1 align="center">Serina</h1>
     <form method="post" action="news3.php">
      <input name="hashtag" size="40" type="text">&nbsp;
@@ -35,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </form>
     <br/>
 </div>
-<div class="col-md-12">
+<div class="col-sm-12">
 <?php
 include("../include/tradingViewWidget.html");
 
@@ -132,8 +133,8 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 
 ?>
 </div>
-<div class="col-md-12 text-center">
-<div class="col-md-7 text-center">
+<div class="col-sm-12 text-center">
+<div class="col-sm-6 text-center">
 <h2>Special Edition</h2>
 <p><a href="https://www.canalmeio.com.br/edicoes/2020/05/22/edicao-extra-celso-de-mello-torna-publico-video-de-reuniao-de-bolsonaro/" target="_blank">[Canal Meio] EDIÇÃO EXTRA: CELSO DE MELLO TORNA PÚBLICO VÍDEO DE REUNIÃO DE BOLSONARO</a></p>
 
@@ -143,7 +144,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 <p><a href="https://static.poder360.com.br/2020/05/transcricao-video-reuniao22abr.pdf" target="_blank">Transcri&ccedil;&atilde;o</a></p>
 </div>
 
-<div class="col-md-5 text-center">
+<div class="col-sm-6 text-center">
   <h2><a href="../charlotte/" target="_blank">Formula 1</a></h2>
   <!-- embedding Google spreadsheet-->
   <div class="frame-container">
@@ -151,6 +152,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 </div>
 </div>
 </div>
+<script>includeHTML();</script>
 </body>
 </html>
 
