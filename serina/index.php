@@ -145,7 +145,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 </div>
 
 <div class="col-sm-6 text-center">
-  <h2><a href="../charlotte/" target="_blank">Formula 1</a></h2>
+  <h2><a href="../charlotte/">Formula 1</a></h2>
   <!-- embedding Google spreadsheet-->
   <div class="frame-container">
   <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLPsbmxzdKacH8eAwqVVW2_OXZVEX6cEsEOoWxJhwpTy4ablWcb1J8uWXZN0IaDqiKfyO4t6qntxIj/pubhtml?gid=1518303276&amp;single=true&amp;widget=true&amp;headers=false" width="380 px" height="450 px"></iframe>
