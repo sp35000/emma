@@ -22,6 +22,7 @@
       <br/>
       URL:&nbsp;<input type="text" id="link" name="link"></input>
       &nbsp;<input type="button" value="Get Title" onclick="getTitle()"></input>
+      &nbsp;<input type="button" value="Get Title Python" onclick="getTitlePython()"></input>
       <span id="loaderDiv" style="display:none;"><img src="../js/ajax-loader.gif" alt="Loading" /></span>
       </p>
       <p>Category:

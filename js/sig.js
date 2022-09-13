@@ -19,12 +19,33 @@ function getTitle() {
       $("#loaderDiv").hide();
       //alert(response);
       document.getElementById("title").value = response;
-    },   
+    },
     error: function(e) {
       alert("error! " + e);
     }
   });
 }
+
+function getTitlePython() {
+  var url = document.getElementById("link");
+  var proxyurl = "../serina/get_title_python.php?url=" + url.value;
+  $.ajax({
+    url: proxyurl,
+    async: true,
+    beforeSend: function() {
+      $("#loaderDiv").show();
+    },
+    success: function(response) {
+      $("#loaderDiv").hide();
+      //alert(response);
+      document.getElementById("title").value = response;
+    },
+    error: function(e) {
+      alert("error! " + e);
+    }
+  });
+}
+
 
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
@@ -123,4 +144,3 @@ function showTime() {
 			.innerHTML = currentTime;
 }
 showTime();
-
