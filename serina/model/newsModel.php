@@ -49,15 +49,11 @@ function create_query($category,$media,$itens) {
     $orderby = " ORDER BY id DESC";
     $limit = " LIMIT 0,".$itens;
     $sql = "
-    (SELECT title,category,link,initial_date
-    FROM ".$database.".cnews
-    WHERE ".$when.$clause.$mediaclause.$hashtagclause.")
-    UNION
-    (SELECT title,category,link,initial_date
+    SELECT title,category,link,initial_date
     FROM ".$database.".".$table."
-    WHERE ".$when.$clause.$mediaclause.$hashtagclause.")"
+    WHERE ".$when.$clause.$mediaclause.$hashtagclause." "
     .$orderby.$limit;
-    //echo "<p>Debug [".$sql."]</p>";
+    // echo "<p>Debug [".$sql."]</p>";
     $result = $conn->query($sql);
     $conn->close();
     return $result;

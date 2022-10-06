@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/sig.css" />
   <title>Work4Love - News - <?=$category ?></title>
-  <meta  name="description" content="Work4Love.net - Notícias de hoje - <?=$category ?>">
+  <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?>">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -33,11 +33,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <!-- Google Tag Manager (noscript) -->
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!-- End Google Tag Manager (noscript) -->
- <?php include("../include/menusup.html"); ?>
+ <div w3-include-html="/sig/include/menusup.html"></div>
   <div class="container">
    <div class="row">
     <div class="col-md-12 text-center">
-    <h1 align="center"><a href="index.php">Serina</a></h1>
+    <h1 align="center"><a href="index.php">News</a></h1>
      <form method="post" action="news3.php">
       <input name="hashtag" size="40" type="text">&nbsp;
       <input type="submit" value="Search">
@@ -75,6 +75,7 @@ $conn->close();
   </ul>
 <p align="center"><a href="news3.php?category=<?=$category?>">More...</a></p>
 </div>
+<div w3-include-html="/sig/include/footer.html"></div>
 </div>
 </div>
  </body>

@@ -11,7 +11,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <title>Work4Love - News</title>
-    <meta  name="description" content="Work4Love.net - Notícias de hoje.">
+    <meta  name="description" content="Work4Love.net - Banco de dados de Notícias.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -25,11 +25,11 @@
    <!-- Google Tag Manager (noscript) -->
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!-- End Google Tag Manager (noscript) -->
- <?php include("../include/menusup.html"); ?>
-  <div class="container">
+   <div w3-include-html="/sig/include/menusup.html"></div>
+   <div class="container">
    <div class="row">
     <div class="col-sm-12 text-center">
-    <h1 align="center">Serina</h1>
+    <h1 align="center">News</h1>
     <form method="post" action="news3.php">
      <input name="hashtag" size="40" type="text">&nbsp;
      <input type="submit" value="Search">
@@ -150,6 +150,7 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
   <div class="frame-container">
   <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLPsbmxzdKacH8eAwqVVW2_OXZVEX6cEsEOoWxJhwpTy4ablWcb1J8uWXZN0IaDqiKfyO4t6qntxIj/pubhtml?gid=1518303276&amp;single=true&amp;widget=true&amp;headers=false" width="380 px" height="450 px"></iframe>
 </div>
+<div w3-include-html="/sig/include/footer.html"></div>
 </div>
 </div>
 <script>includeHTML();</script>
