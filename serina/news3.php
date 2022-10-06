@@ -19,6 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="../js/sig.js"></script>
   <link rel="stylesheet" href="../css/sig.css" />
  <title>Work4Love - News - <?=$category ?> <?=$hashtag ?></title>
  <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?> <?=$hashtag ?>">
@@ -74,5 +75,6 @@ $conn->close();
 <div w3-include-html="/sig/include/footer.html"></div>
 </div>
 </div>
+<script>includeHTML();</script>
  </body>
 </html>
