@@ -38,6 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="container">
    <div class="row">
     <div class="col-md-12 text-center">
+    <div w3-include-html="/sig/include/menusup-news.html"></div>
     <h1 align="center"><a href="index.php">News</a></h1>
      <form method="post" action="news3.php">
       <input name="hashtag" size="40" type="text">&nbsp;
