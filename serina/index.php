@@ -25,11 +25,10 @@
    <!-- Google Tag Manager (noscript) -->
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!-- End Google Tag Manager (noscript) -->
-   <div w3-include-html="/sig/include/menusup.html"></div>
+   <div w3-include-html="/sig/include/menusup-news.html"></div>
    <div class="container">
    <div class="row">
     <div class="col-sm-12 text-center">
-    <div w3-include-html="/sig/include/menusup-news.html"></div>
     <h1 align="center">News</h1>
     <form method="post" action="news3.php">
      <input name="hashtag" size="40" type="text">&nbsp;
@@ -155,6 +154,9 @@ for($counter = 0; $counter < $lenghtCategories; $counter++) {
 </div>
 </div>
 <script>includeHTML();</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript"
+src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8671c07f6deb95"></script>
 </body>
 </html>
 
