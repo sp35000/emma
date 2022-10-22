@@ -70,7 +70,7 @@ function getRandomImage($category) {
   if ($category == "Travel") {
 echo "<p align=\"center\"><span id=\"random_image\">
     <script type=\"text/javascript\"
-    src=\"https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=small\"
+    src=\"https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=2small\"
     async>
     </script>
     </span><br/>

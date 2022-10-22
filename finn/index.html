@@ -30,13 +30,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <div w3-include-html="/sig/include/menusup-sites.html"></div>
  <div class="container">
  <div class="row">
- <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">   
+ <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
  <h1>Travel</h1>
   <p><span id="random_image">
-  <script type="text/javascript"
+    <script>
+    var isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
+    if (isMobile) {
+      piwigoURL="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=2small";
+    } else {
+      piwigoURL="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=xsmall";
+    }
+    $.ajax({
+      url: piwigoURL,
+      success: function(data) {
+        $('.result').html(data);
+      }
+    });
+    </script>
+  <!-- <script type="text/javascript"
   src="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=2small"
   async>
-  </script>
+  </script> -->
 </span>
 <br/>
     <a href="https://work4love.net/finn/" target="_blank"><strong>Ver galeria completa de fotos</strong></a>

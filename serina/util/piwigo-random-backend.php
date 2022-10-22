@@ -171,7 +171,7 @@ if ($thumbc["stat"] === 'ok')
       <?php
     } else if ($mode === 'html') {
       echo '<a id="rndpic-a" href="' . htmlspecialchars($page_url) .
-	'" target="' . htmlspecialchars($target) . '"><img src="'
+	'" target="' . htmlspecialchars($target) . '"><img class="img-responsive" src="'
         . htmlspecialchars($image_url) . '" alt="" title="' . htmlspecialchars($comment) . '" />'
         . '</a>';
     }
