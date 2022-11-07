@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
+<!-- End Google Tag Manager -->
+ <title>Work4Love.net - IT Cheat Sheet</title>
+ <meta name="description" content="Work4Love.net - IT Cheat Sheet.">
+ <meta name="keywords" content="linux,debian,git,samba,javascript,npm,node" />
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <script src="../js/sig.js"></script>
+ <link rel="stylesheet" href="../css/sig.css" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+ <div class="container">
+ <div class="row">
+ <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
+   <div w3-include-html="../include/menusup.html"></div>
+   <div w3-include-html="../include/menusup-tranceit.html"></div>
+ </div>
+ <div class="col-md-12 columns" style="padding-left:10%;padding-right:10%">
+<article>
+<pre style="color: rgb(0,255,0);background-color: rgb(0,0,0);border: 0px; white-space: pre-wrap;">
+  <code>
+ TCP/IP
+ sendmail (test):
+ sending:
+ /usr/lib/sendmail -v -f $source destiny &lt; dir/filename
+
+ receiving:
+  $ telnet mail.somewhere.com 25
+  Trying 192.168.75.194...
+  Connected to smtp.somewhere.com.
+  Escape character is '^]'.
+  220 smtp.somewhere.net ESMTP Sendmail 8.9.3+Sun/8.9.1;
+ Thu, 12 Oct 2000 04:39:40 -0700 (PDT)
+  mail from: tony@pcunix.com
+  250 tony@pcunix.com... Sender ok
+  rcpt to: foobah@pcunix.com
+  550 foobah@pcunix.com... Relaying denied
+  rcpt to: foobah@somewhere.com
+  250 foobah@somewhere.com... Recipient ok
+  data
+  354 Enter mail, end with . on a line by itself
+  test
+  look ma no headers!
+  .
+  250 HA00945 Message accepted for delivery
+  quit
+  221 smtp.somewhere.com closing connection
+
+ relay:
+ telnet mail-abuse.net
+
+ MRTG:
+ MaxBytes = velocidade * 125
+ AbsMax = 2 * MaxBytes
+ ThreshMaxI = MaxBytes * 70%
+ ThreshMaxO = MaxBytes * 70%
+
+ Target[ezwf]: 2:public@router1:::::2
+ The ":::::2" tells MRTG to use SNMPv2
+
+ Interface by Description
+  Target[ezwf]: \My-Interface2:public@wellfleet-fddi.ethz.ch
+  Target[ezci]: -\My-Interface2:public@ezci-ether.ethz.ch
+  Target[ezwf]: 1.3.6.1.2.1.2.2.1.14\My-Interface2&amp;1.3.6.1.2.1.2.2.1.14\My-Interface3:public@myrouter
+  Target[ezwf]: ifInErrors\My-Interface2&amp;ifOutErrors\My-Interface3:public@myrouter
+ If your description contains a ``&amp;'', a ``:'', a ``@'' or a `` '' you can include
+ them but you must escape with a backlash:
+  Target[ezwf]: \fun\:\ ney\&amp;ddd:public@hello.router
+
+ Interface by Name
+  Target[ezwf]: #2/11:public@wellfleet-fddi.ethz.ch
+  Target[ezci]: -#2/11:public@ezci-ether.ethz.ch
+  Target[ezwf]: 1.3.6.1.2.1.2.2.1.14#3/7&amp;1.3.6.1.2.1.2.2.1.14#3/7:public@myrouter
+  Target[ezwf]: ifInErrors#3/7&amp;ifOutErrors#3/7:public@myrouter
+ If your description contains a ``&amp;'', a ``:'', a ``@'' or a `` '' you can include
+ them but you must escape with a backlash:
+  Target[ezwf]: #\:\ fun:public@hello.router
+ <note that="" #="" sign="" will="" be="" interpreted="" as="" a="" comment="" if="" it="" is="" first="" non="" white-space="" character="" on="" the="" line="">
+
+ HP OPENVIEW:
+ /etc/opt/OV/share/conf/netmon.noDiscover
+ 1-199.*.*.*
+ 200.0-141.*.*
+ 200.142.0-63.*.*
+ 200.142.96-255.*.*
+ 200.143-151.*.*
+ 200.152.0-191.*.*
+ 200.152.225-255.*
+ 200.153-159.*.*
+ 200.160.0-223.*.*
+ 200.161-224.*.*
+ 200.225.0-63.*.*
+ 200.225.80-255.*.*
+ 200.226-255.*.*
+
+ filtros hpov:
+ reorganizacao da topologia:
+ /opt/OV/bin/ovstop netmon
+ /opt/OV/bin/ovtopofix -ua
+ /opt/OV/bin/ovstart netmon
+
+ arquivo: $OV_CONF/$LANG/C/filters
+ sintaxe:
+ MRoutingBlocks "Blocos de Mrouting"
+ {
+  (("IP Address" ~ 10.0.17.*) ||
+  ("IP Address" ~ 10.24.0-3.*) ||
+  ("IP Address" ~ 10.25.1.64-126) ||
+  ("IP Address" ~ 172.16-31.*.*) ||
+  ("IP Address" ~ 192.168.*.*) ||
+  ("IP Address" ~ 10.80.32.254)||
+  ("IP Address" ~ 10.19.36.254)||
+  ("IP Address" ~ 10.16.36.253) || isNode || isSegment)
+ }
+ <hr>
+ generating certificate:
+ 1. openssl req -new &gt; company.csr
+ 2. it will create company.csr e privkey.pem (save)
+ 3. send to authority
+ 4. openssl rsa -in privkey.pem -out new.cert.key
+ 5. rename files sent by authorithy with
+    CA.cert and COMPANY.CERT
+ 6. copy all files to /opt/apache/conf
+ 7. restart apache
+</code>
+</pre>
+<p align="center"><a href="http://www.freeformatter.com/html-escape.html" target="_blank">Free Online HTML Escape Tool</a></p>
+ </article>
+ </div>
+<div w3-include-html="../include/footer.html"></div>
+ </div>
+ </div>
+ <script>
+  includeHTML();
+</script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pt-br'}, 'google_translate_element');
+}
+</script>
+</body>
+</html>

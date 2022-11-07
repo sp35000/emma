@@ -32,93 +32,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
    <div w3-include-html="../include/menusup.html"></div>
    <div w3-include-html="../include/menusup-tranceit.html"></div>
- </div>
+  </div>
  <div class="col-md-12 columns" style="padding-left:10%;padding-right:10%">
 <article>
 <pre style="color: rgb(0,255,0);background-color: rgb(0,0,0);border: 0px; white-space: pre-wrap;">
   <code>
-  ___ _____        _                _         _               _
- |_ _|_   _|   ___| |__   ___  __ _| |_   ___| |__   ___  ___| |_
-  | |  | |    / __| '_ \ / _ \/ _` | __| / __| '_ \ / _ \/ _ \ __|
-  | |  | |   | (__| | | |  __/ (_| | |_  \__ \ | | |  __/  __/ |_
- |___| |_|    \___|_| |_|\___|\__,_|\__| |___/_| |_|\___|\___|\__|
+ MAINFRAME
 
+ ROSCOE
+ off - quit roscoe
+ who is [chave roscoe] - inform user
+ sub - job submit
+ dis - list jobs
+ a j [job] - show job sysout
+ d j n - release area to show another job sysout
+ PF12 - history
+ dis [job] [job number]
+ purge [job number]
+ del - clean Roscoe AWS
 
- # generating ssh key
- ssh-keygen -t rsa -b 4096 -C &lt;e-mail&gt; -f &lt;keyfile&gt;
- chmod 600 &lt;private keyfile&gt;
+ ROSCOE LIBRARY
+ lib a * - show all library members
+ include /[chave roscoe]/
+ f [arquivo] & a - select dataset and load in AWS
 
- # Git - cheat sheet
+ ROSCOE AWS (AWS)
+ d - delete line
+ dd - delete line block (put in the block start and end)
+ cc - mark block (put in the block start and end)
+ a - insert marked block
+ i - insert line
+ imp dsn=project.group.type(member)
+ exp dsn=project.group.type(member)
+  ex.: C0000.BASELINE.PRO(MEMBER)
+ save [nome] - save
+ u * - update
+ copy [dataset] [line] insert dataset in line
+ d[line] - delete specified line
+ point line [line] - go to specified line
+ a [line] ,, - go to specified line
+ set mode x - accept lower and upper case
 
- # to use ssl connection, create a ssh key and upload the public key to git repository
- git clone git@&lt;site&gt;:&lt;username&gt;/&lt;project&gt;.git # clone using SSL
- git add -A
- git commit -m &lt;message&gt;
- git log # to see all commits
- git push origin main
- # or
- git push origin master
-
- # Debian static IP configuration
- Reference: https://linuxhint.com/debian-static-ip-configuration/
-
- /etc/network/interfaces:
-
- # The primary network interface
- # allow-hotplug enp0s3
- auto enp0s3
- iface enp0s3 inet static
- address 192.168.0.152
- netmask 255.255.255.0
- gateway 192.168.0.1
- dns-nameservers 208.67.222.222 208.67.220.220 8.8.8.8 4.4.4.4
-
- ---
- then reboot the computer
-
- # Add user to sudoers
- usermod -aG sudo &lt;user&gt;
- groups &lt;user&gt; # to verify
-
- # Samba
- apt install samba
- apt install cifs-utils # to mount external smb shares
-
- # /etc/samba/smb.conf - basic sharing
-
- [global]
-  allow insecure wide links = yes
-  log file = /var/log/samba/%m
-  log level = 1
-  name resolve order = lmhosts wins host bcast
- workgroup = WORKGROUP
-
- [&lt;user&gt;]
-   # This share requires authentication to access
-   path = /home/&lt;user&gt;
-   read only = no
-   follow symlinks = yes
-   wide links = yes
-
- # create a smb user to access the shares
- smbpasswd -a &lt;user&gt;
-
- # install npm
- apt install npm
-
- # npm commands
- npm install # Install a package
- npm uninstall # Remove a package
- npm unstar # Remove an item from your favorite packages
-
- # install yarn - https://www.sitepoint.com/yarn-vs-npm/
- npm install -g yarn
-
- # install a new version of Node
- npm install -g n
- n lts
-
- npm update [-g] [&lt;pkg&gt;...]
+ ROSCOE DSN
+ d - delete member
+ cm - compress dataset after delection
+ al - alocate dataset space
 </code>
 </pre>
 <p align="center"><a href="http://www.freeformatter.com/html-escape.html" target="_blank">Free Online HTML Escape Tool</a></p>

@@ -37,88 +37,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <article>
 <pre style="color: rgb(0,255,0);background-color: rgb(0,0,0);border: 0px; white-space: pre-wrap;">
   <code>
-  ___ _____        _                _         _               _
- |_ _|_   _|   ___| |__   ___  __ _| |_   ___| |__   ___  ___| |_
-  | |  | |    / __| '_ \ / _ \/ _` | __| / __| '_ \ / _ \/ _ \ __|
-  | |  | |   | (__| | | |  __/ (_| | |_  \__ \ | | |  __/  __/ |_
- |___| |_|    \___|_| |_|\___|\__,_|\__| |___/_| |_|\___|\___|\__|
+ MySQL:
+ grant all on [database].* to [user]@[hostname]
+ set password for [user]@[hostname]=password('string')
+ show grants for [user]@[hostname]
 
+ create table [table] (
+  [field] [integer,char(00)...] primary key,
+  [field] [integer,char(00)...] [null/not null],
+  [field] [integer,char(00)...] [null/not null],
+  ...
+ )
 
- # generating ssh key
- ssh-keygen -t rsa -b 4096 -C &lt;e-mail&gt; -f &lt;keyfile&gt;
- chmod 600 &lt;private keyfile&gt;
+ alter table [table] add [field] [integer,char(00)...] [null/not_null]
 
- # Git - cheat sheet
+ select [fields] from [table]
+  where [condition]
+  order by [field] [asc|desc]
+  limit x,y
 
- # to use ssl connection, create a ssh key and upload the public key to git repository
- git clone git@&lt;site&gt;:&lt;username&gt;/&lt;project&gt;.git # clone using SSL
- git add -A
- git commit -m &lt;message&gt;
- git log # to see all commits
- git push origin main
- # or
- git push origin master
+ insert into [table] (a,b,c) values (1,2,3)
 
- # Debian static IP configuration
- Reference: https://linuxhint.com/debian-static-ip-configuration/
+ update [table] set name1=value1,name2=value2 where [condition]
 
- /etc/network/interfaces:
+ delete from [table] where [condition]
 
- # The primary network interface
- # allow-hotplug enp0s3
- auto enp0s3
- iface enp0s3 inet static
- address 192.168.0.152
- netmask 255.255.255.0
- gateway 192.168.0.1
- dns-nameservers 208.67.222.222 208.67.220.220 8.8.8.8 4.4.4.4
+ ORACLE
+ select count(rowid) from [table] where [condition]
+ select [fields] from [table] where [condition] and rownum <= [quantity]
 
- ---
- then reboot the computer
-
- # Add user to sudoers
- usermod -aG sudo &lt;user&gt;
- groups &lt;user&gt; # to verify
-
- # Samba
- apt install samba
- apt install cifs-utils # to mount external smb shares
-
- # /etc/samba/smb.conf - basic sharing
-
- [global]
-  allow insecure wide links = yes
-  log file = /var/log/samba/%m
-  log level = 1
-  name resolve order = lmhosts wins host bcast
- workgroup = WORKGROUP
-
- [&lt;user&gt;]
-   # This share requires authentication to access
-   path = /home/&lt;user&gt;
-   read only = no
-   follow symlinks = yes
-   wide links = yes
-
- # create a smb user to access the shares
- smbpasswd -a &lt;user&gt;
-
- # install npm
- apt install npm
-
- # npm commands
- npm install # Install a package
- npm uninstall # Remove a package
- npm unstar # Remove an item from your favorite packages
-
- # install yarn - https://www.sitepoint.com/yarn-vs-npm/
- npm install -g yarn
-
- # install a new version of Node
- npm install -g n
- n lts
-
- npm update [-g] [&lt;pkg&gt;...]
+ to see Oracle processes:
+ select process,sid,serial# from v$session where osuser = [user]
 </code>
 </pre>
 <p align="center"><a href="http://www.freeformatter.com/html-escape.html" target="_blank">Free Online HTML Escape Tool</a></p>

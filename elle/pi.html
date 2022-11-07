@@ -9,9 +9,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
 <!-- End Google Tag Manager -->
- <title>Work4Love.net - IT Cheat Sheet</title>
- <meta name="description" content="Work4Love.net - IT Cheat Sheet.">
- <meta name="keywords" content="linux,debian,git,samba,javascript,npm,node" />
+ <title>Work4Love.net - Raspberry Pi</title>
+ <meta name="description" content="Work4Love.net - Raspberry Pi.">
+ <meta name="keywords" content="" />
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -37,88 +37,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <article>
 <pre style="color: rgb(0,255,0);background-color: rgb(0,0,0);border: 0px; white-space: pre-wrap;">
   <code>
-  ___ _____        _                _         _               _
- |_ _|_   _|   ___| |__   ___  __ _| |_   ___| |__   ___  ___| |_
-  | |  | |    / __| '_ \ / _ \/ _` | __| / __| '_ \ / _ \/ _ \ __|
-  | |  | |   | (__| | | |  __/ (_| | |_  \__ \ | | |  __/  __/ |_
- |___| |_|    \___|_| |_|\___|\__,_|\__| |___/_| |_|\___|\___|\__|
+ # Raspberry PI
+ # Solution for AH00037: Symbolic link not allowed or link target not accessible
+ # Raspberry PI automonunts
+ /dev/sda1       1,9T  1,2T  735G  61% /media/pi/TOSHIBA EXT
+ /dev/sdb1       932G  887G   46G  96% /media/pi/HD-E1
+ # with ACL in mount
+ ls -l
+ # drwxr-x---+ 4 root root 4096 out 28 17:08 pi
+ # I solved by changing Apache user
+ sudo vi /etc/apache2/envvars
+ change user to pi:
+ ...
+ # export APACHE_RUN_USER=www-data
+ # export APACHE_RUN_GROUP=www-data
+ export APACHE_RUN_USER=pi
+ export APACHE_RUN_GROUP=pi
+ ...
+ # then restart service
+ sudo service apache2 restart
 
+ # How to install VeraCrypt on Raspbian
+ # https://codeyarns.com/tech/2019-05-17-how-to-install-veracrypt-on-raspbian.html#gsc.tab=0
+ sudo apt install libfuse-dev libwxbase3.0-dev
+ tar xvf veracrypt-1.21-raspbian-setup.tar.bz2
+ ./veracrypt-1.21-setup-console-armv7
+ veracrypt --version
 
- # generating ssh key
- ssh-keygen -t rsa -b 4096 -C &lt;e-mail&gt; -f &lt;keyfile&gt;
- chmod 600 &lt;private keyfile&gt;
-
- # Git - cheat sheet
-
- # to use ssl connection, create a ssh key and upload the public key to git repository
- git clone git@&lt;site&gt;:&lt;username&gt;/&lt;project&gt;.git # clone using SSL
- git add -A
- git commit -m &lt;message&gt;
- git log # to see all commits
- git push origin main
- # or
- git push origin master
-
- # Debian static IP configuration
- Reference: https://linuxhint.com/debian-static-ip-configuration/
-
- /etc/network/interfaces:
-
- # The primary network interface
- # allow-hotplug enp0s3
- auto enp0s3
- iface enp0s3 inet static
- address 192.168.0.152
- netmask 255.255.255.0
- gateway 192.168.0.1
- dns-nameservers 208.67.222.222 208.67.220.220 8.8.8.8 4.4.4.4
-
- ---
- then reboot the computer
-
- # Add user to sudoers
- usermod -aG sudo &lt;user&gt;
- groups &lt;user&gt; # to verify
-
- # Samba
- apt install samba
- apt install cifs-utils # to mount external smb shares
-
- # /etc/samba/smb.conf - basic sharing
-
- [global]
-  allow insecure wide links = yes
-  log file = /var/log/samba/%m
-  log level = 1
-  name resolve order = lmhosts wins host bcast
- workgroup = WORKGROUP
-
- [&lt;user&gt;]
-   # This share requires authentication to access
-   path = /home/&lt;user&gt;
-   read only = no
-   follow symlinks = yes
-   wide links = yes
-
- # create a smb user to access the shares
- smbpasswd -a &lt;user&gt;
-
- # install npm
- apt install npm
-
- # npm commands
- npm install # Install a package
- npm uninstall # Remove a package
- npm unstar # Remove an item from your favorite packages
-
- # install yarn - https://www.sitepoint.com/yarn-vs-npm/
- npm install -g yarn
-
- # install a new version of Node
- npm install -g n
- n lts
-
- npm update [-g] [&lt;pkg&gt;...]
 </code>
 </pre>
 <p align="center"><a href="http://www.freeformatter.com/html-escape.html" target="_blank">Free Online HTML Escape Tool</a></p>
