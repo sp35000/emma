@@ -103,6 +103,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  # create a smb user to access the shares
  smbpasswd -a &lt;user&gt;
 
+ # sha generation (in this example, using sha512sum)
+ echo &lt;statement&gt;|sha512sum
+
+ # Python
+ # virtual environment
+ # create
+ python -m venv &lt;myEnvironment&gt;
+ # activate
+ source &lt;myEnvironment&gt;/bin/activate
+ # deactivate
+ deactivate
+
  # install npm
  apt install npm
 
