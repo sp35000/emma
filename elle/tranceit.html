@@ -47,6 +47,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  # to check debian version
  lsb_release -a
 
+ # to clean /var/cache
+ sudo apt clean
+
+ # ways to clean /var/log/journal
+ sudo journalctl --rotate
+
+ sudo journalctl --vacuum-size=100M   # limit logs to 100 Mb
+ sudo journalctl --vacuum-time=5d     # delete logs older than 5 days
+ sudo journalctl --vacuum-file=2      # restrict number of log files
+
+ # Note: The “–vacuum-files” option will not delete the files that are currently active or in use.
+ # need to restart service after commands above
+ sudo service systemd-journald restart
+
+ # Reference
+ # https://itslinuxfoss.com/fix-big-var-log-journal/
+ # https://linuxhandbook.com/clear-systemd-journal-logs/
+
  # generating ssh key
  ssh-keygen -t rsa -b 4096 -C &lt;e-mail&gt; -f &lt;keyfile&gt;
  chmod 600 &lt;private keyfile&gt;
