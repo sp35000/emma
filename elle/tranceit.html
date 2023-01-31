@@ -151,17 +151,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  npm install -g n
  n lts
 
- npm update [-g] [&lt;pkg&gt;...]
+ npm update [-g] [&lt;pkg&gt;]
 
  # docker commands
  docker image ls
- docker run -p [&lt;host_port&gt;...]:[&lt;container_port&gt;...] -v [&lt;host_folder&gt;...]:[&lt;container_folder&gt;...] [&lt;container&gt;...]
+ docker run -p [&lt;host_port&gt;]:[&lt;container_port&gt;] -v [&lt;host_folder&gt;]:[&lt;container_folder&gt;] [&lt;container&gt;]
  docker ps
- docker exec -it [&lt;container&gt;...] /bin/bash # or other command
- docker stop [&lt;container&gt;...]
- docker build -t [&lt;image-tag&gt;...]
- docker login --username [&lt;username&gt;...]
- docker push [&lt;image-tag&gt;...]
+ docker exec -it [&lt;container&gt;] /bin/bash # or other command
+ docker stop [&lt;container&gt;]
+ docker build -t [&lt;image-tag&gt;]
+ docker login --username [&lt;username&gt;]
+ docker push [&lt;image-tag&gt;]
 
  # docker-compose
  docker-compose up
