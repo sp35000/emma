@@ -143,4 +143,23 @@ function showTime() {
 	document.getElementById("clock")
 			.innerHTML = currentTime;
 }
-showTime();
+
+function showHide(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function validateForm() {
+  let name = document.forms["frmMessage"]["name"].value;
+  let email = document.forms["frmMessage"]["email"].value;
+  let message = document.forms["frmMessage"]["message"].value;
+  if ((name == "")||(email == "")||(message == "")) {
+    alert("Please, fill all fields.");
+    showHide("validationFormError")
+    return false;
+  }
+}
