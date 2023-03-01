@@ -30,7 +30,7 @@
    <div class="row">
     <div class="col-sm-12 text-center">
     <h1 align="center">News</h1>
-    <form method="post" action="news3.php">
+    <form method="get" action="news3.php">
      <input name="hashtag" size="40" type="text">&nbsp;
      <input type="submit" value="Search">
     </form>

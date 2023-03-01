@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  $per = test_input($_POST["per"]);
  $hashtag = test_input($_POST["hashtag"]);
  $category = test_input($_POST["category"]);
+ $date = test_input($_POST["date"]);
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -22,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
   $per = test_input($_GET["per"]);
   $hashtag = test_input($_GET["hashtag"]);
   $category = test_input($_GET["category"]);
+  $date = test_input($_GET["date"]);
 }
 
 function test_input($data) {
@@ -56,6 +58,11 @@ elseif ($per == "LT") {
 else {
  $when = "final_date > 0";
  $per = "All";
+}
+
+// search specific date
+if ($date != "") {
+  $when = "initial_date = ".$date;
 }
 
 // Define category

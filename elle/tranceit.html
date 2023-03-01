@@ -69,6 +69,107 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  ssh-keygen -t rsa -b 4096 -C &lt;e-mail&gt; -f &lt;keyfile&gt;
  chmod 600 &lt;private keyfile&gt;
 
+ emacs: $HOME/.emacs
+ bash:
+ /etc/bashrc contains system wide aliases and functions;
+ /etc/profile contains system wide environment stuff and startup programs;
+ $HOME/.bashrc contains user aliases and functions;
+ $HOME/.bash_profile contains user environment stuff and startup programs;
+ $HOME/.inputrc contains key bindings and other bits.
+
+ /etc/aliases
+ rm -i;cp -i;mv -i;ls -ld
+
+ It's a good idea to let new users have a few configuration files ready
+ when they first log in. Put the following files in /etc/skel:
+  .bashrc .bash_profile .bash_logout .inputrc .less .xinitrc
+  .fvwmrc .fvwm2rc95 .Xmodmap .Xdefaults .jedrc .abbrevs.sl. joerc
+  .emacs
+
+ The user can overwrite values set in /etc/profile by creating a file:
+ ~/.bash_profile, ~/.bash_login or ~/.profile.
+ Note that just the first one of these is executed thus differing
+ of the logic of csh initialization.
+ ~/.bash_login is not executed specially for login shells
+ and if .bash_profile exists, it is not executed at all!
+
+ debug: put in the 1st line: #!/bin/bash -x
+
+ other commands (common options):
+  tar -zcvf [destiny] [source]
+  tar -zxvf [destiny] [source]
+  rsync: verify remote files
+  nmap -sS [host] (run as root)
+  wget -r l6 -t1 [URL] (-L is just relative links)
+
+ to see system data:
+  uname -a
+  dmesg
+  ulimit -a
+  df -k
+  hostname
+  domainname
+  cat /etc/sysconfig/network
+  ifconfig
+  netstat -nr
+  netstat -a
+  cat /etc/inetd.conf
+  cat /proc/meminfo
+  cat /proc/filesystem
+  cat /proc/devices
+  cat /etc/passwd
+
+ to cleanup dos files:
+  vi   :  :%s/^V^M//g
+  shell:  sed `s/^V^M//g` foo&gt;foo.new
+
+ other commands (common options):
+  tar -zcvf [destiny] [source]
+  tar -zxvf [destiny] [source]
+  rsync: verify remote files
+  nmap -sS [host] (run as root)
+  nmap -sT [host] -P0
+  wget -r l6 -t1 [URL] (-L is just relative links)
+
+ # isolate process
+ ps -def | grep Xvnc | grep -v grep | awk -F" " '{print $2}'
+
+ # crontab
+ # to see
+ crontab -l
+ # to edit
+ export EDITOR=vi;crontab -e
+
+# crontab format:
+# 0       0       *       *       *       calendar
+# ^       ^       ^       ^       ^       ^
+# |       |       |       |       |       |
+# 1       2       3       4       5       6
+
+# (1) minutes             (0 a 59)
+# (2) hour                (0 a 23)
+# (3) day                 (1 a 31)
+# (4) month               (1 a 12)
+# (5) day of the week     (0 a 6, where 0 is Sunday)
+# (6) command (it's good to redirect output to /dev/null)
+
+# * means all possible values
+# - means a range
+
+# example:
+# 0,10,20,30,40,50        *       *       *       rmtrash
+
+# rmtrash will be executed each 10 minutes
+
+# to check encoding:
+file -i &gt;file&lt;
+
+# to list available encoding to convert
+iconv -l
+
+# to convert encoding
+iconv -f &gt;old encode&lt; -t &gt;new encode&lt; &gt;input.file&lt; -o &gt;output.file&lt;
+
  # Git - cheat sheet
 
  # to use ssl connection, create a ssh key and upload the public key to git repository
