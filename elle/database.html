@@ -62,12 +62,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  delete from [table] where [condition]
 
+ delete t1 from [table] t1
+ inner join [table] t2
+ where
+     t1.id < t2.id and
+     t1.[field] = t2.[field];
+
  ORACLE
  select count(rowid) from [table] where [condition]
  select [fields] from [table] where [condition] and rownum <= [quantity]
 
  to see Oracle processes:
  select process,sid,serial# from v$session where osuser = [user]
+
+
+
 </code>
 </pre>
 <p align="center"><a href="http://www.freeformatter.com/html-escape.html" target="_blank">Free Online HTML Escape Tool</a></p>
