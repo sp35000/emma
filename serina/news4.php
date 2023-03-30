@@ -12,9 +12,9 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc())
   {
    if ($row["initial_date"]<= 20190101) {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>\n";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["link"]."</a></li>\n";
    } else {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>\n";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["title"]."</a></li>\n";
    }
   }
 } else {
