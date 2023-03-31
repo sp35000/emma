@@ -198,3 +198,11 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+.pt-20pc {
+  padding-top: 20%;
+}
+
+.pt-30pc {
+  padding-top: 30%;
+}
