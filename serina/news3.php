@@ -1,5 +1,6 @@
 <!doctype html>
 <?php
+$limit = " LIMIT 0,1000";
 include("newsCore.php");
 include("util/tools.php");
 ?>
@@ -21,13 +22,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
    <script src="../js/sig.js"></script>
   <link rel="stylesheet" href="../css/sig.css" />
- <title>Work4Love - News - Search: <?=$category ?> <?=$hashtag ?> <?=$date ?></title>
- <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?> <?=$hashtag ?> <?=$date ?>">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="../starter-template.css" rel="stylesheet">
-    <!-- <link href="../emma/w5.css" rel="stylesheet"> -->
+  <title>Work4Love - News - Search: <?=$category ?> <?=$date ?></title>
+  <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?> <?=$date ?>">
  </head>
  <body>
    <!-- Google Tag Manager (noscript) -->
@@ -36,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <div w3-include-html="/sig/include/menusup-news.html"></div>
   <div class="container">
    <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-sm-12 text-center" style="padding-top:30%">
     <h1 align="center"><a href="index.php">News</a></h1>
      <form method="get" action="news3.php">
       <input name="hashtag" size="40" type="text">&nbsp;
@@ -44,35 +40,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      </form>
      <br/>
      <?php
-     // echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
-     // echo "<p>Debug [".$sql."]</p>";
+      // echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
+      // echo "<p>Debug [".$sql."]</p>";
      ?>
 </div>
  <div class="col-sm-12 bg-grey">
 <?php
 if ($category <> "All") {
  echo "<h2 align=center>$category</a></h2><ul>";
- getAdvTgt(5);
 }
+getAdvTgt(5);
+getVideoPlaylist($category);
+getRandomImage($category);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc())
   {
    if ($row["initial_date"]<= 20190101) {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>\n";
    } else {
-     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>";
+     echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>\n";
    }
   }
 } else {
- echo "<li>No result.</li>";
+ echo "<li>No result.</li>\n";
 }
 
 $conn->close();
 ?>
   </ul>
-</div>
+
 <div w3-include-html="/sig/include/footer.html"></div>
+</div>
 </div>
 </div>
 <script>includeHTML();</script>

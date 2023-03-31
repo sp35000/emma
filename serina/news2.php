@@ -14,6 +14,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
 <!-- End Google Tag Manager -->
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -23,11 +24,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="../css/sig.css" />
   <title>Work4Love - News - Search: <?=$category ?> <?=$date ?></title>
   <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?> <?=$date ?>">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="../starter-template.css" rel="stylesheet">
-    <!-- <link href="../emma/w5.css" rel="stylesheet"> -->
  </head>
  <body>
    <!-- Google Tag Manager (noscript) -->
@@ -36,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <div w3-include-html="/sig/include/menusup-news.html"></div>
   <div class="container">
    <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-sm-12 text-center" style="padding-top:30%">
     <h1 align="center"><a href="index.php">News</a></h1>
      <form method="get" action="news3.php">
       <input name="hashtag" size="40" type="text">&nbsp;
@@ -74,8 +70,8 @@ $conn->close();
 ?>
   </ul>
 <p align="center"><a href="news3.php?category=<?=$category?>">More...</a></p>
-</div>
 <div w3-include-html="/sig/include/footer.html"></div>
+</div>
 </div>
 </div>
 <script>includeHTML();</script>
