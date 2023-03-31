@@ -65,18 +65,18 @@
            $hashtag = test_input($_POST["hashtag"]);
            $category = test_input($_POST["category"]);
          }
-         echo "</div>\n";
-         echo "<div class=\"col-sm-12 bg-grey\">\n";
-         echo "<div class=\"col-sm-8 bg-grey\">\n";
-
-         // show last news
-         echo "<h2 align=\"center\"><a href=\"news2.php?\">Latest News</a></h2>\n";
-         echo "<h3 align=\"center\"><a href=\"https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive\" target=\"_blank\">Russia-Ukraine war by the numbers: Live Tracker</a></h3>\n";
-
-         echo "<h3 align=\"center\"><a href=\"news2.php?hashtag=corona\">Coronavirus</a></h3>\n";
-         echo "<p align=\"center\"><a href=\"https://work4love.net/coronavirus/\" class=\"alert-link\" target=\"_blank\">Sites úteis durante a quarentena do coronavírus</a></p>\n";
+?>
+        </div>
+        <div class="col-sm-12 bg-grey">
+         <div class="col-sm-8 bg-grey">
+         <h2 align="center"><a href="news2.php?">Latest News</a></h2>
+         <p align="center">
+           <a href="news2.php?hashtag=chatgpt" class="btn btn-lg btn-success">ChatGPT</a>
+           <a href="https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive" target="_blank" class="btn btn-lg btn-success">Ukraine war</a>
+           <a href="news2.php?hashtag=corona" class="btn btn-lg btn-success">Coronavirus</a>
+         </p>
+<?php
          getAdvTgt(5);
-
          // make queries
          $result = create_query($categories[$counter],$media,10);
 
