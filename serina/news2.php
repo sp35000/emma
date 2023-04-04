@@ -69,7 +69,19 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
   </ul>
-<p align="center"><a href="news3.php?category=<?=$category?>">More...</a></p>
+<p align="center">
+<?php
+  if ($hashtag <> "") {
+?>
+<a href="news3.php?hashtag=<?=$hashtag?>">
+<?php
+  } else {
+?>
+<a href="news3.php?category=<?=$category?>">
+<?php
+  }
+?>
+More...</a></p>
 <div w3-include-html="/sig/include/footer.html"></div>
 </div>
 </div>

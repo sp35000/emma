@@ -71,9 +71,9 @@
          <div class="col-sm-8 bg-grey">
          <h2 align="center"><a href="news2.php?">Latest News</a></h2>
          <p align="center">
-           <a href="news2.php?hashtag=chatgpt" class="btn btn-lg btn-success">ChatGPT</a>
+           <a href="news3.php?hashtag=chatgpt" class="btn btn-lg btn-success">ChatGPT</a>
            <a href="https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive" target="_blank" class="btn btn-lg btn-success">Ukraine war</a>
-           <a href="news2.php?hashtag=corona" class="btn btn-lg btn-success">Coronavirus</a>
+           <a href="news3.php?hashtag=corona" class="btn btn-lg btn-success">Coronavirus</a>
          </p>
 <?php
          getAdvTgt(5);
