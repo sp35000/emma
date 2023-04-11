@@ -28,7 +28,7 @@
    <div w3-include-html="/sig/include/menusup-news.html"></div>
    <div class="container">
      <div class="row">
-       <div class="col-sm-12 text-center pt-30pc">
+       <div class="col-sm-12 text-center firstdiv">
          <h1 align="center">News</h1>
          <form method="get" action="news3.php">
            <input name="hashtag" size="40" type="text">&nbsp;

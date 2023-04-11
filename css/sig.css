@@ -206,3 +206,9 @@ footer {
 .pt-30pc {
   padding-top: 30%;
 }
+
+.firstdiv {
+  padding-top:calc(15rem);
+  padding-left:10%;
+  padding-right:10%
+}
