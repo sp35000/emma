@@ -2,8 +2,8 @@ body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
   color: #000000;
-  /* background-color: #FFFFFF; */
-  background-color: aquamarine;
+  background-color: #EEFFFF;
+  /* background-color: aquamarine; */
 /*  background-color: #DDFFFF; */
 }
 h2 {
@@ -20,6 +20,9 @@ h4 {
   font-weight: 400;
   margin-bottom: 30px;
 }
+a {
+  color: #0000FF
+}
 .config {
 	font-family: "Courier New", Courier, mono;
 	font-style: normal;
@@ -32,9 +35,9 @@ h4 {
 }
 .navbar {
  margin-bottom: 0;
- background-color: #AAFFFF;
+ /* background-color: #AAFFFF; */
  z-index: 9999;
- border: 0;
+ border: 1;
  font-size: 12px !important;
  line-height: 1.42857143 !important;
  letter-spacing: 4px;
@@ -67,7 +70,7 @@ h4 {
  padding: 100px 0px;
 }
 .bg-grey {
- background-color: #DDFFFF;
+ background-color: #FFFFFF;
 }
 .logo {
  color: #0000FF;
