@@ -39,6 +39,7 @@
        <option value="Culture">Culture</option>
        <option value="Travel">Travel</option>
        <option value="Economy">Economy</option>
+       <option value="AI">AI</option>
       </select>&nbsp;
       Media:&nbsp;
       <select name="media">Media
