@@ -33,8 +33,10 @@
        <option value="Brasil">Brasil</option>
        <option value="Europe">Europe</option>
        <option value="Asia">Asia</option>
-       <option value="Oceania">Oceania</option>
+       <option value="Middle East">Middle East</option>
        <option value="Africa">Africa</option>
+       <option value="Oceania">Oceania</option>
+       <option value="Health">Health</option>
        <option value="Technology">Technology</option>
        <option value="Culture">Culture</option>
        <option value="Travel">Travel</option>

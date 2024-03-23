@@ -22,8 +22,10 @@
           <li><a href="/sig/serina/news2.php?category=Brasil">Brasil</a></li>
           <li><a href="/sig/serina/news2.php?category=America">America</a></li>
           <li><a href="/sig/serina/news2.php?category=Asia">Asia</a></li>
+          <li><a href="/sig/serina/news2.php?category=Middle East">Middle East</a></li>
           <li><a href="/sig/serina/news2.php?category=Africa">Africa</a></li>
           <li><a href="/sig/serina/news2.php?category=Oceania">Oceania</a></li>
+          <li><a href="/sig/serina/news2.php?category=Health">Health</a></li>
           <li><a href="/sig/serina/news2.php?category=Technology">Technology</a></li>
           <li><a href="/sig/serina/news2.php?category=Culture">Culture</a></li>
           <li><a href="/sig/serina/news2.php?category=Travel">Travel</a></li>

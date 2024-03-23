@@ -57,7 +57,7 @@ a {
  color: #fff !important;
 }
 .dropdown-menu {
-  background-color: #AAFFFF;
+  /* background-color: #AAFFFF; */
   font-size: 12px !important;
 }
 .jumbotron {

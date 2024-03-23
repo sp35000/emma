@@ -34,7 +34,7 @@ include("../include/menusup.php");
 
          // define and initialize variables
          $category = $per = $hashtag = "";
-         $categories = array("Nature","World","Brasil","America","Europe","Asia","Africa","Oceania","Technology","Culture","Travel","Economy");
+         $categories = array("Nature","World","Brasil","America","Europe","Asia","Middle East","Africa","Oceania","Health","Technology","Culture","Travel","Economy");
          $lenghtCategories = sizeof($categories);
          $divBreak = 1;
          $media = "text";
