@@ -92,16 +92,6 @@ include("../include/menusup.php");
                 <a href="https://forum.earlyretirementextreme.com/" class="btn btn-lg btn-success" target="_blank">ERE</a>
               </p>
 
-              <h2>Finance</h2>
-
-              <div class="frame-container">
-                <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREdJFqdh2z9iss2b73Z3vvNywBhfGecHReDFeyUBL-S_DQMpV_Es76CKIPxa552_mhmmVb9p57B5Xe/pubhtml?gid=1413162259&amp;single=true&amp;widget=true&amp;headers=false" width="800px" height="400px">
-                  <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span>
-                  <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height:0;"class="mce_SELRES_start">﻿</span>
-                </iframe>
-              </div>
-              <p class="bg-info" align="center"><small>This spreadsheet is a courtesy of <strong>Rommie</strong> blog.</small></br>
-
                 <h2>Health</h2>
                 <p>
                   <a href="https://www.cassi.com.br" class="btn btn-lg btn-success" target="_blank">Cassi</a>

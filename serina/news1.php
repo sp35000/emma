@@ -20,7 +20,7 @@ include("../include/menusup.php");
        </div>
        <div class="col-sm-12">
          <?php
-         include("../include/tradingViewWidget.html");
+         // include("../include/tradingViewWidget.html");
 
          // Tell PHP that we'll be outputting UTF-8 to the browser
          mb_http_output('UTF-8');

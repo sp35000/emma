@@ -219,5 +219,6 @@ include("../include/menusup.php");
   </div>
 </div>
 <?php include("../include/bodyend.php"); ?>
+<p align="right"><a href="tranceit.html">&para;</a></p>
 </body>
 </html>

@@ -42,7 +42,6 @@
           <li><a href="/sig/elle/">Technology</a></li>
         </ul>
         </li>
-        <li><a href="/landing/help.html">Help</a></li>
       </ul>
     </div>
     <form method="get" action="/sig/serina/news3.php">
