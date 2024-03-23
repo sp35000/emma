@@ -4,40 +4,24 @@ $limit = " LIMIT 0,1000";
 include("newsCore.php");
 include("util/tools.php");
 ?>
-<html class="no-js" lang="en">
- <head>
-   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
-<!-- End Google Tag Manager -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-   <script src="../js/sig.js"></script>
-  <link rel="stylesheet" href="../css/sig.css" />
-  <title>Work4Love - News - Search: <?=$category ?> <?=$date ?></title>
-  <meta  name="description" content="Work4Love.net - Banco de dados de Notícias - <?=$category ?> <?=$date ?>">
- </head>
- <body>
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
- <div w3-include-html="/sig/include/menusup-news.html"></div>
+
+<?php
+$title="Work4Love.net - Banco de dados de Notícias.";
+$description=$title;
+$keywords="news,database,nature,world,brazil,brasil,america,europe,asia,oceania,africa,finance,culture,travel,technology";
+include("../include/header.php");
+?>
+<body>
+<?php
+include("../include/bodystart.php");
+include("../include/menusup.php");
+?>
+
+
   <div class="container">
    <div class="row">
     <div class="col-sm-12 text-center firstdiv">
-    <h1 align="center"><a href="index.php">News</a></h1>
-     <form method="get" action="news3.php">
-      <input name="hashtag" size="40" type="text">&nbsp;
-      <input type="submit" value="Search">
-     </form>
+    <h1 align="center"><a href="news1.php">News</a></h1>
      <br/>
      <?php
       // echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
@@ -70,13 +54,9 @@ $conn->close();
 ?>
   </ul>
 
-<div w3-include-html="/sig/include/footer.html"></div>
+<?php include("../include/footer.php"); ?>
 </div>
 </div>
-</div>
-<script>includeHTML();</script>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript"
-src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8671c07f6deb95"></script>
- </body>
+<?php include("../include/bodyend.php"); ?>
+</body>
 </html>

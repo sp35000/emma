@@ -1,34 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NWRN5CB');</script>
-<!-- End Google Tag Manager -->
-<title>Work4Love.net - Sites úteis sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento.</title>
-<meta name="description" content="Work4Love.net - Sites úteis sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento.">
-<meta name="keywords" content="coronvírus,sites,solidariedade,estudo,lazer,trabalho,noticias,mensagens" />
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="/sig/js/sig.js"></script>
-<link rel="stylesheet" href="/sig/css/cookie.css" />
-<link rel="stylesheet" href="/sig/css/sig.css" />
-</head>
-
+<?php
+$title="Work4Love.net - Sites úteis sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento.";
+$description=$title;
+$keywords="coronvírus,sites,solidariedade,estudo,lazer,trabalho,noticias,mensagens";
+include("../include/header.php");
+?>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWRN5CB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <div w3-include-html="/sig/include/menusup-sites.html"></div>
+<?php
+include("../include/bodystart.php");
+include("../include/menusup.php");
+?>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12 columns text-center firstdiv">
@@ -121,6 +102,15 @@
               </div>
               <p class="bg-info" align="center"><small>This spreadsheet is a courtesy of <strong>Rommie</strong> blog.</small></br>
 
+                <h2>Health</h2>
+                <p>
+                  <a href="https://www.cassi.com.br" class="btn btn-lg btn-success" target="_blank">Cassi</a>
+                  <a href="https://www.paguemenos.com.br/" class="btn btn-lg btn-success" target="_blank">Pague Menos</a>
+                  <a href="https://www.onofre.com.br/" class="btn btn-lg btn-success" target="_blank">Onofre</a>
+                  <a href="https://www.idealclube.org.br" class="btn btn-lg btn-success" target="_blank">Ideal</a>
+                  <a href="https://aabbfortaleza.com.br/" class="btn btn-lg btn-success" target="_blank">AABB</a>
+                </p>
+
                 <h2>Internet</h2>
                 <p>
                   <a href="https://archive.org/" class="btn btn-lg btn-success" target="_blank">Archive</a>
@@ -139,12 +129,9 @@
                 </p>
 
               </div>
-              <div w3-include-html="/sig/include/footer.html"></div>
+              <?php include("../include/footer.php"); ?>
             </div>
           </div>
-          <script>includeHTML();</script>
-          <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <script type="text/javascript"
-          src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8671c07f6deb95"></script>
+          <?php include("../include/bodyend.php"); ?>
         </body>
         </html>
