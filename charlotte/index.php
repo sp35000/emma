@@ -1,5 +1,5 @@
 <?php
-$description="Work4Love.net - Formula 1.";
+$title="Work4Love.net - Formula 1";
 $description="Work4Love.net - Formula 1: notícias, vídeos, classificação.";
 $keywords="sports,f1,classification,news,esporte,classificação,notícias";
 include("../include/header.php");
