@@ -18,7 +18,7 @@ include("../include/menusup.php");
          <h1 align="center">News</h1>
          <br/>
        </div>
-       <div class="col-sm-12">
+       <!-- <div class="col-sm-12"> -->
          <?php
          // include("../include/tradingViewWidget.html");
 
@@ -48,7 +48,7 @@ include("../include/menusup.php");
            $category = test_input($_POST["category"]);
          }
 ?>
-        </div>
+        <!-- </div> -->
         <div class="col-sm-12 bg-grey">
          <div class="col-sm-8 bg-grey">
          <h2 align="center"><a href="news2.php?">Latest News</a></h2>
@@ -116,9 +116,8 @@ include("../include/menusup.php");
 
          ?>
        </div>
-
- </div>
-
+     <!-- </div>
+   </div> -->
  <?php include("../include/footer.php"); ?>
  </div>
  </div>

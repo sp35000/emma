@@ -71,7 +71,7 @@ include("../include/menusup.php");
   <li><a href="https://registrato.bcb.gov.br/registrato/">Registrato</a>]</li>
 </ul>
 
-<p><a href="remotework.html" class="btn btn-lg btn-success">Remote Work</a></p>
+<p><a href="remotework.php" class="btn btn-lg btn-success">Remote Work</a></p>
 
 <h2><a href="https://abacusliquid.com/best-finance-blogs/" target="_blank">Blogs</a></h2>
 
