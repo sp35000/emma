@@ -1,5 +1,5 @@
 <?php
-$title="Work4Love.net - Technology.";
+$title="Work4Love.net - Technology";
 $description="Work4Love.net - Technology: Sites úteis de Tecnologia.";
 $keywords="mainframe,linux,windows,blockchain,data,science,devops,it,hardware,software";
 include("../include/header.php");
@@ -184,6 +184,7 @@ include("../include/menusup.php");
 
         <h2>Design</h2>
         <ul id="hlist">
+          <li><a href="https://tools.pdf24.org/en/" target="_blank">PDF24 Tools</a>|</li>
           <li>Colors [</li>
           <li><a href="https://www.design-seeds.com/blog/" target="_blank">Design-Seeds</a>|</li>
           <li><a href="https://coolors.co" target="_blank">Coolors</a>|</li>

@@ -19,6 +19,7 @@ include("../include/menusup.php");
         <a href="https://www.formula1.com/" class="btn btn-lg btn-success" target="_blank">F1 - The Official Home</a>
         <a href="https://www.band.uol.com.br/esportes/automobilismo/formula-1" class="btn btn-lg btn-success" target="_blank">F1 na Band</a>
         <a href="https://youtube.com/playlist?list=PL1wt1uIbBJ2e7ziMVlHnEBOsa7tdvqsO9" class="btn btn-lg btn-success" target="_blank">Race Highlights</a>
+        <a href="../serina/news3.php?hashtag=%23f1" class="btn btn-lg btn-success">F1 News</a>
      </p>
    <h2><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA5QOsqbF-4XnJyoYp72C81UkPNUGk32IwSrh80a9hTAdNj_kv_mel5yKw2Fh9Bqtt3RvPxiiB9gXi/pubhtml" target="_blank"> Classification</a></h2>
    <!-- embedding Google spreadsheet-->

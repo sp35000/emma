@@ -27,20 +27,20 @@
       </p>
       <p>Category:
       <select name="category">
-       <option value="World">World</option>
-       <option value="Nature">Nature</option>
-       <option value="America">America</option>
-       <option value="Brasil">Brasil</option>
-       <option value="Europe">Europe</option>
-       <option value="Asia">Asia</option>
-       <option value="Middle East">Middle East</option>
-       <option value="Africa">Africa</option>
-       <option value="Oceania">Oceania</option>
-       <option value="Health">Health</option>
-       <option value="Technology">Technology</option>
-       <option value="Culture">Culture</option>
-       <option value="Travel">Travel</option>
-       <option value="Economy">Economy</option>
+        <option value="Economy">Economy</option>
+        <option value="Brasil">Brasil</option>
+        <option value="World">World</option>
+        <option value="Technology">Technology</option>
+        <option value="Europe">Europe</option>
+        <option value="Nature">Nature</option>
+        <option value="America">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Culture">Culture</option>
+        <option value="Travel">Travel</option>
+        <option value="Africa">Africa</option>
+        <option value="Oceania">Oceania</option>
+        <option value="Health">Health</option>
+        <option value="Middle East">Middle East</option>
        <option value="AI">AI</option>
       </select>&nbsp;
       Media:&nbsp;

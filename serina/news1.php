@@ -1,8 +1,8 @@
 <?php include("util/tools.php"); ?>
 
 <?php
-$title="Work4Love.net - Banco de dados de Notícias.";
-$description=$title;
+$title="Work4Love.net - Banco de dados de Notícias";
+$description=$title.".";
 $keywords="news,database,nature,world,brazil,brasil,america,europe,asia,oceania,africa,finance,culture,travel,technology";
 include("../include/header.php");
 ?>
@@ -116,9 +116,8 @@ include("../include/menusup.php");
 
          ?>
        </div>
-     <!-- </div>
-   </div> -->
- <?php include("../include/footer.php"); ?>
+     </div>
+   </div>
  </div>
  </div>
  <?php include("../include/bodyend.php"); ?>

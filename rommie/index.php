@@ -14,7 +14,7 @@ include("../include/menusup.php");
  <div class="row">
  <div class="col-md-12 columns text-center firstdiv">
  <h1>Finance</h1>
-  <ul id="hlist">
+ <ul id="hlist">
   <li>Banks [<a href="https://www.bancointer.com.br/" target="_blank">Inter</a>|</li>
   <li><a href="http://www.cgd.pt" target="_blank">CGD</a>|</li>
   <li><a href="https://www.multibank.com.pa/" target="_blank">Multibank</a>|</li>
