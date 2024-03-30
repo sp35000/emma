@@ -73,7 +73,7 @@ include("../include/header.php");
           <li><a href="https://www.sovereignman.com/" target="_blank">Sorveignman</a>]</li>
         </ul>
 
-        <h2><a href="https://www.gov.br" target="_blank">Brasil</a></h2>
+        <h2>Brasil</h2>
         <ul id="hlist">
           <li><a href="https://vivamanaus.com/" target="_blank">Viva Manaus</a>|</li>
           <li>Salvador [<a href="https://www.ccrmetrobahia.com.br/" target="_blank">Metrô</a>|</li>

@@ -1,5 +1,5 @@
 <?php
-$title="Work4Love.net - Finance.";
+$title="Work4Love.net - Finance";
 $description="Work4Love.net - Finance: Sites úteis de Investimentos.";
 $keywords="ações,stocks,startups,bancos,corretoras,criptomoedas,economia,negócios,investimentos";
 include("../include/header.php");
@@ -53,22 +53,23 @@ include("../include/menusup.php");
   <li><a href="https://www.transferwise.com" target="_blank">Wise</a>] </li>
   <br />
 
-  <li>Other [<a href="http://www.crunchbase.com" target="_blank">Crunchbase</a>|</li>
+  <li>Other [<a href="https://www.personalcapital.com/" target="_blank">Personal Capital</a>|</li>
+  <li><a href="http://www.crunchbase.com" target="_blank">Crunchbase</a>|</li>
   <li><a href="https://bancodata.com.br/" target="_blank">Bancodata</a>|</li>
   <li><a href="https://www.forbes.com/billionaires" target="_blank">Forbes</a>|</li>
   <li><a href="http://www.sec.gov/edgar/searchedgar/companysearch.html" target="_blank">EDGAR</a>|
   </li>
   <li><a href="http://www.berkshirehathaway.com" target="_blank">Berkshire Hathaway</a>|</li>
   <br />
-  <li><a href="https://www.personalcapital.com/" target="_blank">Personal Capital</a>|</li>
+  <li><a href="https://www.gov.br" target="_blank">Brasil</a>[</li>
   <li><a href="http://www.portalbrasil.net/" target="_blank">Indexes</a>|</li>
   </li>
   <li><a href="http://www.yahii.com.br/IPCA_Historico.html" target="_blank">IPCA</a>|</li>
   <li><a href="http://www.receita.economia.gov.br" target="_blank">RFB</a>|</li>
+  <li><a href="https://www.ibge.gov.br/" target="_blank">IBGE</a>|</li>
   <li><a href="https://www.bcb.gov.br/" target="_blank">BCB</a>[</li>
-  <li><a href="https://www4.bcb.gov.br/pec/taxas/port/ptaxnpesq.asp?frame=1"
-  target="_blank">Cotações</a>|</li>
-  <li><a href="https://registrato.bcb.gov.br/registrato/">Registrato</a>]</li>
+  <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank">Cotações</a>|</li>
+  <li><a href="https://registrato.bcb.gov.br/registrato/">Registrato</a>]]</li>
 </ul>
 
 <p><a href="remotework.php" class="btn btn-lg btn-success">Remote Work</a></p>
