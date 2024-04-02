@@ -1,2 +1,2 @@
-serina/conf/db*
-admin/conf/db*
+/serina/conf/db*
+/admin/conf/db*
