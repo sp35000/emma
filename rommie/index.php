@@ -69,7 +69,7 @@ include("../include/menusup.php");
   <li><a href="https://www.ibge.gov.br/" target="_blank">IBGE</a>|</li>
   <li><a href="https://www.bcb.gov.br/" target="_blank">BCB</a>[</li>
   <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank">Cotações</a>|</li>
-  <li><a href="https://registrato.bcb.gov.br/registrato/">Registrato</a>]]</li>
+  <li><a href="https://registrato.bcb.gov.br/registrato/" target="_blank">Registrato</a>]]</li>
 </ul>
 
 <p><a href="remotework.php" class="btn btn-lg btn-success">Remote Work</a></p>

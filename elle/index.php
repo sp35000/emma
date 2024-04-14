@@ -149,9 +149,9 @@ include("../include/menusup.php");
 
         <h3>Sec</h3>
         <ul id="hlist">
-          <li>Security [</li>
+          <li><a href="https://attack.mitre.org/" target="_blank">Mitre Att&ck</a>|</li>
           <li><a href="https://www.sans.org/top25-software-errors/" target="_blank">CWE/SANS Top 25</a>|</li>
-          <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a>]</li>
+          <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a></li>
         </ul>
 
         <h3>Ops</h3>
