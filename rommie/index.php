@@ -87,16 +87,16 @@ include("../include/menusup.php");
         <li><a href="https://thefinancebuff.com/" target="_blank">thefinancebuff</a>|</li>
         <li><a href="http://retireby40.org/" target="_blank">retireby40</a>|</li>
         <li><a href="https://everythingfinanceblog.com/" target="_blank">everythingfinanceblog</a>|</li>
-        <li><a href="http://www.pocketyourdollars.com/" target="_blank">pocketyourdollars</a>|</li>
+        <!-- <li><a href="http://www.pocketyourdollars.com/" target="_blank">pocketyourdollars</a>|</li> -->
         <li><a href="https://wealthyaccountant.com/" target="_blank">wealthyaccountant</a>|</li>
         <li><a href="https://millennialmoney.com/" target="_blank">millennialmoney</a>|</li>
-        <li><a href="http://www.moneyaftergraduation.com/" target="_blank">moneyaftergraduation</a>|</li>
+        <!-- <li><a href="http://www.moneyaftergraduation.com/" target="_blank">moneyaftergraduation</a>|</li> -->
         <!-- <li><a href="https://ournextlife.com/" target="_blank">ournextlife</a>|</li> -->
         <li><a href="https://couplemoney.com/" target="_blank">couplemoney</a>|</li>
         <!-- <li><a href="https://www.nerdwallet.com/" target="_blank">Nerd Wallet</a>|</li> -->
         <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
         <li><a href="http://www.guardiaodomobral.blogspot.com.br" target="_blank">Guardi&atilde;o do Z&eacute; Mobral</a>|</li>
-        <li><a href="https://www.financialsamurai.com" target="_blank">Financial Samurai</a>] </li>
+        <li><a href="https://www.financialsamurai.com" target="_blank">Financial Samurai</a></li>
       </ul>
 
       <h2>Cryptocurrencies</h2>

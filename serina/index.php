@@ -116,7 +116,8 @@ include("../include/header.php");
 
           <h2>Languages</h2>
           <ul id="hlist">
-            <li><a href="https://www.wanikani.com/" target="_blank">WaniKani</a>|</li>
+          <li><a href="https://www.aliancafrancesa.com.br/" target="_blank">Aliança Francesa</a>|</li>
+          <li><a href="https://www.wanikani.com/" target="_blank">WaniKani</a>|</li>
             <li><a href="https://www.ets.org/toefl" target="_blank">TOEFL</a>|</li>
             <li><a href="https://ielts.org" target="_blank">IELTS</a>|</li>
             <li><a href="https://www.ef.com.br/" target="_blank">EF</a>|</li>

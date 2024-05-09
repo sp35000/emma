@@ -75,7 +75,6 @@ include("../include/header.php");
 
         <h2>Brasil</h2>
         <ul id="hlist">
-          <li><a href="https://vivamanaus.com/" target="_blank">Viva Manaus</a>|</li>
           <li>Salvador [<a href="https://www.ccrmetrobahia.com.br/" target="_blank">Metrô</a>|</li>
           <li><a href="https://www.salvadorcard.com.br/" target="_blank">Salvador Card</a>]</li>
           <li><a href="https://www.cbtu.gov.br/index.php/pt/recife/" target="_blank">Metrô Recife</a>|</li>
