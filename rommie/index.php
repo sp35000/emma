@@ -124,7 +124,6 @@ include("../include/menusup.php");
         <li><a href="https://www.coinbase.com/" target="_blank">Coinbase</a>|</li>
         <li><a href="https://www.binance.com/" target="_blank">Binance</a>|</li>
         <li><a href="http://www.foxbit.com.br" target="_blank">Foxbit</a>|</li>
-        <li><a href="https://pt.bitcointoyou.com/" target="_blank">Bitcoin to You</a>|</li>
         <li><a href="https://shapeshift.io/#/coins" target="_blank">Shapeshift</a>] </li>
         <br />
 
