@@ -84,11 +84,11 @@ if ($hashtag != "") {
 $orderby = " ORDER BY initial_date DESC".$limit.";";
 
 $sql = "
-(SELECT title,category,link,initial_date
+(SELECT pk_news as id,title,category,link,initial_date
 FROM ".$database.".cnews
 WHERE ".$when.$clause.$mediaclause.$hashtagclause.")
 UNION
-(SELECT title,category,link,initial_date
+(SELECT id,title,category,link,initial_date
 FROM ".$database.".".$table."
 WHERE ".$when.$clause.$mediaclause.$hashtagclause.")"
 .$orderby;

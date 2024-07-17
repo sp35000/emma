@@ -24,6 +24,7 @@
       &nbsp;<input type="button" value="Get Title" onclick="getTitle()"></input>
       &nbsp;<input type="button" value="Get Title Python" onclick="getTitlePython()"></input>
       <span id="loaderDiv" style="display:none;"><img src="../js/ajax-loader.gif" alt="Loading" /></span>
+      &nbsp;Date:&nbsp;<input type="text" id="initial_date" name="initial_date"></input>
       </p>
       <p>Category:
       <select name="category">
@@ -79,6 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $per = test_input($_POST["per"]);
     $hashtag = test_input($_POST["hashtag"]);
     $category = test_input($_POST["category"]);
+    $initial_date = test_input($_POST["initial_date"]);
 }
 
 function test_input($data)
@@ -89,11 +91,28 @@ function test_input($data)
     return $data;
 }
 
-// Define period
-$today = date("Ymd");
-$current_year = date("Y");
-$current_month = date("m");
-$current_day = date("d");
+// validate date provided by user
+if ($initial_date != "") {
+    $current_year = substr($initial_date,0,4);
+    $current_month = substr($initial_date,4,2);
+    $current_day = substr($initial_date,6,2);
+}
+
+if (checkdate($current_month,$current_day,$current_year)) {
+    $today = $initial_date;
+// if date is invalid, consider as empty
+} else {
+    $initial_date = "";
+}
+
+// define initial date if empty
+if ($initial_date == "") {
+    $today = date("Ymd");
+    $current_year = date("Y");
+    $current_month = date("m");
+    $current_day = date("d");
+}
+// define final date
 $mt_year = $current_year + 1;
 $mt_date = $mt_year . $current_month . $current_day;
 $lt_year = $current_year + 5;

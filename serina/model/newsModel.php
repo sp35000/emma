@@ -49,7 +49,7 @@ function create_query($category,$media,$itens) {
     $orderby = " ORDER BY id DESC";
     $limit = " LIMIT 0,".$itens;
     $sql = "
-    SELECT title,category,link,initial_date
+    SELECT id,title,category,link,initial_date
     FROM ".$database.".".$table."
     WHERE ".$when.$clause.$mediaclause.$hashtagclause." "
     .$orderby.$limit;
