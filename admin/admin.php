@@ -62,6 +62,12 @@
       <input type="submit" value="OK">
      </form>
      <hr/>
+     <form method="get" action="/sig/serina/news5.php" target="_blank">
+      Keyword:&nbsp;
+      <input name="hashtag" type="text">&nbsp;
+      <input type="submit" value="News Edit">&nbsp;
+    </form>
+    <hr/>
     <div class="col-md-12">
 <?php
 // Tell PHP that we'll be outputting UTF-8 to the browser
