@@ -97,7 +97,7 @@ include("../include/menusup.php");
         <a href="https://metacrawler.com" class="btn btn-lg btn-success" target="_blank">Metacrawler</a>
         <a href="https://www.startpage.com/" class="btn btn-lg btn-success" target="_blank">StartPage</a>
         <a href="https://curlie.org/" class="btn btn-lg btn-success" target="_blank">Curlie</a>
-        <a href="https://my.yahoo.com" class="btn btn-lg btn-success" target="_blank">My Yahoo!</a>
+        <!-- <a href="https://my.yahoo.com" class="btn btn-lg btn-success" target="_blank">My Yahoo!</a> -->
         <a href="https://web.whatsapp.com/" class="btn btn-lg btn-success" target="_blank">WhatsApp</a>
         <a href="https://mail.yahoo.com" class="btn btn-lg btn-success" target="_blank">yahoo! mail</a>
         <br/><br/>
