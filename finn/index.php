@@ -111,7 +111,7 @@ include("../include/header.php");
             <li>Transport [<a href="https://www.omio.com/" target="_blank">Omio</a>|</li>
             <li><a href="http://www.flytap.com" target="_blank">TAP</a>|</li>
             <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
-            <li><a href="https://www.bvg.de/en" target="_blank">BVG</a></li>
+            <li><a href="https://www.bvg.de/en" target="_blank">BVG</a>|</li>
             <li><a href="https://www.cp.pt/" target="_blank">Comboios de Portugal</a>|</li>
             <li><a href="https://www.sncf.com/en" target="_blank">SNCF</a>]</li>
 
