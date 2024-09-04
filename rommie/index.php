@@ -19,14 +19,16 @@ include("../include/menusup.php");
       <?php include("../include/tradingViewWidget.html"); ?>
 
       <ul id="hlist">
-        <li>Banks [<a href="https://www.bancointer.com.br/" target="_blank">Inter</a>|</li>
+        <li>Banks [</li>
         <li><a href="http://www.cgd.pt" target="_blank">CGD</a>|</li>
         <li><a href="https://www.multibank.com.pa/" target="_blank">Multibank</a>|</li>
-        <li><a href="https://banco.bradesco" target="_blank">Bradesco</a>|</li>
-        <li><a href="http://www.cef.gov.br" target="_blank">CEF</a>|</li>
-        <li><a href="http://www.bancoreal.com.br" target="_blank">Santander</a>|</li>
-        <li><a href="http://www.itau.com.br" target="_blank">Itau</a>|</li>
-        <li><a href="http://www.bb.com.br" target="_blank">BB</a>]</li>
+        <li><a href="https://www.bancointer.com.br/" target="_blank">Inter</a>|</li>
+        <li><a href="http://www.bancoreal.com.br" target="_blank">Santander</a>]</li>
+        <br />
+        <li><a href="http://www.cef.gov.br" class="btn btn-lg btn-success" target="_blank">CEF</a></li>
+        <li><a href="https://banco.bradesco" class="btn btn-lg btn-success" target="_blank">Bradesco</a></li>
+        <li><a href="http://www.itau.com.br" class="btn btn-lg btn-success" target="_blank">Itau</a></li>
+        <li><a href="http://www.bb.com.br" class="btn btn-lg btn-success" target="_blank">BB</a></li>
         <br />
         <br />
 
@@ -47,14 +49,18 @@ include("../include/menusup.php");
         <li><a href="http://www.caroldtvm.com.br/" target="_blank">Carol</a>|</li>
         <li><a href="https://www.parmetal.com.br/" target="_blank">Parmetal</a>|</li>
         <li><a href="https://www.ourominas.com" target="_blank">Ourominas</a>]</li>
-        <li>Transfer [<a href="https://www.remessaonline.com.br" target="_blank">Remessa Online</a>|</li>
+        <li>Transfer [</li>
+        <li><a href="https://www.paypal.com" target="_blank">PayPal</a>|</li>
+        <li><a href="https://www.remessaonline.com.br" target="_blank">Remessa Online</a>|</li>
         <li><a href="https://www.transferwise.com" target="_blank">Wise</a>] </li>
         <br />
-        <li><a href="https://www.gov.br" target="_blank">Brasil</a> [<a href="http://www.portalbrasil.net/" target="_blank">Indexes</a>|</li>
+        <li><a href="https://www.gov.br" target="_blank">Brasil</a> [</li>
+        <li><a href="http://www.portalbrasil.net/" target="_blank">Indexes</a>|</li>
         <li><a href="http://www.yahii.com.br/IPCA_Historico.html" target="_blank">IPCA</a>|</li>
         <li><a href="http://www.receita.economia.gov.br" target="_blank">RFB</a>|</li>
         <li><a href="https://www.ibge.gov.br/" target="_blank">IBGE</a>|</li>
-        <li><a href="https://www.bcb.gov.br/" target="_blank">BCB</a> [<a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank">Cotações</a>|</li>
+        <li><a href="https://www.bcb.gov.br/" target="_blank">BCB</a> [</li>
+        <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank">Cotações</a>|</li>
         <li><a href="https://registrato.bcb.gov.br/registrato/" target="_blank">Registrato</a>]]</li>
         <br />
         <li>Other [<a href="https://www.personalcapital.com/" target="_blank">Personal Capital</a>|</li>
@@ -73,11 +79,8 @@ include("../include/menusup.php");
         <li><a href="https://www.goodfinancialcents.com/" target="_blank">goodfinancialcents</a>|</li>
         <li><a href="https://www.moneyunder30.com/" target="_blank">moneyunder30</a>|</li>
         <li><a href="https://thecollegeinvestor.com/" target="_blank">thecollegeinvestor</a>|</li>
-        <!-- <li><a href="http://www.getrichslowly.org/" target="_blank">getrichslowly</a>|</li> -->
-        <!-- <li><a href="https://www.doughroller.net/" target="_blank">doughroller</a>|</li> -->
         <li><a href="https://www.sidehustlenation.com/" target="_blank">sidehustlenation</a>|</li>
         <li><a href="https://www.listenmoneymatters.com/" target="_blank">listenmoneymatters</a>|</li>
-        <!-- <li><a href="https://www.whitecoatinvestor.com/" target="_blank">whitecoatinvestor</a>|</li> -->
         <li><a href="http://affordanything.com/" target="_blank">affordanything</a>|</li>
         <li><a href="http://jlcollinsnh.com/" target="_blank">jlcollinsnh</a>|</li>
         <li><a href="http://earlyretirementextreme.com/" target="_blank">earlyretirementextreme</a>|</li>
@@ -87,13 +90,9 @@ include("../include/menusup.php");
         <li><a href="https://thefinancebuff.com/" target="_blank">thefinancebuff</a>|</li>
         <li><a href="http://retireby40.org/" target="_blank">retireby40</a>|</li>
         <li><a href="https://everythingfinanceblog.com/" target="_blank">everythingfinanceblog</a>|</li>
-        <!-- <li><a href="http://www.pocketyourdollars.com/" target="_blank">pocketyourdollars</a>|</li> -->
         <li><a href="https://wealthyaccountant.com/" target="_blank">wealthyaccountant</a>|</li>
         <li><a href="https://millennialmoney.com/" target="_blank">millennialmoney</a>|</li>
-        <!-- <li><a href="http://www.moneyaftergraduation.com/" target="_blank">moneyaftergraduation</a>|</li> -->
-        <!-- <li><a href="https://ournextlife.com/" target="_blank">ournextlife</a>|</li> -->
         <li><a href="https://couplemoney.com/" target="_blank">couplemoney</a>|</li>
-        <!-- <li><a href="https://www.nerdwallet.com/" target="_blank">Nerd Wallet</a>|</li> -->
         <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
         <li><a href="http://www.guardiaodomobral.blogspot.com.br" target="_blank">Guardi&atilde;o do Z&eacute; Mobral</a>|</li>
         <li><a href="https://www.financialsamurai.com" target="_blank">Financial Samurai</a></li>

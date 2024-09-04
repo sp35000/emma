@@ -30,6 +30,8 @@
       <select name="category">
         <option value="Marla">Marla</option>
         <option value="Emma">Emma</option>
+        <option value="Elle">Elle</option>
+        <option value="Madeleine">Madeleine</option>
       </select>&nbsp;
       Media:&nbsp;
       <select name="media">Media

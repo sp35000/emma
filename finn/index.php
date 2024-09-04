@@ -26,25 +26,27 @@ include("../include/header.php");
           <li><a href="http://www.xe.com" target="_blank">XE</a>|</li>
           <li><a href="https://maps.google.com" target="_blank">Maps</a></li>
           <br />
-          <li>Hosting [<a href="http://www.booking.com" target="_blank">Booking</a>|</li>
-          <li><a href="https://www.airbnb.com/" target="_blank">AirBnb</a>]&nbsp;</li>
+          <li>Transport [</li>
+          <li><a href="http://www.delta.com" target="_blank">Delta</a>|</li>
+          <li><a href="http://www.tam.com.br" target="_blank">TAM</a>|</li>
+          <li><a href="http://www.voeazul.com.br" target="_blank">Azul</a>|</li>
+          <li><a href="https://www.buson.com.br/" target="_blank">Buson</a>|</li>
+          <li><a href="https://www.clickbus.com.br/" target="_blank">Clickbus</a>|</li>
+          <li><a href="https://www.viajeguanabara.com.br/" target="_blank">Guanabara</a>|</li>
+          <li><a href="http://www.copaair.com" target="_blank">Copa</a>|</li>
+          <li><a href="http://www.voegol.com.br" target="_blank">Gol</a>] </li>
+          <br />
+          <li>Hosting [<a href="https://www.airbnb.com/" target="_blank">AirBnb</a>|</li>
+          <li><a href="https://www.marriott.com/" target="_blank">Marriott</a>|</li>
+          <li><a href="https://all.accor.com/" target="_blank">Accor</a>|</li>
+          <li><a href="http://www.booking.com" target="_blank">Booking</a>]&nbsp;</li>
+          <br />
           <li>Miles [</li>
           <li><a href="https://milestalk.com/" target="_blank">MilesTalk</a>|</li>
           <li><a href="http://dotz.com.br/" target="_blank">Dotz</a>|</li>
           <li><a href="https://www.esfera.com.vc/" target="_blank">Esfera</a>|</li>
           <li><a href="https://www.livelo.com.br/" target="_blank">Livelo</a>|</li>
           <li><a href="http://www.smiles.com.br" target="_blank">Smiles</a>] </li>
-          <br />
-          <li>Transport [<a href="https://www.omio.com/" target="_blank">Omio</a>|</li>
-          <li><a href="http://www.voeazul.com.br" target="_blank">Azul</a>|</li>
-          <li><a href="http://www.tam.com.br" target="_blank">TAM</a>|</li>
-          <li><a href="https://www.buson.com.br/" target="_blank">Buson</a>|</li>
-          <li><a href="https://www.clickbus.com.br/" target="_blank">Clickbus</a>|</li>
-          <li><a href="http://www.flytap.com" target="_blank">TAP</a>|</li>
-          <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
-          <li><a href="http://www.delta.com" target="_blank">Delta</a>|</li>
-          <li><a href="http://www.copaair.com" target="_blank">Copa</a>|</li>
-          <li><a href="http://www.voegol.com.br" target="_blank">Gol</a>] </li>
         </ul>
         <p>
           <a href="https://www.staralliance.com/" class="btn btn-lg btn-success" target="_blank">Star Alliance</a>
@@ -102,14 +104,16 @@ include("../include/header.php");
           <ul id="hlist">
             <li><a href="https://www.eurodicas.com.br/" target="_blank">Eurodicas</a>|</li>
             <li><a href="https://e-resident.gov.ee/" target="_blank">Estonia e-residency</a>|</li>
-            <!-- <li><a href="https://aspasseadeiras.com.br/" target="_blank">As passadeiras</a>] </li> -->
             <li><a href="https://www.visitberlin.de/en" target="_blank">Visit Berlin</a>|</li>
-            <li><a href="https://www.bvg.de/en" target="_blank">BVG</a></li>
-            <br/>
-            <li><a href="https://www.cp.pt/" target="_blank">Comboios de Portugal</a>|</li>
-            <li><a href="https://www.sncf.com/en" target="_blank">SNCF</a>|</li>
             <li><a href="https://www.monte-carlo.mc/en/tourism/" target="_blank">Tourism in Monaco</a>|</li>
             <li><a href="https://www.visitmonaco.com/en" target="_blank">Visit Monaco</a></li>
+            <br/>
+            <li>Transport [<a href="https://www.omio.com/" target="_blank">Omio</a>|</li>
+            <li><a href="http://www.flytap.com" target="_blank">TAP</a>|</li>
+            <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
+            <li><a href="https://www.bvg.de/en" target="_blank">BVG</a></li>
+            <li><a href="https://www.cp.pt/" target="_blank">Comboios de Portugal</a>|</li>
+            <li><a href="https://www.sncf.com/en" target="_blank">SNCF</a>]</li>
 
           </ul>
 
