@@ -108,14 +108,14 @@ include("../include/menusup.php");
         <h3><a href="https://dev.to/" target="_blank">Dev</a></h3>
         <ul id="hlist">
           <li>Languages [</li>
+          <li><a href="https://devdocs.io/" target="_blank">DevDocs</a>|</li>
           <li><a href="https://www.30secondsofcode.org/" target="_blank">30secondsofcode</a>|</li>
           <li><a href="https://perl.org/" target="_blank">Perl</a>|</li>
           <li><a href="https://www.java.com/" target="_blank">Java</a>|</li>
           <li><a href="https://python.org/" target="_blank">Python</a>[</li>
           <li><a href="https://pypi.org/" target="_blank">PyPI</a>]</li>
-          <li><a href="https://www.php.net/manual/en/" target="_blank">PHP</a>|</li>
           <li><a href="https://golang.org/" target="_blank">Go</a>|</li>
-          <li><a href="https://devdocs.io/" target="_blank">DevDocs</a>] </li>
+          <li><a href="https://www.php.net/manual/en/" target="_blank">PHP</a>]</li>
           <br />
           <li>Frameworks [</li>
           <li><a href="https://gohugo.io/" target="_blank">Hugo</a>|</li>
@@ -123,9 +123,9 @@ include("../include/menusup.php");
           <li><a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a>|</li>
           <li><a href="https://www.djangoproject.com/" target="_blank">Django</a>|</li>
           <li><a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a>|</li>
-          <li><a href="https://laravel.com/" target="_blank">Laravel</a>|</li>
           <li><a href="https://nestjs.com/" target="_blank">Nest</a>|</li>
-          <li><a href="https://nextjs.org/" target="_blank">Next.js</a>] </li>
+          <li><a href="https://nextjs.org/" target="_blank">Next.js</a>|</li>
+          <li><a href="https://laravel.com/" target="_blank">Laravel</a>]</li>
           <br />
           <li>Tests [</li>
           <li><a href="https://cucumber.io/" target="_blank">Cucumber</a>]&nbsp;</li>
@@ -148,7 +148,6 @@ include("../include/menusup.php");
           <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>|</li>
           <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>]</li>
 
-
         </ul>
 
         <h3>Sec</h3>
@@ -167,10 +166,10 @@ include("../include/menusup.php");
           <li><a href="https://learning.lpi.org/en/" target="_blank">Learning</a>|</li>
           <li><a href="https://wiki.lpi.org/wiki/Main_Page" target="_blank">Wiki</a>] </li>
           <li>OS [</li>
+          <li><a href="https://www.gnu.org/" target="_blank">GNU</a>/</li>
+          <li><a href="https://www.kernel.org/" target="_blank">Linux</a>|</li>
           <li><a href="https://www.debian.org/" target="_blank">Debian</a>]</li>
           <br />
-          <li>Architecture [</li>
-          <li><a href="https://microservices.io/" target="_blank">Microservices</a>]</li>
           <li>Virtualization [
           <li><a href="https://www.pcjs.org/" target="_blank">PCjs</a>|</li>
           <li><a href="https://www.virtualbox.org/" target="_blank">Virtualbox</a> [</li>
@@ -180,6 +179,7 @@ include("../include/menusup.php");
           Images</a>]] </li>
           <br />
           <li>Cloud [</li>
+          <li><a href="https://microservices.io/" target="_blank">Microservices</a>]</li>
           <li><a href="https://docs.ansible.com/" target="_blank">Ansible</a>|</li>
           <li><a href="https://www.terraform.io/" target="_blank">Terraform</a>|</li>
           <li><a href="https://kubernetes.io/" target="_blank">Kubernetes</a>|</li>

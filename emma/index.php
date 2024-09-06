@@ -19,16 +19,14 @@ include("../include/menusup.php");
         <a href="https://www.timeanddate.com/" class="btn btn-lg btn-success" target="_blank">Time and Date</a>
         <a href="https://theintercept.com/" class="btn btn-lg btn-success" target="_blank">The Intercept</a>
         <a href="https://www.sapo.pt/" class="btn btn-lg btn-success" target="_blank">Sapo</a>
-        <!-- <a href="http://portuguese.people.com.cn/" class="btn btn-lg btn-success" target="_blank">People.cn</a> -->
         <a href="https://www.dw.com/pt-002/not%C3%ADcias/s-13918" class="btn btn-lg btn-success" target="_blank">Africa</a>
         <a href="https://www.news.com.au/" class="btn btn-lg btn-success" target="_blank">news.com.au</a>
         <a href="https://br.sputniknews.com/" class="btn btn-lg btn-success" target="_blank">Sputnik</a>
-        <a href="https://www.indiatimes.com/" class="btn btn-lg btn-success" target="_blank">India Times</a>
+        <!-- <a href="https://www.indiatimes.com/" class="btn btn-lg btn-success" target="_blank">India Times</a> -->
         <a href="https://www.swissinfo.ch/por" class="btn btn-lg btn-success" target="_blank">swissinfo.ch</a>
         <a href="https://shumian.com.br/" class="btn btn-lg btn-success" target="_blank">Shūmiàn</a>
         <a href="https://mundo-nipo.com/" class="btn btn-lg btn-success" target="_blank">Mundo Nipo</a>
         <a href="https://www.aljazeera.com/" class="btn btn-lg btn-success" target="_blank">AlJazeera</a>
-        <!-- <a href="https://br.rbth.com/" class="btn btn-lg btn-success" target="_blank">Gazeta Russa</a> -->
         <a href="https://www.bangkokpost.com/" class="btn btn-lg btn-success" target="_blank">Bangkok Post</a>
         <a href="https://www.prensa.com/" class="btn btn-lg btn-success" target="_blank">Prensa</a>
         <a href="https://www.globaltimes.cn/index.html" class="btn btn-lg btn-success" target="_blank">GT</a>
