@@ -43,14 +43,12 @@ include("../include/menusup.php");
         <a href="https://www.vermelho.org.br" class="btn btn-lg btn-success" target="_blank">Vermelho</a>
         <a href="https://www.dw.com/pt/not%C3%ADcias/s-7111" class="btn btn-lg btn-success" target="_blank">DW</a>
         <a href="https://www.cartacapital.com.br" class="btn btn-lg btn-success" target="_blank">Carta Capital</a>
-        <!-- <a href="https://www.acritica.com/" class="btn btn-lg btn-success" target="_blank">A Cr&iacute;tica</a> -->
         <a href="https://www.diariodepernambuco.com.br/" class="btn btn-lg btn-success" target="_blank">Di&aacute;rio de Pernambuco</a>
         <a href="https://www.correiobraziliense.com.br/" class="btn btn-lg btn-success" target="_blank">Correio Braziliense</a>
         <a href="https://extra.globo.com/" class="btn btn-lg btn-success" target="_blank">Extra</a>
-        <!-- <a href="https://www.oliberal.com/" class="btn btn-lg btn-success" target="_blank">O Liberal</a> -->
-        <!-- <a href="https://portalcorreio.com.br/" class="btn btn-lg btn-success" target="_blank">O Correio</a> -->
         <a href="https://g1.globo.com/" class="btn btn-lg btn-success" target="_blank">G1</a>
         <a href="https://diariodonordeste.verdesmares.com.br/" class="btn btn-lg btn-success" target="_blank">DN</a>
+        <a href="https://www.omelete.com.br/" class="btn btn-lg btn-success" target="_blank">Omelete</a>        
         <a href="https://www.canalmeio.com.br/ultima-edicao/" class="btn btn-lg btn-success" target="_blank">Canal Meio</a>
       </p>
 

@@ -94,6 +94,7 @@ include("../include/menusup.php");
         <li><a href="https://millennialmoney.com/" target="_blank">millennialmoney</a>|</li>
         <li><a href="https://couplemoney.com/" target="_blank">couplemoney</a>|</li>
         <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
+        <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li>        
         <li><a href="http://www.guardiaodomobral.blogspot.com.br" target="_blank">Guardi&atilde;o do Z&eacute; Mobral</a>|</li>
         <li><a href="https://www.financialsamurai.com" target="_blank">Financial Samurai</a></li>
       </ul>

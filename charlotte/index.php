@@ -17,7 +17,8 @@ include("../include/menusup.php");
    <h2><a href="https://work4love.net/sig/serina/news3.php?hashtag=%23f1">F1 News</a></h1>
      <p>
         <a href="https://www.formula1.com/" class="btn btn-lg btn-success" target="_blank">F1 - The Official Home</a>
-        <a href="https://www.band.uol.com.br/esportes/automobilismo/formula-1" class="btn btn-lg btn-success" target="_blank">F1 na Band</a>
+        <a href="https://www.band.uol.com.br/esportes/automobilismo/formula-1" class="btn btn-lg btn-success" target="_blank">F1 - Band</a>
+        <a href="https://ge.globo.com/motor/formula-1/" class="btn btn-lg btn-success" target="_blank">F1 - GE</a>
         <a href="https://youtube.com/playlist?list=PL1wt1uIbBJ2e7ziMVlHnEBOsa7tdvqsO9" class="btn btn-lg btn-success" target="_blank">Race Highlights</a>
         <a href="../serina/news3.php?hashtag=%23f1" class="btn btn-lg btn-success">F1 News</a>
      </p>
