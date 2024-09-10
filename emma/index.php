@@ -80,7 +80,7 @@ include("../include/menusup.php");
         <a href="https://www.cassi.com.br" class="btn btn-lg btn-success" target="_blank">Cassi</a>
         <a href="https://www.onofre.com.br/" class="btn btn-lg btn-success" target="_blank">Onofre</a>
         <a href="https://www.paguemenos.com.br/" class="btn btn-lg btn-success" target="_blank">Pague Menos</a>
-        <a href="https://www.idealclube.org.br" class="btn btn-lg btn-success" target="_blank">Ideal</a>
+        <a href="https://www.idealclube.com.br/" class="btn btn-lg btn-success" target="_blank">Ideal</a>
         <a href="https://aabbfortaleza.com.br/" class="btn btn-lg btn-success" target="_blank">AABB</a>
       </p>
 
