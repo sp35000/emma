@@ -97,7 +97,7 @@ include("../include/header.php");
           <li><a href="https://bookstore.liveandinvestoverseas.com/sub/panama-letter/video/v2/"
             target="_blank">The Real Panam&aacute;</a>|</li>
             <li><a href="https://www.migracion.gob.pa" target="_blank">Migraci&oacute;n</a>|</li>
-            <li><a href="https://panamalawyermayralamboglia.com/" target="_blank">Mayra Lamboglia</a>|</li>
+            <li><a href="https://www.lamboglialaw.com/" target="_blank">Lamboglia Law Office</a>|</li>
             <li><a href="https://www.copaair.com" target="_blank">Copa</a></li>
             <br/>
             <li><a href="https://www.cascoviejo.org" target="_blank">Casco Viejo</a>|</li>

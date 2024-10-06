@@ -55,6 +55,8 @@ include("../include/menusup.php");
         <li><a href="https://www.transferwise.com" target="_blank">Wise</a>] </li>
         <br />
         <li><a href="https://www.gov.br" target="_blank">Brasil</a> [</li>
+        <li><a href="https://www.tse.jus.br/" target="_blank">TSE</a>[</li>
+        <li><a href="https://divulgacandcontas.tse.jus.br/divulga/#/home" target="_blank">Candidatos</a>]</li>        
         <li><a href="http://www.portalbrasil.net/" target="_blank">Indexes</a>|</li>
         <li><a href="http://www.yahii.com.br/IPCA_Historico.html" target="_blank">IPCA</a>|</li>
         <li><a href="http://www.receita.economia.gov.br" target="_blank">RFB</a>|</li>
