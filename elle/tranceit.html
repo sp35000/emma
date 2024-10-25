@@ -283,6 +283,7 @@ iconv -f &gt;old encode&lt; -t &gt;new encode&lt; &gt;input.file&lt; -o &gt;outp
  # docker commands
  docker image ls
  docker run [-p &lt;host_port&gt;:&lt;container_port&gt;] [-v &lt;host_folder&gt;:&lt;container_folder&gt;] &lt;container&gt;
+ docker cp &lt;folder&gt;/&lt;file&gt; &lt;container_id&gt;/&lt;folder&gt;/&lt;file&gt;
  docker ps
  docker exec -it &lt;container&gt; /bin/bash # or other command
  docker stop &lt;container&gt;
