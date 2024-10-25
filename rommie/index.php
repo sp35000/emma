@@ -80,6 +80,7 @@ include("../include/menusup.php");
       <ul id="hlist">
         <li><a href="https://www.seudinheiro.com/" target="_blank">Seu dinheiro</a>|</li>
         <li><a href="https://dinheirama.com/" target="_blank">Dinheirama</a>|</li>
+        <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
         <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li>
         <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
         <br/>

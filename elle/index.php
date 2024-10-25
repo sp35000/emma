@@ -74,7 +74,8 @@ include("../include/menusup.php");
           <li><a href="https://kaggle.com" target="_blank">Kaggle</a>[</li>
           <li><a href="https://www.kaggle.com/learn/python" target="_blank">Python course</a>]]</li>
           <br/>
-          <li>Databases [</li>
+          <li>Databases [</li>          
+          <li><a href="https://dbis-uibk.github.io/relax/calc/local/uibk/local/0" target="_blank">Algebra</a>|</li>
           <li><a href="https://www.oracle.com/" target="_blank">Oracle</a>|</li>
           <li><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a>|</li>
           <li><a href="https://www.mysql.com/" target="_blank">MySQL</a>|</li>
@@ -165,6 +166,7 @@ include("../include/menusup.php");
           <li><a href="https://www.lpi.org/" target="_blank">LPI</a>[</li>
           <li><a href="https://learning.lpi.org/en/" target="_blank">Learning</a>|</li>
           <li><a href="https://wiki.lpi.org/wiki/Main_Page" target="_blank">Wiki</a>] </li>
+          <li><a href="https://ngrok.com/" target="_blank">Ngrok</a></li>
           <li>OS [</li>
           <li><a href="https://www.gnu.org/" target="_blank">GNU</a>/</li>
           <li><a href="https://www.kernel.org/" target="_blank">Linux</a>|</li>
@@ -184,7 +186,6 @@ include("../include/menusup.php");
           <li><a href="https://www.terraform.io/" target="_blank">Terraform</a>|</li>
           <li><a href="https://kubernetes.io/" target="_blank">Kubernetes</a>|</li>
           <li><a href="https://docs.docker.com/" target="_blank">Docker</a> [</li>
-          <li><a href="https://www.mundodocker.com.br/" target="_blank">Mundo Docker</a>|</li>
           <li><a href="https://hub.docker.com/search?q=&type=image&image_filter=official" target="_blank">Images</a>] ] </li>
         </ul>
 

@@ -111,7 +111,8 @@ include("../include/header.php");
             <li><a href="http://ocw.mit.edu/index.htm" target="_blank">MIT</a>|</li>
             <li><a href="https://www.futurelearn.com" target="_blank">Future Learn</a>|</li>
             <li><a href="https://continuingstudies.stanford.edu/" target="_blank">Stanford</a>|</li>
-            <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+            <li><a href="https://www.udemy.com/" target="_blank">Udemy</a>|</li>
+            <li><a href="https://www.dummies.com/" target="_blank">Dummies</a></li>
           </ul>
 
           <h2>Languages</h2>
@@ -149,13 +150,13 @@ include("../include/header.php");
                 <li><a href="https://hackr.io/" target="_blank">hackr.io</a>|</li>
                 <li><a href="https://github.com/arthurspk/guiadevbrasil" target="_blank">Guia Dev Brasil</a></li>
                 <br/>
+                <li><a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/" target="_blank">Algorithms</a>|</li>
                 <li><a href="http://www.thedevelopersconference.com.br/tdconline" target="_blank">TDC</a>|</li>
                 <li><a href="https://temporealeventos.com.br/" target="_blank">Tempo Real</a>|</li>
                 <li><a href="http://www.w3schools.com" target="_blank">W3Schools</a>|</li>
                 <li><a href="http://oceanbrasil.com/online/" target="_blank">Samsung Ocean</a>[</li>
                 <li><a href="https://github.com/paulosalvatore" target="_blank">Git - Prof. Paulo Salvatore</a>]</li>
                 <li><a href="https://4linux.com.br/" target="_blank">4 Linux</a>|</li>
-                <!-- <li><a href="https://bastter.com/mercado/347/FAQ/342/python--topicos-ordenados-para-estudo.aspx#faq-342-header" target="_blank">Bastter Tecnologia</a></li> -->
 
                 <br/>
                 <li><a href="https://github.com/Universidade-Livre/ciencia-da-computacao" target="_blank">Universidade Brasileira Livre</a>|</li>
