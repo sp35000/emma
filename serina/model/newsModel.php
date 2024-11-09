@@ -46,7 +46,7 @@ function create_query($category,$media,$itens) {
     }
 
     // Order by date
-    $orderby = " ORDER BY initial_date,id DESC";
+    $orderby = " ORDER BY initial_date DESC,id DESC";
     $limit = " LIMIT 0,".$itens;
     $sql = "
     SELECT id,title,category,link,initial_date

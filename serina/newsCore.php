@@ -81,7 +81,7 @@ if ($hashtag != "") {
 }
 
 // Order by date
-$orderby = " ORDER BY initial_date DESC".$limit.";";
+$orderby = " ORDER BY initial_date DESC, id DESC".$limit.";";
 
 $sql = "
 (SELECT pk_news as id,title,category,link,initial_date
