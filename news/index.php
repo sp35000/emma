@@ -22,9 +22,15 @@ include("../include/menusup.php");
         <div class="col-md-4 table">
           <?php 
           include("../include/security.php");
+          include("../include/validation.php");
           include("../include/calendar.php");
           if (isset($_GET['date'])) {
             $parmDate = test_input($_GET['date']);
+            $isValidDate = isValidDate($parmDate,'Ymd');
+            if ($isValidDate == false) {
+              echo "Error: ".$parmDate." is an invalid date. Using today.";
+              $parmDate = date('Ymd');
+            }
           } else {
             $parmDate = date('Ymd');
           }

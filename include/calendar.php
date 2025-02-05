@@ -4,8 +4,8 @@ function drawCalendar($parmDate,$url) {
   // $url="http://192.168.0.152:8000/worklogs";
   // $url="http://192.168.0.21/intra/beta/calendar.php";
   $year = date('Y',$date);
-  $lastYear = date('Ymd',strtotime('-365 day ',$date));
-  $nextYear = date('Ymd',strtotime('+365 day ',$date));
+  $lastYear = date('Ymd',strtotime('-1 year ',$date));
+  $nextYear = date('Ymd',strtotime('+1 year ',$date));
   $lastMonth = date('Ymd',strtotime('-1 month ',$date));
   $nextMonth = date('Ymd',strtotime('+1 month ',$date));
   $month = date('m',$date);
