@@ -31,6 +31,7 @@
         <option value="Marla">Marla</option>
         <option value="Emma">Emma</option>
         <option value="Elle">Elle</option>
+        <option value="Serina">Serina</option>
         <option value="Madeleine">Madeleine</option>
       </select>&nbsp;
       Media:&nbsp;
