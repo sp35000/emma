@@ -12,9 +12,8 @@ include("../include/menusup.php");
 
 <div class="container">
   <div class="row">
-   <div class="col-md-12 columns text-center firstdiv">
+    <div class="col-md-12 columns text-center firstdiv">
     <h1 align="center">Movies and TV</h1>
-    <article>
     <p><img src="SolarFleet06.jpg" alt="Solar Fleet" style="width:100%"/></p>
     <h2>Episode Guide</h2>
     <a href="https://en.wikipedia.org/wiki/List_of_Angel_episodes" class="btn btn-lg btn-success" target="_blank">Angel</a>
@@ -68,9 +67,8 @@ include("../include/menusup.php");
     <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2enCmjrK8Nub5VeWuQeUAxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h2>Sci-Fi Playlist</h2>
     <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cNr18T1t6q5HIemUlNMKBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </article>
-
-</div>
+    </div>
+  </div>
 <?php include("../include/footer.php"); ?>
 </div>
 </div>
