@@ -44,8 +44,8 @@ include("../include/menusup.php");
     <div class="col-md-12 columns">
     <?php 
     include("../include/apitools.php"); 
-    $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;
-    // $urlApi = "https://work4love.net/serina/public/api/news/date/".$parmDate;
+    // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;
+    $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parmDate;
     $result = json_decode(getApiJson($urlApi));
     // echo "<pre>";print_r($result);echo "</pre>";
     echo "<ul>";
