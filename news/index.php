@@ -56,9 +56,8 @@ include("../include/menusup.php");
     ?>
     </div>
     </div>
+    </div>
     <?php include("../include/footer.php"); ?>
-  </div>
 </div>
-<?php include("../include/bodyend.php"); ?>
 </body>
 </html>

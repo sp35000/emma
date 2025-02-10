@@ -69,9 +69,7 @@ include("../include/menusup.php");
     <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cNr18T1t6q5HIemUlNMKBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
-<?php include("../include/footer.php"); ?>
+  <?php include("../include/footer.php"); ?>
 </div>
-</div>
-<?php include("../include/bodyend.php"); ?>
 </body>
 </html>

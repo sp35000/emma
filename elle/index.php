@@ -218,15 +218,10 @@ include("../include/menusup.php");
     <li><a href="https://mega.io/" target="_blank">MEGA</a>|</li>
     <li><a href="https://www.dropbox.com/" target="_blank">Dropbox</a>]</li>
     </ul>
-
-
-    </article>
     </div>
   </div>
 <?php include("../include/footer.php"); ?>
 </div>
-</div>
-<?php include("../include/bodyend.php"); ?>
 <p align="right"><a href="tranceit.html">&para;</a></p>
 </body>
 </html>

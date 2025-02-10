@@ -166,11 +166,8 @@ include("../include/menusup.php");
     <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
     </ul>
     </div>
-    </article>
   </div> 
 <?php include("../include/footer.php"); ?>
-  </div>
 </div>
-<?php include("../include/bodyend.php"); ?>
 </body>
 </html>

@@ -13,7 +13,6 @@ include("../include/menusup.php");
 <div class="container">
   <div class="row">
     <div class="col-md-12 columns text-center firstdiv">
-    <article>
     <h1>Finance</h1>
 
     <?php include("../include/tradingViewWidget.html"); ?>
@@ -157,11 +156,8 @@ include("../include/menusup.php");
     <li><a href="https://www.soflatsnet.com.br/" target="_blank">S&oacute; Flats</a>] </li>
     </ul>
     </div>
-    </article>
   </div>
-<?php include("../include/footer.php"); ?>
+  <?php include("../include/footer.php"); ?>
 </div>
-</div>
-<?php include("../include/bodyend.php"); ?>
 </body>
 </html>

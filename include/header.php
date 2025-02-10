@@ -24,4 +24,5 @@
 <script src="/sig/js/sig.js"></script>
 <link rel="stylesheet" href="/sig/css/cookie.css" />
 <link rel="stylesheet" href="/sig/css/sig.css" />
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=67a9fe449b23f50012715bf5&product=inline-share-buttons&source=platform" async="async"></script>
 </head>

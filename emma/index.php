@@ -18,7 +18,6 @@ include("../include/menusup.php");
     <p>
     <a href="https://www.timeanddate.com/" class="btn btn-lg btn-success" target="_blank">Time and Date</a>
     <a href="https://theintercept.com/" class="btn btn-lg btn-success" target="_blank">The Intercept</a>
-
     <a href="https://www.sapo.pt/" class="btn btn-lg btn-success" target="_blank">Sapo</a>
     <a href="https://shumian.com.br/" class="btn btn-lg btn-success" target="_blank">Shūmiàn</a>
     <a href="https://www.dw.com/pt-002/not%C3%ADcias/s-13918" class="btn btn-lg btn-success" target="_blank">Africa</a>
@@ -45,7 +44,7 @@ include("../include/menusup.php");
     <a href="https://www.cartacapital.com.br" class="btn btn-lg btn-success" target="_blank">Carta Capital</a>
     <a href="https://www.diariodepernambuco.com.br/" class="btn btn-lg btn-success" target="_blank">Di&aacute;rio de Pernambuco</a>
     <a href="https://www.correiobraziliense.com.br/" class="btn btn-lg btn-success" target="_blank">Correio Braziliense</a>
-    <a href="https://extra.globo.com/" class="btn btn-lg btn-success" target="_blank">Extra</a>
+    <!-- <a href="https://extra.globo.com/" class="btn btn-lg btn-success" target="_blank">Extra</a> -->
     <a href="https://g1.globo.com/" class="btn btn-lg btn-success" target="_blank">G1</a>
     <a href="https://diariodonordeste.verdesmares.com.br/" class="btn btn-lg btn-success" target="_blank">DN</a>
     <a href="https://www.omelete.com.br/" class="btn btn-lg btn-success" target="_blank">Omelete</a>        
@@ -56,12 +55,12 @@ include("../include/menusup.php");
     <p>
     <a href="https://www.captable.com.br/" class="btn btn-lg btn-success" target="_blank">CapTable</a>
     <a href="https://www.startse.com.br/" class="btn btn-lg btn-success" target="_blank">StartSe</a>
-    <a href="https://reddit.com" class="btn btn-lg btn-success" target="_blank">Reddit</a>
-    <A href="https://www.indiehackers.com/interviews/page/1" class="btn btn-lg btn-success" target="_blank">Indie Hackers</A>
+    <!-- <a href="https://reddit.com" class="btn btn-lg btn-success" target="_blank">Reddit</a>
+    <A href="https://www.indiehackers.com/interviews/page/1" class="btn btn-lg btn-success" target="_blank">Indie Hackers</A> -->
     <a href="https://www.producthunt.com/" class="btn btn-lg btn-success" target="_blank">Product Hunt</a>
-    <a href="https://medium.com/" class="btn btn-lg btn-success" target="_blank">Medium</a>
+    <!-- <a href="https://medium.com/" class="btn btn-lg btn-success" target="_blank">Medium</a>
     <a href="https://www.internations.org/" class="btn btn-lg btn-success"  target="_blank">InterNations</a>
-    <a href="https://discord.com/app" class="btn btn-lg btn-success" target="_blank">Discord</a>
+    <a href="https://discord.com/app" class="btn btn-lg btn-success" target="_blank">Discord</a> -->
     <a href="https://nomadbase.com/" class="btn btn-lg btn-success"  target="_blank">Nomadbase</a>
     <A href="https://www.bastter.com" class="btn btn-lg btn-success"  target="_blank">Bastter</A>
     <a href="https://www.expatexchange.com/loginexpatexchange" class="btn btn-lg btn-success"  target="_blank">Expat Exchange</a>
@@ -70,7 +69,7 @@ include("../include/menusup.php");
     <a href="https://bitcointalk.org" class="btn btn-lg btn-success"  target="_blank">Bitcointalk</a>
     <a href="https://nodesk.co/articles/" class="btn btn-lg btn-success" target="_blank">No Desk</a>
     <a href="https://web.telegram.org/#/login" class="btn btn-lg btn-success" target="_blank">Telegram</a>
-    <a href="https://forum.earlyretirementextreme.com/" class="btn btn-lg btn-success" target="_blank">ERE</a>
+    <!-- <a href="https://forum.earlyretirementextreme.com/" class="btn btn-lg btn-success" target="_blank">ERE</a> -->
     </p>
 
     <h2>Health</h2>
@@ -101,11 +100,9 @@ include("../include/menusup.php");
     <a href="https://www.gmail.com" target="_blank">Gmail</a>|
     <a href="https://www.youtube.com" target="_blank">YouTube</a>]
     </p>
-    </div>
-  </div>
-<?php include("../include/footer.php"); ?>
+    </div>    
+  </div>  
+  <?php include("../include/footer.php"); ?>
 </div>
-</div>
-<?php include("../include/bodyend.php"); ?>
 </body>
 </html>
