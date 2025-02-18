@@ -55,7 +55,6 @@ $category = test_input($_POST["category"]);
 <a href="news3.php?hashtag=chatgpt" class="btn btn-lg btn-success">ChatGPT</a>
 <a href="https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive" target="_blank" class="btn btn-lg btn-success">Ukraine war</a>
 <a href="https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker" target="_blank" class="btn btn-lg btn-success">Israel-Gaza</a>
-<a href="news3.php?hashtag=corona" class="btn btn-lg btn-success">Coronavirus</a>
 </p>
 <?php
 getAdvTgt(5);
