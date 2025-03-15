@@ -12,7 +12,7 @@ include("../include/menusup.php");
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12 columns text-center firstdiv">
+    <div class="col-md-12 columns text-center firstdiv" style="overflow:auto;">
     <h1>Finance</h1>
 
     <?php include("../include/tradingViewWidget.html"); ?>
@@ -108,7 +108,7 @@ include("../include/menusup.php");
 
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script>
     <div id="coinmarketcap-widget-coin-price-block" coins="1839,52,2010,74,2,512,5994" currency="USD" theme="light" transparent="false" show-symbol-logo="false"></div>
-
+    
     <p>
     <a href="https://www.coindesk.com/" class="btn btn-lg btn-success" target="_blank">Coindesk</a>
     <a href="https://cointelegraph.com/" class="btn btn-lg btn-success" target="_blank">Cointelegraph</a>
