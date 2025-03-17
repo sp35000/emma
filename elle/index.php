@@ -44,7 +44,7 @@ include("../include/menusup.php");
 
     <h2>A.I.</h2>
     <ul id="hlist">
-    <li><a href="news3.php?hashtag=%23ai" class="btn btn-lg btn-success">A.I. News</a></li>
+    <li><a href="/sig/serina/news3.php?hashtag=%23ai" target="_blank" class="btn btn-lg btn-success">A.I. News</a></li>
     <li><a href="https://gemini.google.com" target="_blank" class="btn btn-lg btn-success">Gemini</a></li>
     <li><a href="https://www.anthropic.com/claude" target="_blank" class="btn btn-lg btn-success">Claude</a></li>
     <li><a href="https://openai.com/" target="_blank" class="btn btn-lg btn-success">ChatGPT</a></li>
