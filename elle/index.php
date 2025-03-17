@@ -44,9 +44,13 @@ include("../include/menusup.php");
 
     <h2>A.I.</h2>
     <ul id="hlist">
+    <li><a href="news3.php?hashtag=%23ai" class="btn btn-lg btn-success">A.I. News</a></li>
     <li><a href="https://gemini.google.com" target="_blank" class="btn btn-lg btn-success">Gemini</a></li>
     <li><a href="https://www.anthropic.com/claude" target="_blank" class="btn btn-lg btn-success">Claude</a></li>
-    <li><a href="https://beta.openai.com/playground" target="_blank" class="btn btn-lg btn-success">ChatGPT</a></li>
+    <li><a href="https://openai.com/" target="_blank" class="btn btn-lg btn-success">ChatGPT</a></li>
+    <li><a href="https://www.perplexity.ai/" target="_blank" class="btn btn-lg btn-success">perplexity</a></li>
+    <li><a href="https://www.deepseek.com/" target="_blank" class="btn btn-lg btn-success">deepseek</a></li>
+    
     <br/>
     <li>[<a href="https://www.startse.com/ferramentas/" target="_blank">StartSe Tools</a>|</li>
     <li><a href="https://bing.com" target="_blank">Bing</a>|</li>

@@ -51,11 +51,11 @@ $category = test_input($_POST["category"]);
 <div class="col-sm-12 bg-grey">
 <div class="col-sm-8 bg-grey">
 <h2 align="center"><a href="news2.php?">Latest News</a></h2>
-<p align="center">
-<a href="news3.php?hashtag=chatgpt" class="btn btn-lg btn-success">ChatGPT</a>
-<a href="https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive" target="_blank" class="btn btn-lg btn-success">Ukraine war</a>
-<a href="https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker" target="_blank" class="btn btn-lg btn-success">Israel-Gaza</a>
-</p>
+<p align="center"><a href="news3.php?hashtag=%23ai" class="btn btn-lg btn-success">A.I. News</a></p>
+<h3 align="center">[
+<a href="https://www.aljazeera.com/news/2022/2/28/russia-ukraine-crisis-in-maps-and-charts-live-news-interactive" target="_blank">Ukraine war</a>&nbsp;|&nbsp;
+<a href="https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker" target="_blank">Israel-Gaza</a>]
+</h3>
 <?php
 getAdvTgt(5);
 // make queries
