@@ -195,6 +195,9 @@ include("../include/menusup.php");
 
     <h2>Design</h2>
     <ul id="hlist">
+    <li><a href="https://openai.com/index/dall-e-3/" target="_blank" class="btn btn-lg btn-success">Dall-E</a></li>
+    <li><a href="https://www.midjourney.com/" target="_blank" class="btn btn-lg btn-success">Midjourney</a></li>
+    <br/>
     <li><a href="https://tools.pdf24.org/en/" target="_blank">PDF24 Tools</a>|</li>
     <li>Colors [</li>
     <li><a href="https://www.design-seeds.com/blog/" target="_blank">Design-Seeds</a>|</li>
