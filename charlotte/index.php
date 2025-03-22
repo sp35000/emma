@@ -34,29 +34,31 @@ include("../include/menusup.php");
       <h2 align="center">2025 Season Calendar</h2>
       <pre>
       14/3 a 16/3: GP da Austrália
-      21/3 a 23/3: GP da China
+      21/3 a 23/3: GP da China (*)
       4/4 a 6/4: GP do Japão
       11/4 a 13/4: GP do Bahrein
       18/4 a 20/4: GP da Arábia Saudita
-      2/5 a 4/5: GP de Miami
+      2/5 a 4/5: GP de Miami (*)
       16/5 a 18/5: GP da Emilia-Romagna
       23/5 a 25/5: GP de Mônaco
       30/5 a 1/6: GP da Espanha
       13/6 a 15/6: GP do Canadá
       27/6 a 29/6: GP da Áustria
       4/7 a 6/7: GP da Inglaterra
-      25/7 a 27/7: GP da Bélgica
+      25/7 a 27/7: GP da Bélgica (*)
       1/8 a 3/8: GP da Hungria
       29/8 a 31/8: GP da Holanda
       5/9 a 7/9: GP da Itália
       19/9 a 21/9: GP do Azerbaijão
       3/10 a 5/10: GP de Singapura
-      17/10 a 19/10: GP dos EUA
+      17/10 a 19/10: GP dos EUA (*)
       24/10 a 26/10: GP do México
-      7/11 a 9/11: GP de São Paulo
+      7/11 a 9/11: GP de São Paulo (*)
       20/11 a 22/11: GP de Las Vegas
-      28/11 a 30/11: GP do Qatar
+      28/11 a 30/11: GP do Qatar (*)
       5/12 a 7/12: GP de Abu Dhabi
+      ---
+      (*) sprint race
       </pre>
       </div>
    </div>
