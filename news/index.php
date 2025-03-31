@@ -50,7 +50,7 @@ include("../include/menusup.php");
     // echo "<pre>";print_r($result);echo "</pre>";
     echo "<ul>";
     foreach ($result as $register) {
-      echo "<li><a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
+      echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
     }
     echo "</ul>";
     ?>
