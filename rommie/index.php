@@ -155,8 +155,10 @@ include("../include/menusup.php");
     <li><a href="https://morar.housi.com.br/" target="_blank">Housi</a>|</li>
     <li><a href="https://www.soflatsnet.com.br/" target="_blank">S&oacute; Flats</a>] </li>
     </ul>
+
+    <h2><a href="/sig/sites/search.php?category=Finance">More sites...</h2>
     </div>
-  </div>
+  </div>  
   <?php include("../include/footer.php"); ?>
 </div>
 </body>

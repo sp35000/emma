@@ -1,4 +1,5 @@
 <?php
+$category="Sites";
 $title="Work4Love.net - Sites úteis sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento";
 $description=$title.".";
 $keywords="coronvírus,sites,solidariedade,estudo,lazer,trabalho,noticias,mensagens";
@@ -96,10 +97,8 @@ include("../include/menusup.php");
     <a href="https://web.whatsapp.com/" class="btn btn-lg btn-success" target="_blank">WhatsApp</a>
     <a href="https://mail.yahoo.com" class="btn btn-lg btn-success" target="_blank">yahoo! mail</a>
     <br/><br/>
-    <a href="https://www.google.com" target="_blank">Google</a>[
-    <a href="https://www.gmail.com" target="_blank">Gmail</a>|
-    <a href="https://www.youtube.com" target="_blank">YouTube</a>]
     </p>
+    <h2><a href="/sig/sites/search.php?category=Sites">More sites...</h2>
     </div>    
   </div>  
   <?php include("../include/footer.php"); ?>

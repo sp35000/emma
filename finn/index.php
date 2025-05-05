@@ -133,6 +133,8 @@ include("../include/menusup.php");
     <li><a href="https://www.dx.com" target="_blank">Deal Extreme</a>|</li>
     <li><a href="https://pt.aliexpress.com" target="_blank">Ali Express</a>] </li>
     </ul>
+
+    <h2><a href="/sig/sites/search.php?category=Travel">More sites...</h2>
     </div>
   </div>
   <?php include("../include/footer.php"); ?>

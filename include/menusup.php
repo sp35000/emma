@@ -46,7 +46,7 @@
         </li>
       </ul>
     </div>
-    <form method="get" action="/sig/serina/news3.php">
+    <form method="get" action="/sig/news/search.php">
       <input name="hashtag" type="text">&nbsp;
       <input type="submit" value="News Search">&nbsp;
     </form>

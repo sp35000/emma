@@ -165,6 +165,8 @@ include("../include/menusup.php");
     <li><a href="https://www.crackingthecodinginterview.com/" target="_blank">Cracking the Coding Interview</a>|</li>
     <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
     </ul>
+
+    <h2><a href="/sig/sites/search.php?category=Learning">More sites...</h2>
     </div>
   </div> 
 <?php include("../include/footer.php"); ?>

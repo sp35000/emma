@@ -28,11 +28,13 @@
       </p>
       <p>Category:
       <select name="category">
-        <option value="Marla">Marla</option>
-        <option value="Emma">Emma</option>
-        <option value="Elle">Elle</option>
-        <option value="Serina">Serina</option>
-        <option value="Madeleine">Madeleine</option>
+        <option value="Sites">Sites</option>
+        <option value="Social">Social</option>
+        <option value="Finance">Finance</option>
+        <option value="Learning">Learning</option>
+        <option value="Travel">Travel</option>
+        <option value="Technology">Technology</option>
+        <option value="Entertainment">Entertainment</option>
       </select>&nbsp;
       Media:&nbsp;
       <select name="media">Media

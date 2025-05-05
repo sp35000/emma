@@ -225,6 +225,8 @@ include("../include/menusup.php");
     <li><a href="https://mega.io/" target="_blank">MEGA</a>|</li>
     <li><a href="https://www.dropbox.com/" target="_blank">Dropbox</a>]</li>
     </ul>
+
+    <h2><a href="/sig/sites/search.php?category=Technology">More sites...</h2>
     </div>
   </div>
 <?php include("../include/footer.php"); ?>

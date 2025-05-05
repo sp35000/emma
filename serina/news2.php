@@ -52,11 +52,11 @@ include("../include/menusup.php");
     <?php
     if ($hashtag <> "") {
     ?>
-    <a href="news3.php?hashtag=<?=$hashtag?>">
+    <a href="/sig/news/search.php?hashtag=<?=$hashtag?>">
     <?php
     } else {
     ?>
-    <a href="news3.php?category=<?=$category?>">
+    <a href="/sig/news/search.php?category=<?=$category?>">
     <?php
     }
     ?>

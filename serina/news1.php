@@ -49,7 +49,7 @@ $category = test_input($_POST["category"]);
 ?>
 <!-- </div> -->
 <div class="col-sm-12 bg-grey">
-<div class="col-sm-8 bg-grey">
+<div class="col-sm-8 bg-grey text-left">
 <h2 align="center"><a href="news2.php?">Latest News</a></h2>
 <p align="center"><a href="news3.php?hashtag=%23ai" class="btn btn-lg btn-success">A.I. News</a></p>
 <h3 align="center">[
@@ -89,7 +89,7 @@ getAdvTgt(5);
 for($counter = 0; $counter < $lenghtCategories; $counter++) {
 
 // bootstrap: open a new col-sm-12 in each 2 col-sm-6
-echo "<div class=\"col-sm-6\">\n";
+echo "<div class=\"col-sm-6 text-left\">\n";
 echo "<h2 align=\"center\"><a href=\"news2.php?category=$categories[$counter]\">$categories[$counter]</a></h2>\n";
 getVideoPlaylist($categories[$counter]);
 echo "<ul>\n";
