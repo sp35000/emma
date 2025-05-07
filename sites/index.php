@@ -17,9 +17,7 @@ include("../include/menusup.php");
   <div class="container content-fluid">
     <div class="row">  
       <div class="col-md-12 columns text-center firstdiv">
-        <h1>Serina News</h1>
-        <div class="col-md-4"></div>
-        <div class="col-md-4 table">
+        <h1>Sites</h1>
           <?php 
           include("../include/security.php");
           include("../include/validation.php");
@@ -35,11 +33,17 @@ include("../include/menusup.php");
             $parmDate = date('Ymd');
           }
           // $url="http://192.168.0.21/sig/news/index.php";
-          $url="https://work4love.net/links/index.php";
+          $url="https://work4love.net/sites/index.php";
           echo drawCalendar($parmDate,$url);
           ?>
         </div>
-      <div class="col-md-4"></div>
+    <div class="col-md-12 columns text-center">
+    <br/>
+    <form method="get" action="/sig/sites/search.php">
+      <input name="hashtag" type="text">&nbsp;
+      <input type="submit" value="Sites Search">&nbsp;
+    </form>
+    <br/>
     </div>
     <div class="col-md-12 columns">
     <?php 

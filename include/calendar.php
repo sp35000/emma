@@ -22,11 +22,11 @@ function drawCalendar($parmDate,$url) {
   }
   $j=1;
   echo "<div class=\"row\">";
-  echo "<div class=\"cell bg-info\"><a href=?date=".$lastYear."><<".substr($lastYear,0,4)."</a></div>";
-  echo "<div class=\"cell\"><a href=?date=".$lastMonth."><".substr($lastMonth,0,6)."</a></div>";
+  echo "<div class=\"cell bg-info\"><a href=?date=".$lastYear.">".substr($lastYear,0,4)."</a></div>";
+  echo "<div class=\"cell\"><a href=?date=".$lastMonth.">".substr($lastMonth,0,6)."</a></div>";
   echo "<div class=\"cell bg-info\"><big>".$parmDate."</big></div>";
-  echo "<div class=\"cell\"><a href=?date=".$nextMonth.">".substr($nextMonth,0,6)."></a></div>";
-  echo "<div class=\"cell bg-info\"><a href=?date=".$nextYear.">".substr($nextYear,0,4).">></a></div>";
+  echo "<div class=\"cell\"><a href=?date=".$nextMonth.">".substr($nextMonth,0,6)."</a></div>";
+  echo "<div class=\"cell bg-info\"><a href=?date=".$nextYear.">".substr($nextYear,0,4)."</a></div>";
   echo "</div>";
   echo "<div class=\"row\">
     <div class=\"cell bg-info\">Su</div>
@@ -36,7 +36,7 @@ function drawCalendar($parmDate,$url) {
     <div class=\"cell bg-info\">Th</div>
     <div class=\"cell bg-info\">Fr</div>
     <div class=\"cell bg-info\">Sa</div>
-  </div>";
+    </div>";
   for($i=0;$i<35;$i++) {
     $currentDay = $year.$month.str_pad($monthArray[$i], 2, '0', STR_PAD_LEFT);
     if ($currentDay == $parmDate) {

@@ -17,9 +17,7 @@ include("../include/menusup.php");
   <div class="container content-fluid">
     <div class="row">  
       <div class="col-md-12 columns text-center firstdiv">
-        <h1>Serina News</h1>
-        <div class="col-md-4"></div>
-        <div class="col-md-4 table">
+        <h1>News</h1>
           <?php 
           include("../include/security.php");
           include("../include/validation.php");
@@ -38,10 +36,9 @@ include("../include/menusup.php");
           // $url="https://work4love.net/news/index.php";
           echo drawCalendar($parmDate,$url);
           ?>
-        </div>
-      <div class="col-md-4"></div>
     </div>
     <div class="col-md-12 columns">
+    <br/>
     <?php 
     include("../include/apitools.php"); 
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;

@@ -17,7 +17,7 @@ include("../include/menusup.php");
     <h1>Technology</h1>
     <ul id="hlist">
     <li>News [</li>
-    <li><a href="http://www.techtudo.com.br" target="_blank">techtudo</a>|</li>
+    <li><a href="https://www.techtudo.com.br" target="_blank">techtudo</a>|</li>
     <li><a href="https://thehackernews.com/" target="_blank">The Hacker News</a>|</li>
     <li><a href="https://www.infoq.com/" target="_blank">InfoQ</a>|</li>
     <li><a href="https://www.zdnet.com/" target="_blank">ZDNet</a>|</li>
@@ -34,11 +34,11 @@ include("../include/menusup.php");
     <br/>
     <li><a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
     <li><a href="https://swagger.io/" target="_blank">Swagger</a>|</li>
-    <li><a href="http://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
+    <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
     <li><a href="https://www.techtudo.com.br/tudo-sobre/softwares/a-z.html" target="_blank">Download A-Z</a>|
     <li><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a>|</li>
     <li><a href="https://www.oldapps.com/" target="_blank">Old Apps</a>|</li>
-    <li><a href="http://www.oldversion.com/" target="_blank">Oldversion</a>]</li>
+    <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a>]</li>
     <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a></li>
     </ul>
 
@@ -91,13 +91,13 @@ include("../include/menusup.php");
 
     <h2>Mainframe</h2>
     <ul id="hlist">
-    <li><a href="http://www.hercules-390.org/" target="_blank">Hercules</a>|</li>
+    <li><a href="https://www.hercules-390.org/" target="_blank">Hercules</a>|</li>
     <li><a href="https://www.openmainframeproject.org/" target="_blank">Open Mainframe</a>|</li>
     <li><a href="https://www.ibm.com" target="_blank">IBM</a>[</li>
     <li><a href="https://mailchi.mp/fc5b0839465e/iniciativaz" target="_blank">Iniciativa Z</a>|</li>
     <li><a href="https://www.ibm.com/community/z/" target="_blank">Z and LinuxONE</a>] </li>
     <li><a href="https://www.softwareag.com/corporate/default.html" target="_blank">Software AG</a>[</li>
-    <li><a href="http://techcommunity.softwareag.com/home" target="_blank">Tech</a>]]</li>
+    <li><a href="https://techcommunity.softwareag.com/home" target="_blank">Tech</a>]]</li>
     </ul>
 
     <h2><a href="https://wiki.lpi.org/wiki/DevOps_Tools_Engineer_Objectives_V1" target="_blank">DevSecOps</a></h2>
@@ -164,7 +164,7 @@ include("../include/menusup.php");
 
     <h3>Ops</h3>
     <ul id="hlist">
-    <li>[<a href="http://www.dicas-l.com.br" target="_blank">Dicas-L</a>|</li>
+    <li>[<a href="https://www.dicas-l.com.br" target="_blank">Dicas-L</a>|</li>
     <li><a href="https://aurelio.net/" target="_blank">Aurelio</a>|</li>
     <li><a href="https://jneves.wordpress.com/" target="_blank">J.Neves</a>|</li>
     <li><a href="https://www.lpi.org/" target="_blank">LPI</a>[</li>
@@ -181,7 +181,7 @@ include("../include/menusup.php");
     <li><a href="https://www.virtualbox.org/" target="_blank">Virtualbox</a> [</li>
     <li><a href="https://www.osboxes.org/virtualbox-images/" target="_blank">OS Boxes</a>|</li>
     <li><a href="https://virtualboxes.org/images/" target="_blank">VirtualBoxes</a>|</li>
-    <li><a href="http://virtualdiskimages.weebly.com/virtualbox.html" target="_blank">Virtual Disk
+    <li><a href="https://virtualdiskimages.weebly.com/virtualbox.html" target="_blank">Virtual Disk
     Images</a>]] </li>
     <br />
     <li>Cloud [</li>
@@ -191,6 +191,7 @@ include("../include/menusup.php");
     <li><a href="https://kubernetes.io/" target="_blank">Kubernetes</a>|</li>
     <li><a href="https://docs.docker.com/" target="_blank">Docker</a> [</li>
     <li><a href="https://hub.docker.com/search?q=&type=image&image_filter=official" target="_blank">Images</a>] ] </li>
+    <li><a href="https://www.cloudflare.com" target="_blank">Cloudflare</a></li>
     </ul>
 
     <h2>Design</h2>
@@ -202,9 +203,9 @@ include("../include/menusup.php");
     <li>Colors [</li>
     <li><a href="https://www.design-seeds.com/blog/" target="_blank">Design-Seeds</a>|</li>
     <li><a href="https://coolors.co" target="_blank">Coolors</a>|</li>
-    <li><a href="http://paletton.com" target="_blank">Paletton</a>]</li>
+    <li><a href="https://paletton.com" target="_blank">Paletton</a>]</li>
     <li>Fonts [</li>
-    <li><a href="http://www.dafont.com/" target="_blank">DaFont</a>|</li>
+    <li><a href="https://www.dafont.com/" target="_blank">DaFont</a>|</li>
     <li><a href="https://www.fontsquirrel.com/" target="_blank">Fontsquirrel</a>]</li>
     <br/>
     <li>Images [</li>
