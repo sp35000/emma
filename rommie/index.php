@@ -77,11 +77,10 @@ include("../include/menusup.php");
     <h2><a href="https://abacusliquid.com/best-finance-blogs/" target="_blank">Blogs</a></h2>
 
     <ul id="hlist">
-    <li><a href="https://www.seudinheiro.com/" target="_blank">Seu dinheiro</a>|</li>
-    <li><a href="https://dinheirama.com/" target="_blank">Dinheirama</a>|</li>
     <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
     <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li>
     <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
+    <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
     <br/>
     <li><a href="https://www.goodfinancialcents.com/" target="_blank">goodfinancialcents</a>|</li>
     <li><a href="https://www.moneyunder30.com/" target="_blank">moneyunder30</a>|</li>
