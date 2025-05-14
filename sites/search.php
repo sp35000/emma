@@ -51,11 +51,12 @@ include("../include/apitools.php");
     // obtain search parameter
     if (isset($_GET['hashtag'])) {
       $parm = test_input($_GET['hashtag']);
+      $parm = str_replace("#","%23",$parm);
       // $urlApi = "http://192.168.0.152:10000/api/news/search/".$parm;
       $urlApi = "https://work4love.net/emma-api/public/api/news/search/".$parm;
     }
-    $url="http://192.168.0.21/sig/sites/search.php";
-    // $url="https://work4love.net/news/search.php";
+    // $url="http://192.168.0.21/sig/sites/search.php";
+    $url="https://work4love.net/sites/search.php";
     ?>
       <p>Search: <?=$parm?></p>
       <div class="col-md-12 columns text-left">
