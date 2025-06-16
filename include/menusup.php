@@ -30,6 +30,7 @@
           <li><a href="/sig/serina/news2.php?category=Culture">Culture</a></li>
           <li><a href="/sig/serina/news2.php?category=Travel">Travel</a></li>
           <li><a href="/sig/serina/news2.php?category=Economy">Economy</a></li>
+          <li><a href="/sig/serina/news2.php?hashtag=%23F1">Formula 1</a></li>
         </ul>
         </li>
 
@@ -42,6 +43,7 @@
           <li><a href="/sig/serina/">Learning</a></li>
           <li><a href="/sig/finn/">Travel</a></li>
           <li><a href="/sig/elle/">Technology</a></li>
+          <li><a href="/sig/charlotte/">Formula 1</a></li>
         </ul>
         </li>
       </ul>

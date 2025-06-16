@@ -1,7 +1,7 @@
 <?php
 function getAdvTgt($advSrcId) {
   // Create connection
-  include("./conf/db.php");
+  include("../serina/conf/db.php");
   // Create query
   $advTgtSql = "select url,advtext
   from ckropae6_serina.advtgt where id in (

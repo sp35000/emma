@@ -51,6 +51,7 @@ include("../include/menusup.php");
     <p align="center">
     <?php
     if ($hashtag <> "") {
+      $hashtag = str_replace("#","%23",$hashtag);
     ?>
     <a href="/sig/news/search.php?hashtag=<?=$hashtag?>">
     <?php

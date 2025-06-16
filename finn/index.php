@@ -68,6 +68,8 @@ include("../include/menusup.php");
 
     <h2>America</h2>
     <ul id="hlist">
+    <li><a href="https://www.united.com" target="_blank">United</a>|</li>
+    <li><a href="https://www.aa.com" target="_blank">AA</a>|</li>
     <li><a href="https://www.delta.com" target="_blank">Delta</a>|</li>
     <li><a href="https://www.avianca.com/pt/" target="_blank">Avianca</a>|</li>
     <li><a href="https://www.tam.com.br" target="_blank">LATAM</a>|</li>
