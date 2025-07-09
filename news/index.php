@@ -46,15 +46,22 @@ include("../include/tools.php");
     $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parmDate;
     $result = json_decode(getApiJson($urlApi));
     // echo "<pre>";print_r($result);echo "</pre>";
+    getAdvTgt(1);
     echo "<ul>";
     $resultCounter=0;
     foreach ($result as $register) {
       echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
       $resultCounter++;
-      if ($resultCounter % 5 == 0) {
+      if ($resultCounter % 10 == 0) {
         echo "</ul>";
-        getAdvTgt(5);
+        getAdvTgt(1);
         echo "<ul>";
+      } else {
+        if ($resultCounter % 5 == 0) {
+          echo "</ul>";
+          getAdvTgt(5);
+          echo "<ul>";
+        }
       }
     }
     echo "</ul>";
