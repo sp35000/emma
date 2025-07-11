@@ -47,24 +47,24 @@ include("../include/tools.php");
     $result = json_decode(getApiJson($urlApi));
     // echo "<pre>";print_r($result);echo "</pre>";
     getAdvTgt(1);
-    echo "<ul>";
+    echo "\n<ul>\n";
     $resultCounter=0;
     foreach ($result as $register) {
-      echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
+      echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>\n";
       $resultCounter++;
       if ($resultCounter % 10 == 0) {
-        echo "</ul>";
+        echo "</ul>\n";
         getAdvTgt(1);
-        echo "<ul>";
+        echo "\n<ul>\n";
       } else {
         if ($resultCounter % 5 == 0) {
-          echo "</ul>";
+          echo "</ul>\n";
           getAdvTgt(5);
-          echo "<ul>";
+          echo "\n<ul>\n";
         }
       }
     }
-    echo "</ul>";
+    echo "</ul>\n";
     ?>
     </div>
     </div>

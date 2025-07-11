@@ -28,21 +28,28 @@ include("../include/menusup.php");
     if ($category <> "All") {
     echo "<h2 align=center>$category</a></h2><ul>";
     }
-    getAdvTgt(5);
+    getAdvTgt(1);
     getVideoPlaylist($category);
     getRandomImage($category);
+    $resultCounter = 0;
     if ($result->num_rows > 0) {
     // output data of each row
-    while($row = $result->fetch_assoc())
-    {
-    if ($row["initial_date"]<= 20190101) {
-    echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>\n";
+      while($row = $result->fetch_assoc())
+      {
+        if ($row["initial_date"]<= 20190101) {
+          echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["link"]."</a></li>\n";
+        } else {
+          echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>\n";
+        }
+        $resultCounter++;
+        if ($resultCounter % 5 == 0) {
+          echo "</ul>";
+          getAdvTgt(5);
+          echo "<ul>";
+        }
+      }
     } else {
-    echo "<li><a href=\"".$row["link"]."\" target=\"_blank\">".$row["initial_date"]." [".$row["category"]."] ".$row["title"]."</a></li>\n";
-    }
-    }
-    } else {
-    echo "<li>No result.</li>\n";
+      echo "<li>No result.</li>\n";
     }
 
     $conn->close();

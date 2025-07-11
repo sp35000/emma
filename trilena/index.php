@@ -64,7 +64,7 @@ include("../include/menusup.php");
     <a href="https://en.wikipedia.org/wiki/Formula_1:_Drive_to_Survive" class="btn btn-lg btn-success"  target="_blank">Drive to Survive</a>
 
     <h2>Movies and TV Shows - Videoclips</h2>
-    <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2enCmjrK8Nub5VeWuQeUAxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PLzna5ex_MnggrnURcNG0uxEtzkKloy_LC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h2>Sci-Fi Playlist</h2>
     <iframe class="responsive-frame" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cNr18T1t6q5HIemUlNMKBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
