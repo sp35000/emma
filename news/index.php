@@ -33,8 +33,8 @@ include("../include/tools.php");
           } else {
             $parmDate = date('Ymd');
           }
-          $url="http://192.168.0.21/sig/news/index.php";
-          // $url="https://work4love.net/news/index.php";
+          // $url="http://192.168.0.21/sig/news/index.php";
+          $url="https://work4love.net/news/index.php";
           echo drawCalendar($parmDate,$url);
           ?>
     </div>

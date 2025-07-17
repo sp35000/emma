@@ -24,7 +24,7 @@ include("../include/menusup.php");
     <li><a href="https://www.bancointer.com.br/" target="_blank">Inter</a>|</li>
     <li><a href="https://www.bancoreal.com.br" target="_blank">Santander</a>]</li>
     <br />
-    <li><a href="https://www.cef.gov.br" class="btn btn-lg btn-success" target="_blank">CEF</a></li>
+    <li><a href="https://www.caixa.gov.br" class="btn btn-lg btn-success" target="_blank">CEF</a></li>
     <li><a href="https://banco.bradesco" class="btn btn-lg btn-success" target="_blank">Bradesco</a></li>
     <li><a href="https://www.itau.com.br" class="btn btn-lg btn-success" target="_blank">Itau</a></li>
     <li><a href="https://www.bb.com.br" class="btn btn-lg btn-success" target="_blank">BB</a></li>
