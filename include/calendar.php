@@ -20,13 +20,12 @@ function drawCalendar($parmDate,$url) {
     $monthArray[$i]=$calendarDate;
     $calendarDate++;
   }
-  $j=1;
   echo "<div class=\"row\">";
-  echo "<div class=\"cell bg-info\"><a href=?date=".$lastYear.">".substr($lastYear,0,4)."</a></div>";
-  echo "<div class=\"cell\"><a href=?date=".$lastMonth.">".substr($lastMonth,0,6)."</a></div>";
+  echo "<div class=\"cell bg-info\"><a href=?date=".$lastYear."><<</a></div>";
+  echo "<div class=\"cell\"><a href=?date=".$lastMonth."><</a></div>";
   echo "<div class=\"cell bg-info\"><big>".$parmDate."</big></div>";
-  echo "<div class=\"cell\"><a href=?date=".$nextMonth.">".substr($nextMonth,0,6)."</a></div>";
-  echo "<div class=\"cell bg-info\"><a href=?date=".$nextYear.">".substr($nextYear,0,4)."</a></div>";
+  echo "<div class=\"cell\"><a href=?date=".$nextMonth.">></a></div>";
+  echo "<div class=\"cell bg-info\"><a href=?date=".$nextYear.">>></a></div>";
   echo "</div>";
   echo "<div class=\"row\">
     <div class=\"cell bg-info\">Su</div>
@@ -37,16 +36,22 @@ function drawCalendar($parmDate,$url) {
     <div class=\"cell bg-info\">Fr</div>
     <div class=\"cell bg-info\">Sa</div>
     </div>";
-  for($i=0;$i<35;$i++) {
+  $weekDay=1;
+  for($i=0;$i<42;$i++) {
     $currentDay = $year.$month.str_pad($monthArray[$i], 2, '0', STR_PAD_LEFT);
     if ($currentDay == $parmDate) {
       $currentDayStyle = " bg-info";
     } else {
       $currentDayStyle = "";
     }
-    if ($j<7) {
-      if ($j==1) {
-        if ($i==28 && $monthArray[$i]=="") {
+    if ($weekDay<7) {
+      if ($weekDay==1) {
+        if ($month == 2) {
+          $limit = 27;
+        } else {
+          $limit = 32;
+        }
+        if ($i>$limit && $monthArray[$i]=="") {
           $rowFlag="0";
         } else {
           echo "<div class=\"row\">";
@@ -56,19 +61,20 @@ function drawCalendar($parmDate,$url) {
       if ($rowFlag == 1) {
         echo "<div class=\"cell".$currentDayStyle."\">";
         echo "<a href=\"".$url."?date=".$currentDay."\"/>";
-        // echo "[".$i."]";
+        // echo "[".$i.",".$weekDay."]";
         echo $monthArray[$i]."</a>";
         echo "</div>\n";
         }
-      $j++;
+      $weekDay++;
     } else {
       if ($rowFlag == 1) {
         echo "<div class=\"cell".$currentDayStyle."\">";
         echo "<a href=\"".$url."?date=".$currentDay."\"/>";
+        // echo "[".$i.",".$weekDay."]";
         echo $monthArray[$i]."</a>";
         echo "</div>\n</div>\n";
       }        
-      $j=1;
+      $weekDay=1;
     }
   }
   echo "</div>";
