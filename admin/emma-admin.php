@@ -19,6 +19,7 @@
     <h1 align="center">Emma Admin</h1>
      <form method="post" action="emma-admin.php">
       <p>Title:&nbsp;<input type="text" name="title" id="title" size="80"></input>
+      <button type="button" onclick="clearField('title')">Clear</button>
       <br/>
       URL:&nbsp;<input type="text" id="link" name="link"></input>
       &nbsp;<input type="button" value="Get Title" onclick="getTitle()"></input>
@@ -53,12 +54,6 @@
       <input type="reset" value="Reset">&nbsp;
       <input type="submit" value="OK">
      </form>
-     <hr/>
-     <form method="get" action="/sig/serina/news5.php" target="_blank">
-      Keyword:&nbsp;
-      <input name="hashtag" type="text">&nbsp;
-      <input type="submit" value="News Edit">&nbsp;
-    </form>
     <hr/>
     <div class="col-md-12">
 <?php

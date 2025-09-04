@@ -163,3 +163,50 @@ function validateForm() {
     return false;
   }
 }
+
+function clearField(fieldname) {
+    const textarea = document.getElementById(fieldname);
+    textarea.value = "";
+}
+
+function copyToClipboard(fieldname) {
+    const textarea = document.getElementById(fieldname);
+    const text = textarea.value;
+
+    // Use the modern Clipboard API if available
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Text copied to clipboard!');
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+            fallbackCopyTextToClipboard(text);
+        });
+    } else {
+        // Fallback for older browsers
+        fallbackCopyTextToClipboard(text);
+    }
+}
+
+function fallbackCopyTextToClipboard(text) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.left = "-999999px";
+    textArea.style.top = "-999999px";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            alert('Text copied to clipboard!');
+        } else {
+            alert('Failed to copy text');
+        }
+    } catch (err) {
+        console.error('Fallback: Oops, unable to copy', err);
+        alert('Failed to copy text');
+    }
+    document.body.removeChild(textArea);
+}

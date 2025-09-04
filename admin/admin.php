@@ -19,6 +19,7 @@
     <h1 align="center">Serina Admin</h1>
      <form method="post" action="admin.php">
       <p>Title:&nbsp;<input type="text" name="title" id="title" size="80"></input>
+      <button type="button" onclick="clearField('title')">Clear</button>
       <br/>
       URL:&nbsp;<input type="text" id="link" name="link"></input>
       &nbsp;<input type="button" value="Get Title" onclick="getTitle()"></input>
