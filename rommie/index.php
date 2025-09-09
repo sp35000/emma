@@ -82,7 +82,6 @@ include("../include/menusup.php");
     <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
     <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
     <br/>
-    <li><a href="https://www.goodfinancialcents.com/" target="_blank">goodfinancialcents</a>|</li>
     <li><a href="https://www.moneyunder30.com/" target="_blank">moneyunder30</a>|</li>
     <li><a href="https://thecollegeinvestor.com/" target="_blank">thecollegeinvestor</a>|</li>
     <li><a href="https://www.sidehustlenation.com/" target="_blank">sidehustlenation</a>|</li>
@@ -99,7 +98,6 @@ include("../include/menusup.php");
     <li><a href="https://wealthyaccountant.com/" target="_blank">wealthyaccountant</a>|</li>
     <li><a href="https://millennialmoney.com/" target="_blank">millennialmoney</a>|</li>
     <li><a href="https://couplemoney.com/" target="_blank">couplemoney</a>|</li>
-    <li><a href="https://www.guardiaodomobral.blogspot.com.br" target="_blank">Guardi&atilde;o do Z&eacute; Mobral</a>|</li>
     <li><a href="https://www.financialsamurai.com" target="_blank">Financial Samurai</a></li>
     </ul>
 

@@ -50,7 +50,25 @@ include("../include/tools.php");
     echo "\n<ul>\n";
     $resultCounter=0;
     foreach ($result as $register) {
-      echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>\n";
+
+        $newsLine = "<li>";
+
+        $newsLine = $newsLine."[<a href=\"../serina/news2.php?category=".$register->category."\">";
+        $newsLine = $newsLine.$register->category."</a>]&nbsp;&nbsp;";
+
+        $newsLine = $newsLine."<a href=".$register->link." target=\"_blank\">";
+        $newsLine = $newsLine.$register->title."</a>&nbsp;&nbsp;";
+        
+        if ($register->hashtag != "") {
+          $hashtagParm = str_replace("#","%23",$register->hashtag);
+          $newsLine = $newsLine."[<a href=\"search.php?hashtag=".$hashtagParm."\">";
+          $newsLine = $newsLine.$register->hashtag."</a>]";
+        }
+        
+        $newsLine = $newsLine."</li>\n";
+        echo $newsLine;
+
+
       $resultCounter++;
       if ($resultCounter % 10 == 0) {
         echo "</ul>\n";

@@ -77,7 +77,8 @@ include("../include/tools.php");
         $newsLine = $newsLine.$register->title."</a>&nbsp;&nbsp;";
         
         if ($register->hashtag != "") {
-          $newsLine = $newsLine."[<a href=\"search.php?hashtag=".$register->hashtag."\">";
+          $hashtagParm = str_replace("#","%23",$register->hashtag);
+          $newsLine = $newsLine."[<a href=\"search.php?hashtag=".$hashtagParm."\">";
           $newsLine = $newsLine.$register->hashtag."</a>]";
         }
         
