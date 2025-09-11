@@ -32,6 +32,7 @@ include("../include/menusup.php");
     <a href="https://www.globaltimes.cn/index.html" class="btn btn-lg btn-success" target="_blank">GT</a>
     <a href="https://www.smh.com.au" class="btn btn-lg btn-success" target="_blank">SMH</a>
     <a href="https://www3.nhk.or.jp/nhkworld/en/news/" class="btn btn-lg btn-success" target="_blank">NHK</a>
+    <a href="https://www.prensaescrita.com/" class="btn btn-lg btn-success" target="_blank">Prensa Escrita</a>
     <a href="https://www.painelglobal.com.br" class="btn btn-lg btn-success" target="_blank">Painel Global</a>
     </p>
     <h2>Brasil</h2>

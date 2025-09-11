@@ -145,11 +145,10 @@ include("../include/menusup.php");
     <li><a href="https://www.cod3r.com.br/" target="_blank">Cod3r</a>|</li>
     <li><a href="https://learncodethehardway.org/" target="_blank">Learn Code THW</a>|</li>
     <li><a href="https://exercism.io/" target="_blank">Exercism</a>|</li>
-    <li><a href="delicious-20131204.html" target="_blank">Del.icio.us backup</a>|</li>
+    <li><a href="delicious-20131204.html" target="_blank">Del.icio.us legacy</a>|</li>
     <li><a href="https://www.codecademy.com" target="_blank">Code Academy</a>|</li>
     <li><a href="https://hackr.io/" target="_blank">hackr.io</a>|</li>
     <li><a href="https://github.com/arthurspk/guiadevbrasil" target="_blank">Guia Dev Brasil</a></li>
-    <br/>
     <li><a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/" target="_blank">Algorithms</a>|</li>
     <li><a href="http://www.thedevelopersconference.com.br/tdconline" target="_blank">TDC</a>|</li>
     <li><a href="https://temporealeventos.com.br/" target="_blank">Tempo Real</a>|</li>

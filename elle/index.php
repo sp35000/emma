@@ -32,6 +32,27 @@ include("../include/menusup.php");
     <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>|</li>
     <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li>
     <br/>
+    <li>Engineering [</li>
+    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a>|</li>
+    <li><a href="https://medium.com/thumbtack-engineering" target="_blank">Thumbtack</a>|</li>
+    <li><a href="http://highscalability.com" target="_blank">High Scalability</a>|</li>
+    <li><a href="https://engineering.fb.com/" target="_blank">Facebook</a>|</li>
+    <li><a href="https://labs.spotify.com" target="_blank">Spotify</a>|</li>
+    <li><a href="https://stripe.com/blog/engineering" target="_blank">Stripe</a>|</li>
+    <br/>
+    <li><a href="https://slack.engineering/" target="_blank">Slack</a>|</li>
+    <li><a href="https://engineering.pinterest.com" target="_blank">Pinterest</a>|</li>    
+    <li><a href="https://engineering.shopify.com" target="_blank">Shopify</a>|</li>
+    <li><a href="https://medium.com/airbnb-engineering" target="_blank">AirBnb</a>|</li>
+    <li><a href="https://redditinc.com/blog" target="_blank">Reddit</a>|</li>
+    <li><a href="https://www.linkedin.com/blog/engineering" target="_blank">LinkedIn</a>|</li>
+    <li><a href="https://www.docker.com/blog/" target="_blank">Docker</a>|</li>
+    <li><a href="https://innovation.ebayinc.com/stories/" target="_blank">eBay</a>|</li>
+    <li><a href="https://netflixtechblog.com/" target="_blank">Netflix</a>|</li>
+    <li><a href="http://eng.uber.com" target="_blank">Uber</a>|</li>
+    <li><a href="https://developer.amazon.com/apps-and-games/blogs" target="_blank">Amazon</a>|</li>
+    <li><a href="https://developers.googleblog.com" target="_blank">Google</a>]</li>
+    <br/>
     <li><a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
     <li><a href="https://swagger.io/" target="_blank">Swagger</a>|</li>
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
@@ -60,9 +81,7 @@ include("../include/menusup.php");
 
     <h2>Blockchain</h2>
     <ul id="hlist">
-    <li>Courses [<a href="https://www.chainshot.com/" target="_blank">ChainShot</a>|</li>
-    <li><a href="https://blockgeeks.com/" target="_blank">Blockgeeks</a>|</li>
-    <li><a href="https://cryptozombies.io/" target="_blank">Cryptozombies</a>]]</li>
+    <li>Courses [<a href="https://cryptozombies.io/" target="_blank">Cryptozombies</a>]</li>
     <li>Jobs [</li>
     <li><a href="https://cryptocurrencyjobs.co" target="_blank">Cryptocurrency Jobs</a>]</li>
     </ul>
@@ -123,7 +142,6 @@ include("../include/menusup.php");
     <li><a href="https://www.php.net/manual/en/" target="_blank">PHP</a>]</li>
     <br />
     <li>Frameworks [</li>
-    <li><a href="https://gohugo.io/" target="_blank">Hugo</a>|</li>
     <li><a href="https://spring.io/" target="_blank">Spring</a>|</li>
     <li><a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a>|</li>
     <li><a href="https://www.djangoproject.com/" target="_blank">Django</a>|</li>
@@ -153,8 +171,6 @@ include("../include/menusup.php");
     <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>|</li>
     <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>|</li>
     <li><a href="https://neetcode.io/practice?tab=neetcode150" target="_blank">NeetCode150</a>]</li>
-    
-
     </ul>
 
     <h3>Sec</h3>

@@ -91,7 +91,6 @@ include("../include/menusup.php");
     <li><a href="https://earlyretirementextreme.com/" target="_blank">earlyretirementextreme</a>|</li>
     <li><a href="https://www.frugalrules.com/" target="_blank">frugalrules</a>|</li>
     <li><a href="https://obliviousinvestor.com/" target="_blank">obliviousinvestor</a>|</li>
-    <li><a href="https://www.debtroundup.com/" target="_blank">debtroundup</a>|</li>
     <li><a href="https://thefinancebuff.com/" target="_blank">thefinancebuff</a>|</li>
     <li><a href="https://retireby40.org/" target="_blank">retireby40</a>|</li>
     <li><a href="https://everythingfinanceblog.com/" target="_blank">everythingfinanceblog</a>|</li>
@@ -122,11 +121,9 @@ include("../include/menusup.php");
     <br />
 
     <li>Exchanges [<a href="https://poloniex.com/" target="_blank">Poloniex</a>|</li>
-    <li><a href="https://bittrex.com/" target="_blank">Bittrex</a>|</li>
     <li><a href="https://www.coinbase.com/" target="_blank">Coinbase</a>|</li>
     <li><a href="https://www.binance.com/" target="_blank">Binance</a>|</li>
     <li><a href="https://www.foxbit.com.br" target="_blank">Foxbit</a>|</li>
-    <li><a href="https://shapeshift.io/#/coins" target="_blank">Shapeshift</a>] </li>
     <br />
 
     <li>Wallets [<a href="https://www.blockchain.com" target="_blank">Blockchain.com</a>|</li>

@@ -75,6 +75,15 @@ include("../include/menusup.php");
     <li><a href="https://www.tam.com.br" target="_blank">LATAM</a>|</li>
     <li><a href="https://www.copaair.com" target="_blank">Copa</a></li>
     </ul>
+    
+    <ul id="hlist">
+    <li>Panama [</li>
+    <li><a href="https://www.migracion.gob.pa" target="_blank">Migraci&oacute;n</a>|</li>
+    <li><a href="https://www.lamboglialaw.com/" target="_blank">Lamboglia Law Office</a>|</li>
+    <li><a href="https://www.cascoviejo.org" target="_blank">Casco Viejo</a>|</li>
+    <li><a href="https://www.degustapanama.com" target="_blank">Degusta</a>]</li>
+    </ul>
+
     <h3>Brasil</h3>
     <ul id="hlist">
     <li>Transport [</li>
@@ -95,22 +104,9 @@ include("../include/menusup.php");
     <li><a href="https://www.vtefortaleza.com.br/" target="_blank">VTE</a>]</li>
     </ul>
 
-    <h3>Panama</h3>
-    <ul id="hlist">
-    <li><a href="https://bookstore.liveandinvestoverseas.com/sub/panama-letter/video/v2/"
-    target="_blank">The Real Panam&aacute;</a>|</li>
-    <li><a href="https://www.migracion.gob.pa" target="_blank">Migraci&oacute;n</a>|</li>
-    <li><a href="https://www.lamboglialaw.com/" target="_blank">Lamboglia Law Office</a></li>
-    <br/>
-    <li><a href="https://www.cascoviejo.org" target="_blank">Casco Viejo</a>|</li>
-    <li><a href="https://www.degustapanama.com" target="_blank">Degusta</a>|</li>
-    <li><a href="https://www.cinespanama.com" target="_blank">CinesPanama</a></li>
-    </ul>
-
     <h2>Europe</h2>
     <ul id="hlist">
     <li><a href="https://www.eurodicas.com.br/" target="_blank">Eurodicas</a>|</li>
-    <li><a href="https://e-resident.gov.ee/" target="_blank">Estonia e-residency</a>|</li>
     <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
     <li><a href="https://www.omio.com/" target="_blank">Omio</a></li>
     <br/>
