@@ -12,6 +12,20 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/sig/links/">Links</a></li>
+          <li><a href="/sig/links/search.php?category=social">Social</a></li>
+          <li><a href="/sig/links/search.php?category=finance">Finance</a></li>
+          <li><a href="/sig/links/search.php?category=learning">Learning</a></li>
+          <li><a href="/sig/links/search.php?category=travel">Travel</a></li>
+          <li><a href="/sig/links/search.php?category=technology">Technology</a></li>
+          <li><a href="/sig/links/search.php?category=entertainment">Entertainment</a></li>
+        </ul>
+        </li>
+      
+        <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">News
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
