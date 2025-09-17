@@ -1,0 +1,1 @@
+<p><a href="https://mensagembr.com/mensagem-para-quarta-feira/" target="blank"><big><strong>Mensagem para quarta-feira!!!</strong></big><br/><img src=https://i0.wp.com/mensagembr.com/wp-content/uploads/2023/09/quarta.jpg?fit=1600%2C1146&ssl=1 width = "20%"/></a><br/>

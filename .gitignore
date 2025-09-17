@@ -2,3 +2,4 @@
 /admin/conf/
 /serina/conf/db*
 /admin/conf/db*
+/lib

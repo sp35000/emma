@@ -17,7 +17,7 @@ include("../include/menusup.php");
   <div class="container content-fluid">
     <div class="row">  
       <div class="col-md-12 columns text-center firstdiv">
-        <h1>Sites</h1>
+        <h1>Links</h1>
           <?php 
           include("../include/security.php");
           include("../include/validation.php");
@@ -33,15 +33,15 @@ include("../include/menusup.php");
             $parmDate = date('Ymd');
           }
           // $url="http://192.168.0.21/sig/news/index.php";
-          $url="https://work4love.net/sites/index.php";
+          $url="https://work4love.net/links/index.php";
           echo drawCalendar($parmDate,$url);
           ?>
         </div>
     <div class="col-md-12 columns text-center">
     <br/>
-    <form method="get" action="/sig/sites/search.php">
+    <form method="get" action="/sig/links/search.php">
       <input name="hashtag" type="text">&nbsp;
-      <input type="submit" value="Sites Search">&nbsp;
+      <input type="submit" value="Links Search">&nbsp;
     </form>
     <br/>
     </div>
@@ -54,7 +54,7 @@ include("../include/menusup.php");
     // echo "<pre>";print_r($result);echo "</pre>";
     echo "<ul>";
     foreach ($result as $register) {
-      echo "<li>[".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
+      echo "<li>[<a href=\"search.php?category=".$register->category."\">".$register->category."</a>]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
     }
     echo "</ul>";
     ?>

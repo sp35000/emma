@@ -3,9 +3,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <?php
-$title="Work4Love.net - Sites úteis sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento";
+$title="Work4Love.net - Banco de dados de Notícias";
 $description=$title.".";
-$keywords="sites,social,estudo,lazer,trabalho,finanças,tecnologia,viagens,cursos,entretenimento";
+$keywords="news,database,nature,world,brazil,brasil,america,europe,asia,oceania,africa,finance,culture,travel,technology";
 include("../include/header.php");
 ?>
 <body>
@@ -13,16 +13,13 @@ include("../include/header.php");
 include("../include/bodystart.php");
 include("../include/menusup.php");
 include("../include/apitools.php"); 
+include("../include/tools.php");
 ?>
 <body>
 <div class="container content-fluid">
   <div class="row">  
     <div class="col-md-12 columns text-center firstdiv">
-    <h1>Sites</h1>
-    <form method="get" action="/sig/sites/search.php">
-      <input name="hashtag" type="text">&nbsp;
-      <input type="submit" value="Sites Search">&nbsp;
-    </form>
+    <h1>Links</h1>
     <?php 
     include("../include/security.php");
     include("../include/validation.php");
@@ -55,8 +52,8 @@ include("../include/apitools.php");
       // $urlApi = "http://192.168.0.152:10000/api/news/search/".$parm;
       $urlApi = "https://work4love.net/emma-api/public/api/news/search/".$parm;
     }
-    // $url="http://192.168.0.21/sig/sites/search.php";
-    $url="https://work4love.net/sites/search.php";
+    // $url="http://192.168.0.21/sig/news/search.php";
+    $url="https://work4love.net/links/search.php";
     ?>
       <p>Search: <?=$parm?></p>
       <div class="col-md-12 columns text-left">
@@ -64,11 +61,44 @@ include("../include/apitools.php");
       // echo "<pre>".$urlApi."</pre>";
       $result = json_decode(getApiJson($urlApi));
       // echo "<pre>";print_r($result);echo "</pre>";
-      echo "<ul>";
+      getAdvTgt(1);
+      echo "\n<ul>\n";
+      $resultCounter=0;
       foreach ($result as $register) {
-        echo "<li>".$register->initial_date." [".$register->category."]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
+        $newsLine = "<li>";
+
+        $newsLine = $newsLine."[<a href=\"search.php?category=".$register->category."\">";
+        $newsLine = $newsLine.$register->category."</a>]&nbsp;&nbsp;";
+
+        $newsLine = $newsLine."[<a href=\"index.php?date=".$register->initial_date."\">";
+        $newsLine = $newsLine.$register->initial_date."</a>]&nbsp;&nbsp;";
+        
+        $newsLine = $newsLine."<a href=".$register->link." target=\"_blank\">";
+        $newsLine = $newsLine.$register->title."</a>&nbsp;&nbsp;";
+        
+        if ($register->hashtag != "") {
+          $hashtagParm = str_replace("#","%23",$register->hashtag);
+          $newsLine = $newsLine."[<a href=\"search.php?hashtag=".$hashtagParm."\">";
+          $newsLine = $newsLine.$register->hashtag."</a>]";
         }
-      echo "</ul>";
+        
+        $newsLine = $newsLine."</li>\n";
+        echo $newsLine;
+        
+        $resultCounter++;
+        if ($resultCounter % 10 == 0) {
+          echo "</ul>\n";
+          getAdvTgt(1);
+          echo "\n<ul>\n";
+        } else {
+          if ($resultCounter % 5 == 0) {
+            echo "</ul>\n";
+            getAdvTgt(5);
+            echo "\n<ul>\n";
+          }
+        }
+      }
+      echo "</ul>\n";
       ?>
       </div>
 
