@@ -15,7 +15,6 @@ include("../include/menusup.php");
 ?>
 <body>
   <div class="container content-fluid">
-    <div class="row">  
       <div class="col-md-12 columns text-center firstdiv">
         <h1>Links</h1>
           <?php 

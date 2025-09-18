@@ -1,4 +1,3 @@
-<div class="row">
   <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
   <footer>
     <h2>Share This</h2>
@@ -9,4 +8,3 @@
   <br/>
   </footer>
   </div>
-</div>

@@ -18,7 +18,7 @@ function drawCalendar($parmDate,$url) {
   $limit=($firstDayWeekDay + $daysOfMonth);
   for ($i=$firstDayWeekDay; $i < $limit; $i++) {
     $monthArray[$i]=$calendarDate;
-    $calendarDate++;
+    $calendarDate++;    
   }
   echo "<div class=\"row\">";
   echo "<div class=\"cell bg-info\"><a href=?date=".$lastYear."><<</a></div>";
