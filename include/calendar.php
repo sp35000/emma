@@ -38,7 +38,12 @@ function drawCalendar($parmDate,$url) {
     </div>";
   $weekDay=1;
   for($i=0;$i<42;$i++) {
-    $currentDay = $year.$month.str_pad($monthArray[$i], 2, '0', STR_PAD_LEFT);
+    if (isset($monthArray[$i])) {
+      $currentDay = $year.$month.str_pad($monthArray[$i], 2, '0', STR_PAD_LEFT);
+    } else {
+      $monthArray[$i] = "";
+      $currentDay = "";
+    }
     if ($currentDay == $parmDate) {
       $currentDayStyle = " bg-info";
     } else {

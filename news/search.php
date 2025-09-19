@@ -41,14 +41,15 @@ include("../include/tools.php");
     // obtain category
     if (isset($_GET['category'])) {
       $parm = test_input($_GET['category']);
+      $parm = urlencode($parm);
       // $urlApi = "http://192.168.0.152:10000/api/news/category/".$parm;
       $urlApi = "https://work4love.net/serina-api/public/api/news/category/".$parm;
     }
 
     // obtain search parameter
     if (isset($_GET['hashtag'])) {
-      $parm = test_input($_GET['hashtag']);
-      $parm = str_replace("#","%23",$parm);
+      $parm = test_input($_GET['hashtag']);      
+      $parm = urlencode($parm);
       // $urlApi = "http://192.168.0.152:10000/api/news/search/".$parm;
       $urlApi = "https://work4love.net/serina-api/public/api/news/search/".$parm;
     }
