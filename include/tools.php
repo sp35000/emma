@@ -79,3 +79,15 @@ echo "<p align=\"center\"><span id=\"random_image\">
     </p>";
   }
 }
+
+// get external content
+function getExternalContent($url) {
+    // echo "getApiJson[".$apiUrl."]";
+    $curl = curl_init();
+    $response = file_get_contents($url);
+    if ($response === false) {
+        echo 'Error: ' . curl_error($curl);
+    }
+    curl_close($curl);
+    echo $response; 
+}

@@ -157,7 +157,7 @@ function generateOpenGraphFile($parmUrl) {
     foreach ($graph as $key => $value) {
         $graphArray[$key]=$value;
     }
-    $openGraphResult = "<p><a href=\"".$graphArray["url"]."\" target=\"blank\"><big><strong>".$graphArray["title"]."</strong></big><br/><img src=".$graphArray["image:secure_url"]." width = \"20%\"/></a><br/>";
+    $openGraphResult = "<p><a href=\"".$graphArray["url"]."\" target=\"blank\"><big><strong>".$graphArray["title"]."</strong></big><br/><img src=".$graphArray["image:secure_url"]." width = \"40%\"/></a><br/>";
     $openGraphFile = fopen("mensagembrOpenGraph.php", "w");
     fwrite($openGraphFile,$openGraphResult);
     fclose($openGraphFile);

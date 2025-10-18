@@ -1,11 +1,11 @@
 <?php
 $limit = " LIMIT 0,10";
-include("newsCore.php");
-include("util/tools.php");
+include("/home2/ckropae6/public_html/sig/serina/newsCore.php");
+include("/home2/ckropae6/public_html/sig/serina/util/tools.php");
       // echo "<p><a href=index.php>[News]</a> - Date: ".$today." - Category: ".$category." - Period: ".$per." - Hashtag: ".$hashtag."</p>";
       // echo "<p>Debug [".$sql."]</p>";
 if ($category <> "All") {
- echo "<h2 align=center>$category</a></h2><ul>";
+ echo "<h2 align=center>$category Last News</a></h2><ul>";
 }
 if ($result->num_rows > 0) {
   // output data of each row
