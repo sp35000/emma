@@ -15,7 +15,7 @@ include("../include/menusup.php");
 
 <h1>Music</h1>
 
-<p><a href="/melody/" class="btn btn-lg btn-success">All Playlists</a></p>
+<p><a href="https://work4love.net/melody/" class="btn btn-lg btn-success" target="_blank">All Playlists</a></p>
 
 <h2>80's</h2>
 <iframe class="responsible-frame" src="https://www.youtube.com/embed/F2jYMQVpz6w?si=6t7yN4wP78TKenQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -38,7 +38,7 @@ include("../include/menusup.php");
 <h2>Samba Reggae</h2>
 <iframe class="responsible-frame" src="https://www.youtube.com/embed/xNo2kP7HJyw?si=XGW7O1pgWQcW89vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p><a href="/melody/" class="btn btn-lg btn-success">All Playlists</a></p>
+<p><a href="https://work4love.net/melody/" class="btn btn-lg btn-success" target="_blank">All Playlists</a></p>
 
 </div>
 </div>

@@ -8,17 +8,17 @@ include("../include/header.php");
 <?php
 include("../include/bodystart.php");
 include("../include/menusup.php");
+include("../include/tools.php");
 ?>
 <div class="container">
    <div class="row">
       <div class="col-md-12 columns text-center firstdiv">
       <h1>Formula 1</h1>
-      <h2><a href="https://work4love.net/sig/serina/news3.php?hashtag=%23f1">F1 News</a></h1>
       <p>
          <a href="https://www.formula1.com/" class="btn btn-lg btn-success" target="_blank">F1 - The Official Home</a>
          <a href="https://www.band.uol.com.br/esportes/automobilismo/formula-1" class="btn btn-lg btn-success" target="_blank">F1 - Band</a>
          <a href="https://ge.globo.com/motor/formula-1/" class="btn btn-lg btn-success" target="_blank">F1 - GE</a>
-         <a href="/sig/serina/news2.php?hashtag=%23F1" class="btn btn-lg btn-success">F1 News</a>
+         <!-- <a href="/sig/serina/news2.php?hashtag=%23F1" class="btn btn-lg btn-success">F1 News</a> -->
       </p>
       <h2><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA5QOsqbF-4XnJyoYp72C81UkPNUGk32IwSrh80a9hTAdNj_kv_mel5yKw2Fh9Bqtt3RvPxiiB9gXi/pubhtml" target="_blank"> Classification</a></h2>
          <!-- embedding Google spreadsheet-->
@@ -26,6 +26,13 @@ include("../include/menusup.php");
          <!-- <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA5QOsqbF-4XnJyoYp72C81UkPNUGk32IwSrh80a9hTAdNj_kv_mel5yKw2Fh9Bqtt3RvPxiiB9gXi/pubhtml?widget=true&amp;headers=false"></iframe> -->
          <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA5QOsqbF-4XnJyoYp72C81UkPNUGk32IwSrh80a9hTAdNj_kv_mel5yKw2Fh9Bqtt3RvPxiiB9gXi/pubhtml?widget=true&amp;headers=false" width="380 px" height="600 px"></iframe>
          </div>
+      <h2><a href="https://work4love.net/sig/serina/news3.php?hashtag=%23f1">F1 Latest News</a></h1>
+      <div align="left">
+         <?php getExternalContent("https://work4love.net/sig/serina/news4.php?hashtag=%23F1")?>
+
+      </div>
+      <p><a href="http://192.168.0.22/sig/news/search.php?hashtag=%23F1" class="btn btn-lg btn-success">More...</a></p>
+      
       </div>
       </div>
    <div class="row">
