@@ -32,27 +32,6 @@ include("../include/menusup.php");
     <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>|</li>
     <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li>
     <br/>
-    <li>Engineering [</li>
-    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a>|</li>
-    <li><a href="https://medium.com/thumbtack-engineering" target="_blank">Thumbtack</a>|</li>
-    <li><a href="http://highscalability.com" target="_blank">High Scalability</a>|</li>
-    <li><a href="https://engineering.fb.com/" target="_blank">Facebook</a>|</li>
-    <li><a href="https://labs.spotify.com" target="_blank">Spotify</a>|</li>
-    <li><a href="https://stripe.com/blog/engineering" target="_blank">Stripe</a>|</li>
-    <br/>
-    <li><a href="https://slack.engineering/" target="_blank">Slack</a>|</li>
-    <li><a href="https://engineering.pinterest.com" target="_blank">Pinterest</a>|</li>    
-    <li><a href="https://engineering.shopify.com" target="_blank">Shopify</a>|</li>
-    <li><a href="https://medium.com/airbnb-engineering" target="_blank">AirBnb</a>|</li>
-    <li><a href="https://redditinc.com/blog" target="_blank">Reddit</a>|</li>
-    <li><a href="https://www.linkedin.com/blog/engineering" target="_blank">LinkedIn</a>|</li>
-    <li><a href="https://www.docker.com/blog/" target="_blank">Docker</a>|</li>
-    <li><a href="https://innovation.ebayinc.com/stories/" target="_blank">eBay</a>|</li>
-    <li><a href="https://netflixtechblog.com/" target="_blank">Netflix</a>|</li>
-    <li><a href="http://eng.uber.com" target="_blank">Uber</a>|</li>
-    <li><a href="https://developer.amazon.com/apps-and-games/blogs" target="_blank">Amazon</a>|</li>
-    <li><a href="https://developers.googleblog.com" target="_blank">Google</a>]</li>
-    <br/>
     <li><a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
     <li><a href="https://swagger.io/" target="_blank">Swagger</a>|</li>
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
@@ -243,6 +222,29 @@ include("../include/menusup.php");
     <li><a href="https://onedrive.live.com/" target="_blank">OneDrive</a>|</li>
     <li><a href="https://mega.io/" target="_blank">MEGA</a>|</li>
     <li><a href="https://www.dropbox.com/" target="_blank">Dropbox</a>]</li>
+    </ul>
+
+    <h2>Engineering</h2>
+    <ul id="hlist">
+    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a>|</li>
+    <li><a href="https://medium.com/thumbtack-engineering" target="_blank">Thumbtack</a>|</li>
+    <li><a href="http://highscalability.com" target="_blank">High Scalability</a>|</li>
+    <li><a href="https://engineering.fb.com/" target="_blank">Facebook</a>|</li>
+    <li><a href="https://labs.spotify.com" target="_blank">Spotify</a>|</li>
+    <li><a href="https://stripe.com/blog/engineering" target="_blank">Stripe</a>|</li>
+    <br/>
+    <li><a href="https://slack.engineering/" target="_blank">Slack</a>|</li>
+    <li><a href="https://engineering.pinterest.com" target="_blank">Pinterest</a>|</li>    
+    <li><a href="https://engineering.shopify.com" target="_blank">Shopify</a>|</li>
+    <li><a href="https://medium.com/airbnb-engineering" target="_blank">AirBnb</a>|</li>
+    <li><a href="https://redditinc.com/blog" target="_blank">Reddit</a>|</li>
+    <li><a href="https://www.linkedin.com/blog/engineering" target="_blank">LinkedIn</a>|</li>
+    <li><a href="https://www.docker.com/blog/" target="_blank">Docker</a>|</li>
+    <li><a href="https://innovation.ebayinc.com/stories/" target="_blank">eBay</a>|</li>
+    <li><a href="https://netflixtechblog.com/" target="_blank">Netflix</a>|</li>
+    <li><a href="http://eng.uber.com" target="_blank">Uber</a>|</li>
+    <li><a href="https://developer.amazon.com/apps-and-games/blogs" target="_blank">Amazon</a>|</li>
+    <li><a href="https://developers.googleblog.com" target="_blank">Google</a></li>
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Technology">More sites...</h2>
