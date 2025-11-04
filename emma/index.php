@@ -14,7 +14,7 @@ include("../include/menusup.php");
 <div class="container">
   <div class="row">
     <div class="col-md-12 columns text-center firstdiv">
-    <h1>Main Sites</h1>
+    <h1>Sites</h1>
     <h2>World</h2>
     <p>
     <a href="https://www.timeanddate.com/" class="btn btn-lg btn-success" target="_blank">Time and Date</a>

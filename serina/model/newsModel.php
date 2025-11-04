@@ -44,7 +44,7 @@ function create_query($category,$media,$itens) {
     if ($hashtag != "") {
      $hashtagclause = " AND link LIKE '%".$hashtag."%' OR hashtag LIKE '%".$hashtag."%'";
     }
-    
+
     // and logical delection = 0 (active)
     $logicaldelection = " AND in_logical_deletion = 0";
 
@@ -53,7 +53,7 @@ function create_query($category,$media,$itens) {
     $orderby = " ORDER BY initial_date DESC,id DESC";
     $limit = " LIMIT 0,".$itens;
     $sql = "
-    SELECT id,title,category,link,initial_date
+    SELECT id,title,category,link,initial_date,hashtag
     FROM ".$database.".".$table."
     WHERE ".$when.$clause.$mediaclause.$hashtagclause.$logicaldelection." "
     .$orderby.$limit;

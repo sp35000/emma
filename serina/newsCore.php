@@ -87,11 +87,11 @@ $logicaldelection = " AND in_logical_deletion = 0";
 $orderby = " ORDER BY initial_date DESC, id DESC".$limit.";";
 
 $sql = "
-(SELECT pk_news as id,title,category,link,initial_date
+(SELECT pk_news as id,title,category,link,initial_date,hashtag
 FROM ".$database.".cnews
 WHERE ".$when.$clause.$mediaclause.$hashtagclause.")
 UNION
-(SELECT id,title,category,link,initial_date
+(SELECT id,title,category,link,initial_date,hashtag
 FROM ".$database.".".$table."
 WHERE ".$when.$clause.$mediaclause.$hashtagclause.$logicaldelection.")"
 .$orderby;

@@ -24,7 +24,7 @@
           <li><a href="/sig/links/search.php?category=entertainment">Entertainment</a></li>
         </ul>
         </li>
-      
+
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">News
         <span class="caret"></span></a>
@@ -52,7 +52,7 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Directory
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="/sig/emma/">Main Sites</a></li>
+          <li><a href="/sig/emma/">Sites</a></li>
           <li><a href="/sig/rommie/">Finance</a></li>
           <li><a href="/sig/serina/">Learning</a></li>
           <li><a href="/sig/finn/">Travel</a></li>
