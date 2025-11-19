@@ -19,13 +19,15 @@
     <h1 align="center">Serina Admin</h1>
      <form method="post" action="admin.php">
       <p>Title:&nbsp;<input type="text" name="title" id="title" size="80"></input>
-      <button type="button" onclick="clearField('title')">Clear</button>
       <br/>
-      URL:&nbsp;<input type="text" id="link" name="link"></input>
+      <!-- URL:&nbsp;<input type="text" id="link" name="link"></input> -->
+      URL:&nbsp;<textarea id="link" name="link" rows="4" cols="80"></textarea><br/>
+      &nbsp;Date:&nbsp;<input type="text" id="initial_date" name="initial_date"></input>
+      &nbsp;<input type="button" value="Clean Fields" onclick="cleanField('title','link')"></input>
+      &nbsp;<input type="button" value="Clear" onclick="clearField('title')"></input>
       &nbsp;<input type="button" value="Get Title" onclick="getTitle()"></input>
       &nbsp;<input type="button" value="Get Title Python" onclick="getTitlePython()"></input>
       <span id="loaderDiv" style="display:none;"><img src="../js/ajax-loader.gif" alt="Loading" /></span>
-      &nbsp;Date:&nbsp;<input type="text" id="initial_date" name="initial_date"></input>
       </p>
       <p>Category:
       <select name="category">
@@ -45,19 +47,20 @@
         <option value="Middle East">Middle East</option>
        <option value="AI">AI</option>
       </select>&nbsp;
-      Media:&nbsp;
+      <input type="hidden" name="media" value="text" />
+      <!-- Media:&nbsp;
       <select name="media">Media
        <option value="text">Text</option>
        <option value="video">Video</option>
-      </select>&nbsp;
+      </select>&nbsp; 
       Period:&nbsp;
       <select name="per">Period
        <option value="All">All</option>
        <option value="ST">Short Term</option>
        <option value="MT">Medium Term</option>
        <option value="LT">Long Term</option>
-      </select>&nbsp;
-      Keyword:&nbsp;
+      </select>&nbsp;-->
+      Hashtag:&nbsp;
       <input name="hashtag" type="text">&nbsp;
       <input type="reset" value="Reset">&nbsp;
       <input type="submit" value="OK">

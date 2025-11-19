@@ -32,11 +32,13 @@ function getAdvTgt($advSrcId) {
 
 function getVideoPlaylist($category) {
 // playlist parameters
+$playlist["News"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl";
 $playlists["Culture"]="https://youtube.com/playlist?list=PL1wt1uIbBJ2dkvevskW3G1TPYcb42gqfY";
 $playlists["Economy"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2fS1Yq54r-iErhKkvDxGgI-";
 $playlists["Technology"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2ddnqc-VFCJ_ASKs9ioZwrb";
 $playlists["Travel"]="https://youtube.com/playlist?list=PL1wt1uIbBJ2did88IPc_X8Du8VyNZyHih";
 
+$playlistsEmbed["News"]="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl";
 $playlistsEmbed["Culture"]="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2dkvevskW3G1TPYcb42gqfY";
 $playlistsEmbed["Economy"]="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2fS1Yq54r-iErhKkvDxGgI-";
 $playlistsEmbed["Technology"]="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2ddnqc-VFCJ_ASKs9ioZwrb";
@@ -44,7 +46,8 @@ $playlistsEmbed["Travel"]="https://www.youtube.com/embed/videoseries?list=PL1wt1
 
 // show playlist
 if (
-  $category == "Culture"
+  $category == "News"
+or $category == "Culture"
 or $category == "Economy"
 or $category == "Technology"
 or $category == "Travel"
@@ -56,13 +59,25 @@ or $category == "Travel"
   // show url video
   echo
   "<p align=\"center\">\n"
-  ."<iframe  class=\"responsive-iframe\" width=\"560\" height=\"315\" src=\""
+  ."<iframe  class=\"responsive-frame\" loading=\"lazy\" src=\""
   .$playlistUrlEmbed
   ."\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br/>\n"
   ."<a href=\""
   .$playlistUrl
-  ."\" target=\"_blank\">".$category." Playlist</a></p>\n";
+  ."\" target=\"_blank\"><big><strong>".$category." Playlist</a></strong></big><br/><br/></p>\n";
 }
+}
+
+// show url video
+function showUrlVideo($playlistId) {
+  echo
+  "<p align=\"center\">\n"
+  ."<iframe  class=\"responsive-frame\" loading=\"lazy\" src=\"https://www.youtube.com/embed/videoseries?list="
+  .$playlistId
+  ."\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br/>\n"
+  ."<a href=\"https://music.youtube.com/playlist?list="
+  .$playlistId
+  ."\" target=\"_blank\"><big><strong>Assistir Playlist no YouTube</strong></big></a><br/><br/></p>\n";
 }
 
 // show random image

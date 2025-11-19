@@ -52,7 +52,7 @@ include("../include/tools.php");
 
         $newsLine = "<li>";
 
-        $newsLine = $newsLine."[<a href=\"../serina/news2.php?category=".$register->category."\">";
+        $newsLine = $newsLine."[<a href=\"/sig/serina/news2.php?category=".$register->category."\">";
         $newsLine = $newsLine.$register->category."</a>]&nbsp;&nbsp;";
 
         $newsLine = $newsLine."<a href=".$register->link." target=\"_blank\">";

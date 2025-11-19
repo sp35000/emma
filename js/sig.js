@@ -210,3 +210,33 @@ function fallbackCopyTextToClipboard(text) {
     }
     document.body.removeChild(textArea);
 }
+
+function cleanField(titleFieldName,linkFieldName) {
+  const titleField = document.getElementById(titleFieldName);
+  const linkField = document.getElementById(linkFieldName);  
+  title=titleField.value;
+  link=linkField.value;
+  newTitle = "";
+  newLink = "";
+  noBlank = false;
+  for (let i = 0; i < title.length; i++) {
+    if (title[i] != " ") {
+      newTitle = newTitle + title[i];
+      noBlank = true;
+    }
+    else {
+      if (noBlank == true) {
+        newTitle = newTitle + title[i];
+      }
+    }    
+  }
+  for (let i = 0; i < link.length; i++) {
+    if (link[i] != "?") {
+      newLink = newLink + link[i];
+    } else {
+      break;
+    }
+  }
+  titleField.value = newTitle;
+  linkField.value = newLink;
+}

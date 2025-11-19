@@ -68,7 +68,7 @@ include("../include/tools.php");
       foreach ($result as $register) {
         $newsLine = "<li>";
 
-        $newsLine = $newsLine."[<a href=\"../serina/news2.php?category=".$register->category."\">";
+        $newsLine = $newsLine."[<a href=\"/sig/serina/news2.php?category=".$register->category."\">";
         $newsLine = $newsLine.$register->category."</a>]&nbsp;&nbsp;";
 
         $newsLine = $newsLine."[<a href=\"index.php?date=".$register->initial_date."\">";

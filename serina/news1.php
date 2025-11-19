@@ -78,7 +78,8 @@ echo "</div>\n";
 <div class="col-sm-12 text-center">
 <h2 align="center"><a href="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl" target="_blank">News - Video Playlist</a></h2>
 <div class="frame-container">
-<iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<?php getVideoPlaylist("News"); ?>
 </div>
 </div>
 <?php

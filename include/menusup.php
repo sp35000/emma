@@ -56,10 +56,10 @@
           <li><a href="/sig/rommie/">Finance</a></li>
           <li><a href="/sig/serina/">Learning</a></li>
           <li><a href="/sig/finn/">Travel</a></li>
-          <li><a href="https://work4love.net/videos/" target="_blank">Videos</a></li>
+          <li><a href="/sig/videos/">Videos</a></li>
           <li><a href="/sig/elle/">Technology</a></li>
           <li><a href="/sig/charlotte/">Formula 1</a></li>
-          <li><a href="https://work4love.net/melody/" target="_blank">Music</a></li>
+          <li><a href="/sig/melody/">Music</a></li>
         </ul>
         </li>
       </ul>
