@@ -34,6 +34,7 @@ include("../include/menusup.php");
     <a href="https://www3.nhk.or.jp/nhkworld/en/news/" class="btn btn-lg btn-success" target="_blank">NHK</a>
     <a href="https://www.prensaescrita.com/" class="btn btn-lg btn-success" target="_blank">Prensa Escrita</a>
     <a href="https://www.painelglobal.com.br" class="btn btn-lg btn-success" target="_blank">Painel Global</a>
+    <a href="https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" class="btn btn-lg btn-success" target="_blank">Duck.ai</a>    
     </p>
     <h2>Brasil</h2>
     <p>
@@ -57,12 +58,7 @@ include("../include/menusup.php");
     <p>
     <a href="https://www.captable.com.br/" class="btn btn-lg btn-success" target="_blank">CapTable</a>
     <a href="https://www.startse.com.br/" class="btn btn-lg btn-success" target="_blank">StartSe</a>
-    <!-- <a href="https://reddit.com" class="btn btn-lg btn-success" target="_blank">Reddit</a>
-    <A href="https://www.indiehackers.com/interviews/page/1" class="btn btn-lg btn-success" target="_blank">Indie Hackers</A> -->
     <a href="https://www.producthunt.com/" class="btn btn-lg btn-success" target="_blank">Product Hunt</a>
-    <!-- <a href="https://medium.com/" class="btn btn-lg btn-success" target="_blank">Medium</a>
-    <a href="https://www.internations.org/" class="btn btn-lg btn-success"  target="_blank">InterNations</a>
-    <a href="https://discord.com/app" class="btn btn-lg btn-success" target="_blank">Discord</a> -->
     <a href="https://nomadbase.com/" class="btn btn-lg btn-success"  target="_blank">Nomadbase</a>
     <A href="https://www.bastter.com" class="btn btn-lg btn-success"  target="_blank">Bastter</A>
     <a href="https://www.expatexchange.com/loginexpatexchange" class="btn btn-lg btn-success"  target="_blank">Expat Exchange</a>
@@ -71,7 +67,6 @@ include("../include/menusup.php");
     <a href="https://bitcointalk.org" class="btn btn-lg btn-success"  target="_blank">Bitcointalk</a>
     <a href="https://nodesk.co/articles/" class="btn btn-lg btn-success" target="_blank">No Desk</a>
     <a href="https://web.telegram.org/#/login" class="btn btn-lg btn-success" target="_blank">Telegram</a>
-    <!-- <a href="https://forum.earlyretirementextreme.com/" class="btn btn-lg btn-success" target="_blank">ERE</a> -->
     </p>
 
     <h2>Health</h2>
@@ -87,7 +82,6 @@ include("../include/menusup.php");
 
     <h2>Internet</h2>
     <p>
-    <a href="https://12ft.io/" class="btn btn-lg btn-success" target="_blank">12ft.io</a>
     <a href="https://archive.org/" class="btn btn-lg btn-success" target="_blank">Archive</a>
     <a href="https://medium.com/s/story/how-i-fully-quit-google-and-you-can-too-4c2f3f85793a" class="btn btn-lg btn-success" target="_blank">Alternatives</a>
     <a href="https://duckduckgo.com" class="btn btn-lg btn-success" target="_blank">DuckDuckGo</a>

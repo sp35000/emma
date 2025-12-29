@@ -37,36 +37,36 @@ include("../include/tools.php");
       </div>
    <div class="row">
       <div class="col-md-12 columns text-left" style="padding-left:10%;padding-right:10%">
-      <h2 align="center">2025 Season Calendar</h2>
+      <h2 align="center">2026 Season Calendar</h2>
       <pre>
-      14/3 a 16/3/25: GP da Austrália
-      21/3 a 23/3/25: GP da China (*)
-      4/4 a 6/4/25: GP do Japão
-      11/4 a 13/4/25: GP do Bahrein
-      18/4 a 20/4/25: GP da Arábia Saudita
-      2/5 a 4/5/25: GP de Miami (*)
-      16/5 a 18/5/25: GP da Emilia-Romagna
-      23/5 a 25/5/25: GP de Mônaco
-      30/5 a 1/6/25: GP da Espanha
-      13/6 a 15/6/25: GP do Canadá
-      27/6 a 29/6/25: GP da Áustria
-      4/7 a 6/7/25: GP da Inglaterra
-      25/7 a 27/7/25: GP da Bélgica (*)
-      1/8 a 3/8/25: GP da Hungria
-      29/8 a 31/8/25: GP da Holanda
-      5/9 a 7/9/25: GP da Itália
-      19/9 a 21/9/25: GP do Azerbaijão
-      3/10 a 5/10/25: GP de Singapura
-      17/10 a 19/10/25: GP dos EUA (*)
-      24/10 a 26/10/25: GP do México
-      7/11 a 9/11/25: GP de São Paulo (*)
-      20/11 a 22/11/25: GP de Las Vegas
-      28/11 a 30/11/25: GP do Qatar (*)
-      5/12 a 7/12/25: GP de Abu Dhabi
+      6/3 a 8/3/26: GP da Austrália
+      13/3 a 15/3/26: GP da China (*)
+      27/3 a 29/3/26: GP do Japão
+      10/4 a 12/4/26: GP do Bahrein
+      17/4 a 19/4/26: GP da Arábia Saudita
+      1/5 a 3/5/26: GP de Miami (*)
+      22/5 a 24/5/26: GP do Canadá (*)
+      5/6 a 7/6/26: GP de Mônaco
+      12/6 a 14/6/26: GP de Barcelona-Catalunha
+      26/6 a 28/6/26: GP da Áustria
+      3/7 a 5/7/26: GP da Inglaterra (*)
+      17/7 a 19/7/26: GP da Bélgica
+      24/7 a 26/7/26: GP da Hungria
+      21/8 a 23/8/26: GP da Holanda (*)
+      4/9 a 6/9/26: GP da Itália
+      11/9 a 13/9/26: GP da Espanha
+      25/9 a 27/9/26: GP do Azerbaijão      
+      9/10 a 11/10/26: GP de Singapura (*)
+      23/10 a 25/10/26: GP dos EUA
+      30/10 a 1/11/26: GP do México
+      6/11 a 8/11/26: GP de São Paulo
+      19/11 a 21/11/26: GP de Las Vegas
+      27/11 a 29/11/26: GP do Qatar
+      4/12 a 6/12/26: GP de Abu Dhabi
       ---
       (*) sprint race
       </pre>
-      <h2 id="2026header" align="center" onclick="showHide()">2026 Season Calendar&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-down"></h2>
+      <!-- <h2 id="2026header" align="center" onclick="showHide()">2026 Season Calendar&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-down"></h2>
       <script>
          function showHide() {
             var x = document.getElementById("2026");
@@ -82,32 +82,8 @@ include("../include/tools.php");
       </script>
       <div id="2026" style="display:none">
       <pre>
-      6/3 a 8/3/26: GP da Austrália
-      13/3 a 15/3/26: GP da China
-      27/3 a 29/3/26: GP do Japão
-      10/4 a 12/4/26: GP do Bahrein
-      17/4 a 19/4/26: GP da Arábia Saudita
-      1/5 a 3/5/26: GP de Miami
-      22/5 a 24/5/26: GP do Canadá
-      5/6 a 7/6/26: GP de Mônaco
-      12/6 a 14/6/26: GP de Barcelona-Catalunha
-      26/6 a 28/6/26: GP da Áustria
-      3/7 a 5/7/26: GP da Inglaterra
-      17/7 a 19/7/26: GP da Bélgica
-      24/7 a 26/7/26: GP da Hungria
-      21/8 a 23/8/26: GP da Holanda
-      4/9 a 6/9/26: GP da Itália
-      11/9 a 13/9/26: GP da Espanha
-      25/9 a 27/9/26: GP do Azerbaijão      
-      9/10 a 11/10/26: GP de Singapura
-      23/10 a 25/10/26: GP dos EUA
-      30/10 a 1/11/26: GP do México
-      6/11 a 8/11/26: GP de São Paulo
-      19/11 a 21/11/26: GP de Las Vegas
-      27/11 a 29/11/26: GP do Qatar
-      4/12 a 6/12/26: GP de Abu Dhabi
       </pre>
-      </div>
+      </div> -->
       </div>
    </div>
 <?php include("../include/footer.php"); ?>
