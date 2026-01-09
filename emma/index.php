@@ -32,12 +32,15 @@ include("../include/menusup.php");
     <a href="https://www.globaltimes.cn/index.html" class="btn btn-lg btn-success" target="_blank">GT</a>
     <a href="https://www.smh.com.au" class="btn btn-lg btn-success" target="_blank">SMH</a>
     <a href="https://www3.nhk.or.jp/nhkworld/en/news/" class="btn btn-lg btn-success" target="_blank">NHK</a>
+    <a href="https://monacolife.net/" class="btn btn-lg btn-success" target="_blank">Monaco Life</a>    
     <a href="https://www.prensaescrita.com/" class="btn btn-lg btn-success" target="_blank">Prensa Escrita</a>
     <a href="https://www.painelglobal.com.br" class="btn btn-lg btn-success" target="_blank">Painel Global</a>
     <a href="https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" class="btn btn-lg btn-success" target="_blank">Duck.ai</a>    
     </p>
     <h2>Brasil</h2>
-    <p>
+    <p>      
+    <a href="https://pralamentar.online/" class="btn btn-lg btn-success" target="_blank">Pra Lamentar</a>
+    <a href="https://mapadosconflitos.apublica.org/" class="btn btn-lg btn-success" target="_blank">Mapa dos conflitos</a>
     <a href="https://mapadosconflitos.apublica.org/" class="btn btn-lg btn-success" target="_blank">Mapa dos conflitos</a>
     <a href="https://theintercept.com.br/" class="btn btn-lg btn-success" target="_blank">The Intercept Brasil</a>
     <a href="https://www.outraspalavras.net" class="btn btn-lg btn-success" target="_blank">Outras Palavras</a>
@@ -47,11 +50,11 @@ include("../include/menusup.php");
     <a href="https://www.cartacapital.com.br" class="btn btn-lg btn-success" target="_blank">Carta Capital</a>
     <a href="https://www.diariodepernambuco.com.br/" class="btn btn-lg btn-success" target="_blank">Di&aacute;rio de Pernambuco</a>
     <a href="https://www.correiobraziliense.com.br/" class="btn btn-lg btn-success" target="_blank">Correio Braziliense</a>
-    <!-- <a href="https://extra.globo.com/" class="btn btn-lg btn-success" target="_blank">Extra</a> -->
     <a href="https://g1.globo.com/" class="btn btn-lg btn-success" target="_blank">G1</a>
     <a href="https://diariodonordeste.verdesmares.com.br/" class="btn btn-lg btn-success" target="_blank">DN</a>
     <a href="https://www.omelete.com.br/" class="btn btn-lg btn-success" target="_blank">Omelete</a>        
     <a href="https://www.canalmeio.com.br/ultima-edicao/" class="btn btn-lg btn-success" target="_blank">Canal Meio</a>
+    <a href="https://marreta.link/" class="btn btn-lg btn-success" target="_blank">Marreta</a>    
     </p>
 
     <h2>Communities</h2>

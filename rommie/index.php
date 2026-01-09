@@ -56,7 +56,6 @@ include("../include/menusup.php");
     <li><a href="https://www.gov.br" target="_blank">Brasil</a> [</li>
     <li><a href="https://www.tse.jus.br/" target="_blank">TSE</a>[</li>
     <li><a href="https://divulgacandcontas.tse.jus.br/divulga/#/home" target="_blank">Candidatos</a>]</li>        
-    <li><a href="https://www.portalbrasil.net/" target="_blank">Indexes</a>|</li>
     <li><a href="https://www.yahii.com.br/IPCA_Historico.html" target="_blank">IPCA</a>|</li>
     <li><a href="https://www.receita.economia.gov.br" target="_blank">RFB</a>|</li>
     <li><a href="https://www.ibge.gov.br/" target="_blank">IBGE</a>|</li>
@@ -78,6 +77,7 @@ include("../include/menusup.php");
 
     <ul id="hlist">
     <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
+    <li><a href="https://www.portalbrasil.net/" target="_blank">Portal Brasil</a>|</li>
     <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li>
     <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
     <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
