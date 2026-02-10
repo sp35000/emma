@@ -13,11 +13,31 @@ function getApiJson($apiUrl) {
 
 function createApiUrl($searchtext,$link,$hashtag,$initial_date,$category) {
   //?searchtext=dolar&link=&hashtag=%232025&initial_date=20250101&category=
-    $api_fields = $api_fields.urlencode($searchtext);
+  $api_fields = $api_fields.$searchtext;
+  if ($link != "") {
     $api_fields = $api_fields."/".urlencode($link);
+  }
+  else {
+    $api_fields = $api_fields."/".urlencode("-");
+  }
+  if ($hashtag != "") {
     $api_fields = $api_fields."/".urlencode($hashtag);
+  }
+  else {
+    $api_fields = $api_fields."/".urlencode("-");
+  }
+  if ($initial_date != "") {
     $api_fields = $api_fields."/".urlencode($initial_date);
+  }
+  else {
+    $api_fields = $api_fields."/".urlencode("19000101");
+  }
+  if ($category != "") {
     $api_fields = $api_fields."/".urlencode($category);
-    return $api_fields;
+  }
+  else {
+    $api_fields = $api_fields."/".urlencode("-");
+  }
+  return $api_fields;
 }
 ?>

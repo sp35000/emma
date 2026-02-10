@@ -98,7 +98,10 @@ include("../include/validation.php");
     <div class="col-md-12 columns text-left">
     <?php 
       // echo "<pre>".$urlApi."</pre>";
-      $result = json_decode(getApiJson($urlApi));
+      $result = "";
+      if ($searchtext != "") {
+        $result = json_decode(getApiJson($urlApi));
+      }      
       // echo "<pre>";print_r($result);echo "</pre>";
       getAdvTgt(1);
       echo "\n<ul>\n";
