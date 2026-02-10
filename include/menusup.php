@@ -68,6 +68,7 @@
       <input name="hashtag" type="text">&nbsp;
       <input type="submit" value="News Search">&nbsp;
     </form>
+    <p><br/><strong><a href="/sig/news/advsearch.php">Advanced Search Form</a></strong></p>
   </div>
 </nav>
 <br/>
