@@ -37,15 +37,28 @@ include("../include/validation.php");
       $initial_date = test_input($_GET['initial_date']);
     }
 
+    // obtain final date
+    if (isset($_GET['final_date'])) {
+      $final_date = test_input($_GET['final_date']);
+    }
+
     // obtain category
     if (isset($_GET['category'])) {
       $category = test_input($_GET['category']);
     }
 
-    $sql_query = "Empty form";
-    if ($searchtext != "") {
-      $sql_query = createQuery($searchtext,$link,$hashtag,$initial_date,$category);
-      $api_fields = createApiUrl($searchtext,$link,$hashtag,$initial_date,$category);
+    if (($searchtext == "")
+      &&($link == "")
+      &&($hashtag == "")
+      &&($initial_date == "")
+      &&($final_date == "")
+      &&($category == "")) {
+      $sql_query = "Empty form";
+    }
+
+    if ($sql_query != "Empty form") {
+      $sql_query = createQuery($searchtext,$link,$hashtag,$initial_date,$final_date,$category);
+      $api_fields = createApiUrl($searchtext,$link,$hashtag,$initial_date,$final_date,$category);
     }    
     // // $urlApi = "http://192.168.0.152:10000/api/news/advsearch/".$parm;
     $urlApi = "https://work4love.net/serina-api/public/api/news/advsearch/".$api_fields;
@@ -58,14 +71,13 @@ include("../include/validation.php");
      <form method="get" action="advsearch.php">
       <p>Text:&nbsp;<input type="text" name="searchtext" value="<?=$searchtext?>" id="searchtext" size="50"></input>
       <input type="submit" value="Search">&nbsp;
-      <input type="button" value="Clear" onclick="clearForm()">
-      <div class="bg-info">
-      <p><strong>Optional Fields:</strong>&nbsp;URL:&nbsp;<input type="text" id="link" name="link" value="<?=$link?>" name="link"></input>&nbsp;
-      Hashtag:&nbsp;<input name="hashtag" value="<?=$hashtag?>" type="text" id="hashtag" name="hashtag"></input>&nbsp;
-      Date:&nbsp;<input type="text" value="<?=$initial_date?>" id="initial_date" name="initial_date" placeholder="yyyymmdd"></input>
-      </p>
+      <input type="button" value="Clear" onclick="clearForm()"><br/>
+      URL:&nbsp;<input type="text" id="link" name="link" value="<?=$link?>" name="link"></input>&nbsp;
+      Hashtag:&nbsp;<input name="hashtag" value="<?=$hashtag?>" type="text" id="hashtag" name="hashtag"></input><br/>
+      &nbsp;Initial Date&nbsp;<input type="text" value="<?=$initial_date?>" id="initial_date" name="initial_date" placeholder="yyyymmdd"></input>
+      &nbsp;Final Date&nbsp;<input type="text" value="<?=$final_date?>" id="final_date" name="final_date" placeholder="yyyymmdd"></input>
       <!-- <span id="loaderDiv" style="display:none;"><img src="../js/ajax-loader.gif" alt="Loading" /></span> -->
-      <p>Category:
+      &nbsp;Category:
       <select name="category" id="category">
         <option value="<?=$category?>"><?=$category?></option>
         <option value="" id="first"></option>
@@ -85,7 +97,6 @@ include("../include/validation.php");
         <option value="Middle East">Middle East</option>
        <option value="AI">AI</option>
       </select>
-      </div>
      </form>
      <hr/>
     <h2>Results</h2>
@@ -99,7 +110,7 @@ include("../include/validation.php");
     <?php 
       // echo "<pre>".$urlApi."</pre>";
       $result = "";
-      if ($searchtext != "") {
+      if ($sql_query != "Empty form") {
         $result = json_decode(getApiJson($urlApi));
       }      
       // echo "<pre>";print_r($result);echo "</pre>";
@@ -153,6 +164,7 @@ include("../include/validation.php");
     clearField('link');
     clearField('hashtag');
     clearField('initial_date');
+    clearField('final_date');
     const $select = document.querySelector('#category');
     const $option = $select.querySelector('#first');
     $select.value = $option.value;

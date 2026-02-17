@@ -93,22 +93,33 @@ function getExternalContent($url) {
 }
 
 // create sql query
-function createQuery($searchtext,$link,$hashtag,$initial_date,$category) {
-  $sql_query = "SELECT * FROM ckropae6_serina.news";
-  $sql_query = $sql_query." WHERE title LIKE '%".$searchtext."%'";
-  if ($link != "") {
-    $sql_query = $sql_query." AND link LIKE '%".$link."%'";
-  }
-  if ($hashtag != "") {
-    $sql_query = $sql_query." AND hashtag LIKE '%".$hashtag."%'";
-  }
-  if ($initial_date != "") {
-    $sql_query = $sql_query." AND initial_date >= ".$initial_date."";
-  }
-  if ($category != "") {
-    $sql_query = $sql_query." AND category = '".$category."'";
-  }
-  $sql_query = $sql_query." AND in_logical_deletion=0";
-$sql_query = $sql_query." ORDER BY initial_date DESC;";
-  return $sql_query;
+function createQuery($searchtext,$link,$hashtag,$initial_date,$final_date,$category) {
+    $sql_query = "SELECT * FROM ckropae6_serina.news";
+    if ($searchtext != "-" && $searchtext != "") {
+      $sql_query = $sql_query." WHERE title LIKE '%".$searchtext."%'";
+    } else {
+      $sql_query = $sql_query." WHERE title LIKE '%%'";
+    }
+    if ($link != "-" && $link != "") {
+      $sql_query = $sql_query." AND link LIKE '%".$link."%'";
+    }
+    if ($hashtag != "-" && $hashtag != "") {
+      $sql_query = $sql_query." AND hashtag LIKE '%".$hashtag."%'";
+    }
+    if ($initial_date != "-" && $initial_date != "") {
+      $sql_query = $sql_query." AND initial_date >= ".$initial_date."";
+    } else {
+      $sql_query = $sql_query." AND initial_date >= 19000000";
+    }
+    if ($final_date != "" && $final_date != "-")  {
+      $sql_query = $sql_query." AND initial_date <= ".$final_date."";
+    } else {
+      $sql_query = $sql_query." AND initial_date <= 40000000";
+    }
+    if ($category != "-" && $category != "") {
+      $sql_query = $sql_query." AND category = '".$category."'";
+    }
+    $sql_query = $sql_query." AND in_logical_deletion=0";
+    $sql_query = $sql_query." ORDER BY initial_date DESC  LIMIT 200;";
+    return $sql_query;
 }
