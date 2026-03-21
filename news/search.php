@@ -29,14 +29,16 @@ include("../include/tools.php");
       $parm = test_input($_GET['date']);
       $isValidDate = isValidDate($parmDate,'Ymd');
       if ($isValidDate == false) {
-      echo "Error: ".$parmDate." is an invalid date. Using today.";
-      $parm = date('Ymd');
-    }
+        echo "Error: ".$parmDate." is an invalid date.";
+      } else {
+        // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parm;
+        $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parm;
+      }
     } else {
       $parm = date('Ymd');
-    }
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parm;
     $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parm;
+    }
 
     // obtain category
     if (isset($_GET['category'])) {

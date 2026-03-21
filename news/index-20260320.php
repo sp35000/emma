@@ -22,15 +22,11 @@ include("../include/tools.php");
           include("../include/security.php");
           include("../include/validation.php");
           include("../include/calendar.php");
-          $valid_date = true;
           if (isset($_GET['date'])) {
             $parmDate = test_input($_GET['date']);
             $isValidDate = isValidDate($parmDate,'Ymd');
-            if (($isValidDate == false)
-              or (substr($parmDate,0,2) != "20"))
-              {
-              echo "Error: ".$parmDate." is out of allowed interval.";
-              $valid_date = false;
+            if ($isValidDate == false) {
+              echo "Error: ".$parmDate." is an invalid date. Using today.";
               $parmDate = date('Ymd');
             }
           } else {
@@ -47,15 +43,13 @@ include("../include/tools.php");
     include("../include/apitools.php"); 
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;
     $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parmDate;
-    // echo "<pre>".$urlApi."</pre>";
-    if ($valid_date == true) {
-      $result = json_decode(getApiJson($urlApi));
-      // echo "<pre>";print_r($result);echo "</pre>";
-    }
+    $result = json_decode(getApiJson($urlApi));
+    // echo "<pre>";print_r($result);echo "</pre>";
     getAdvTgt(1);
     echo "\n<ul>\n";
     $resultCounter=0;
     foreach ($result as $register) {
+
         $newsLine = "<li>";
 
         $newsLine = $newsLine."[<a href=\"/sig/serina/news2.php?category=".$register->category."\">";

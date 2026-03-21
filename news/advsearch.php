@@ -102,10 +102,10 @@ include("../include/validation.php");
     <h2>Results</h2>
     <?php 
     ?>
-    <p>Debug: <br/>
+    <!-- <p>Debug: <br/>
     <?=$sql_query?><br/>
     <?=$api_fields?></p>
-    <?=$urlApi?></p>
+    <?=$urlApi?></p> -->
     <div class="col-md-12 columns text-left">
     <?php 
       // echo "<pre>".$urlApi."</pre>";
