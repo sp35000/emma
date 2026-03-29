@@ -25,21 +25,24 @@ include("../include/tools.php");
     include("../include/validation.php");
 
     // obtain date
+    $valid_date = true;
     if (isset($_GET['date'])) {
-      $parm = test_input($_GET['date']);
+      $parmDate = test_input($_GET['date']);
       $isValidDate = isValidDate($parmDate,'Ymd');
-      if ($isValidDate == false) {
-        echo "Error: ".$parmDate." is an invalid date.";
-      } else {
-        // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parm;
-        $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parm;
+      if (($isValidDate == false)
+        or (substr($parmDate,0,2) != "20"))
+        {
+        echo "Error: ".$parmDate." is out of allowed interval.";
+        $valid_date = false;
+        $parmDate = date('Ymd');
       }
     } else {
-      $parm = date('Ymd');
+      $parmDate = date('Ymd');
+    }
+    
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parm;
     $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parm;
-    }
-
+    
     // obtain category
     if (isset($_GET['category'])) {
       $parm = test_input($_GET['category']);

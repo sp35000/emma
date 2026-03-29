@@ -22,6 +22,8 @@ include("../include/tools.php");
           include("../include/security.php");
           include("../include/validation.php");
           include("../include/calendar.php");
+
+          // obtain date
           $valid_date = true;
           if (isset($_GET['date'])) {
             $parmDate = test_input($_GET['date']);
@@ -36,6 +38,7 @@ include("../include/tools.php");
           } else {
             $parmDate = date('Ymd');
           }
+
           // $url="http://192.168.0.21/sig/news/index.php";
           $url="https://work4love.net/news/index.php";
           echo drawCalendar($parmDate,$url);
@@ -48,10 +51,12 @@ include("../include/tools.php");
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;
     $urlApi = "https://work4love.net/serina-api/public/api/news/date/".$parmDate;
     // echo "<pre>".$urlApi."</pre>";
+
     if ($valid_date == true) {
       $result = json_decode(getApiJson($urlApi));
       // echo "<pre>";print_r($result);echo "</pre>";
     }
+
     getAdvTgt(1);
     echo "\n<ul>\n";
     $resultCounter=0;

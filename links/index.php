@@ -21,16 +21,23 @@ include("../include/menusup.php");
           include("../include/security.php");
           include("../include/validation.php");
           include("../include/calendar.php");
+
+          // obtain date
+          $valid_date = true;
           if (isset($_GET['date'])) {
             $parmDate = test_input($_GET['date']);
             $isValidDate = isValidDate($parmDate,'Ymd');
-            if ($isValidDate == false) {
-              echo "Error: ".$parmDate." is an invalid date. Using today.";
+            if (($isValidDate == false)
+              or (substr($parmDate,0,2) != "20"))
+              {
+              echo "Error: ".$parmDate." is out of allowed interval.";
+              $valid_date = false;
               $parmDate = date('Ymd');
             }
           } else {
             $parmDate = date('Ymd');
           }
+
           // $url="http://192.168.0.21/sig/news/index.php";
           $url="https://work4love.net/links/index.php";
           echo drawCalendar($parmDate,$url);
@@ -49,8 +56,12 @@ include("../include/menusup.php");
     include("../include/apitools.php"); 
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parmDate;
     $urlApi = "https://work4love.net/emma-api/public/api/news/date/".$parmDate;
-    $result = json_decode(getApiJson($urlApi));
-    // echo "<pre>";print_r($result);echo "</pre>";
+    
+    if ($valid_date == true) {
+      $result = json_decode(getApiJson($urlApi));
+      // echo "<pre>";print_r($result);echo "</pre>";
+    }
+    
     echo "<ul>";
     foreach ($result as $register) {
       echo "<li>[<a href=\"search.php?category=".$register->category."\">".$register->category."</a>]&nbsp;&nbsp;<a href=".$register->link." target=\"_blank\">".$register->title."</a></li>";
