@@ -16,6 +16,7 @@ include("../include/tools.php");
 ?>
 <body>
   <div class="container content-fluid">
+    <div class="row">
       <div class="col-md-12 columns text-center firstdiv">
         <h1>News</h1>
           <?php 
@@ -44,7 +45,7 @@ include("../include/tools.php");
           echo drawCalendar($parmDate,$url);
           ?>
     </div>
-    <div class="col-md-12 columns">
+    <div class="col-md-12 columns text-left">
     <br/>
     <?php 
     include("../include/apitools.php"); 

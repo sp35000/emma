@@ -41,12 +41,12 @@ include("../include/tools.php");
     }
     
     // $urlApi = "http://192.168.0.152:10000/api/news/date/".$parm;
-    $urlApi = "https://work4love.net/emma-api/public/api/news/date/".$parm;
+    $urlApi = "https://work4love.net/emma-api/public/api/news/date/".$parmDate;
 
     // obtain category
     if (isset($_GET['category'])) {
       $parm = test_input($_GET['category']);
-      $parm = urlencode($parm);
+      $parm = rawurlencode($parm);
       // $urlApi = "http://192.168.0.152:10000/api/news/category/".$parm;
       $urlApi = "https://work4love.net/emma-api/public/api/news/category/".$parm;
     }
@@ -54,7 +54,7 @@ include("../include/tools.php");
     // obtain search parameter
     if (isset($_GET['hashtag'])) {
       $parm = test_input($_GET['hashtag']);
-      $parm = urlencode($parm);
+      $parm = rawurlencode($parm);
       // $urlApi = "http://192.168.0.152:10000/api/news/search/".$parm;
       $urlApi = "https://work4love.net/emma-api/public/api/news/search/".$parm;
     }
@@ -64,9 +64,12 @@ include("../include/tools.php");
       <p>Search: <?=$parm?></p>
       <div class="col-md-12 columns text-left">
       <?php 
-      // echo "<pre>".$urlApi."</pre>";
-      $result = json_decode(getApiJson($urlApi));
-      // echo "<pre>";print_r($result);echo "</pre>";
+
+      if ($valid_date == true) {
+        $result = json_decode(getApiJson($urlApi));
+        // echo "<pre>";print_r($result);echo "</pre>";
+      }
+
       getAdvTgt(1);
       echo "\n<ul>\n";
       $resultCounter=0;

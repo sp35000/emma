@@ -40,40 +40,40 @@ curl_close($ch);
 function createApiUrl($searchtext,$link,$hashtag,$initial_date,$final_date,$category) {
   //?searchtext=dolar&link=&hashtag=%232025&initial_date=20250101&category=
   if ($searchtext != "") {
-    $api_fields = urlencode($searchtext);
+    $api_fields = rawurlencode($searchtext);
   }
   else {
-    $api_fields = urlencode("-");
+    $api_fields = rawurlencode("-");
   }
   if ($link != "") {
-    $api_fields = $api_fields."/".urlencode($link);
+    $api_fields = $api_fields."/".rawurlencode($link);
   }
   else {
-    $api_fields = $api_fields."/".urlencode("-");
+    $api_fields = $api_fields."/".rawurlencode("-");
   }
   if ($hashtag != "") {
-    $api_fields = $api_fields."/".urlencode($hashtag);
+    $api_fields = $api_fields."/".rawurlencode($hashtag);
   }
   else {
-    $api_fields = $api_fields."/".urlencode("-");
+    $api_fields = $api_fields."/".rawurlencode("-");
   }
   if ($initial_date != "") {
-    $api_fields = $api_fields."/".urlencode($initial_date);
+    $api_fields = $api_fields."/".rawurlencode($initial_date);
   }
   else {
-    $api_fields = $api_fields."/".urlencode("20000101");
+    $api_fields = $api_fields."/".rawurlencode("20000101");
   }
   if ($final_date != "") {
-    $api_fields = $api_fields."/".urlencode($final_date);
+    $api_fields = $api_fields."/".rawurlencode($final_date);
   }
   else {
-    $api_fields = $api_fields."/".urlencode("20600000");
+    $api_fields = $api_fields."/".rawurlencode("20600000");
   }
   if ($category != "") {
-    $api_fields = $api_fields."/".urlencode($category);
+    $api_fields = $api_fields."/".rawurlencode($category);
   }
   else {
-    $api_fields = $api_fields."/".urlencode("-");
+    $api_fields = $api_fields."/".rawurlencode("-");
   }
   return $api_fields;
 }
