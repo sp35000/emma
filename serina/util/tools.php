@@ -32,7 +32,7 @@ function getAdvTgt($advSrcId) {
 
 function getVideoPlaylist($category) {
 // playlist parameters
-$playlist["News"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl";
+$playlists["News"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2cZqLDHTFJUHhife9lEiCzl";
 $playlists["Culture"]="https://youtube.com/playlist?list=PL1wt1uIbBJ2dkvevskW3G1TPYcb42gqfY";
 $playlists["Economy"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2fS1Yq54r-iErhKkvDxGgI-";
 $playlists["Technology"]="https://www.youtube.com/playlist?list=PL1wt1uIbBJ2ddnqc-VFCJ_ASKs9ioZwrb";
@@ -46,7 +46,7 @@ $playlistsEmbed["Travel"]="https://www.youtube.com/embed/videoseries?list=PL1wt1
 
 // show playlist
 if (
-  $category == "News"
+$category == "News"
 or $category == "Culture"
 or $category == "Economy"
 or $category == "Technology"
@@ -54,7 +54,7 @@ or $category == "Travel"
 ) {
   $playlistUrl=$playlists[$category];
   $playlistUrlEmbed=$playlistsEmbed[$category];
-  // echo "<p align=\"center\">Debug [".$playlistUrl."]</p>";
+  // echo "<p align=\"center\">".$category." Debug [".$playlistUrl."]</p>";
 
   // show url video
   echo

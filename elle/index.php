@@ -58,7 +58,6 @@ include("../include/menusup.php");
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
     <li><a href="https://www.techtudo.com.br/tudo-sobre/softwares/a-z.html" target="_blank">Download A-Z</a>|
     <li><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a>|</li>
-    <li><a href="https://www.oldapps.com/" target="_blank">Old Apps</a>|</li>
     <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a>]</li>
     <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a></li>
     </ul>
@@ -163,14 +162,6 @@ include("../include/menusup.php");
     <li><a href="https://www.pythonanywhere.com/" target="_blank">pythonanywhere</a>|</li>
     <li><a href="https://gitpod.io" target="_blank">Gitpod</a>|</li>
     <li><a href="https://vscode.dev/" target="_blank">VSCode</a>]</li>
-    <br/>
-    <li>Training [</li>
-    <li><a href="https://www.codewars.com/" target="_blank">Codewars</a>|</li>
-    <li><a href="https://www.codility.com/" target="_blank">Codility</a>|</li>
-    <li><a href="https://www.algoexpert.io/" target="_blank">AlgoExpert</a>|</li>
-    <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>|</li>
-    <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>|</li>
-    <li><a href="https://neetcode.io/practice?tab=neetcode150" target="_blank">NeetCode150</a>]</li>
     </ul>
 
     <h3>Sec</h3>

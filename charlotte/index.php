@@ -16,7 +16,6 @@ include("../include/tools.php");
       <h1>Formula 1</h1>
       <p>
          <a href="https://www.formula1.com/" class="btn btn-lg btn-success" target="_blank">F1 - The Official Home</a>
-         <a href="https://www.band.uol.com.br/esportes/automobilismo/formula-1" class="btn btn-lg btn-success" target="_blank">F1 - Band</a>
          <a href="https://ge.globo.com/motor/formula-1/" class="btn btn-lg btn-success" target="_blank">F1 - GE</a>
          <!-- <a href="/sig/serina/news2.php?hashtag=%23F1" class="btn btn-lg btn-success">F1 News</a> -->
       </p>

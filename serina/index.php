@@ -157,13 +157,20 @@ include("../include/menusup.php");
     <li><a href="http://oceanbrasil.com/online/" target="_blank">Samsung Ocean</a>[</li>
     <li><a href="https://github.com/paulosalvatore" target="_blank">Git - Prof. Paulo Salvatore</a>]</li>
     <li><a href="https://4linux.com.br/" target="_blank">4 Linux</a>|</li>
-
     <br/>
     <li><a href="https://github.com/Universidade-Livre/ciencia-da-computacao" target="_blank">Universidade Brasileira Livre</a>|</li>
     <li><a href="https://flaviocopes.com/" target="_blank">Flavio Copes</a>|</li>
     <li><a href="https://gist.github.com/dianaarnos/3631340cb06065f34211bfb3d3bbdc6b" target="_blank">Trabalhar na Gringa</a>|</li>
     <li><a href="https://www.crackingthecodinginterview.com/" target="_blank">Cracking the Coding Interview</a>|</li>
     <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+    <br/>
+    <li>Training [</li>
+    <li><a href="https://www.codewars.com/" target="_blank">Codewars</a>|</li>
+    <li><a href="https://www.codility.com/" target="_blank">Codility</a>|</li>
+    <li><a href="https://www.algoexpert.io/" target="_blank">AlgoExpert</a>|</li>
+    <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>|</li>
+    <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>|</li>
+    <li><a href="https://neetcode.io/practice?tab=neetcode150" target="_blank">NeetCode150</a>]</li>
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Learning">More sites...</h2>

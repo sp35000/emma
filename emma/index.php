@@ -41,7 +41,6 @@ include("../include/menusup.php");
     <p>      
     <a href="https://pralamentar.online/" class="btn btn-lg btn-success" target="_blank">Pra Lamentar</a>
     <a href="https://mapadosconflitos.apublica.org/" class="btn btn-lg btn-success" target="_blank">Mapa dos conflitos</a>
-    <a href="https://mapadosconflitos.apublica.org/" class="btn btn-lg btn-success" target="_blank">Mapa dos conflitos</a>
     <a href="https://theintercept.com.br/" class="btn btn-lg btn-success" target="_blank">The Intercept Brasil</a>
     <a href="https://www.outraspalavras.net" class="btn btn-lg btn-success" target="_blank">Outras Palavras</a>
     <a href="https://www.bbc.com/portuguese" class="btn btn-lg btn-success" target="_blank">BBC</a>
