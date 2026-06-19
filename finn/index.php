@@ -35,6 +35,7 @@ include("../include/menusup.php");
     <li><a href="https://milestalk.com/" target="_blank">MilesTalk</a>|</li>
     <li><a href="https://dotz.com.br/" target="_blank">Dotz</a>|</li>
     <li><a href="https://www.esfera.com.vc/" target="_blank">Esfera</a>|</li>
+    <li><a href="https://uaucaixa.com.br" target="_blank">UAU Caixa</a>|</li>    
     <li><a href="https://www.livelo.com.br/" target="_blank">Livelo</a>|</li>
     <li><a href="https://www.smiles.com.br" target="_blank">Smiles</a>] </li>
     </ul>
@@ -51,8 +52,7 @@ include("../include/menusup.php");
     <li><a href="https://www.frommers.com/" target="_blank">Frommer's</a>|</li>
     <li><a href="https://www.fodors.com/" target="_blank">Fodors</a>|</li>
     <li><a href="https://www.worldtravelguide.net/" target="_blank">World Travel Guide</a>|</li>
-    <li><a href="https://nomadmania.com/" target="_blank">NomadMania</a></li>
-    <br/>
+    <li><a href="https://nomadmania.com/" target="_blank">NomadMania</a>|</li>
     <li><a href="https://www.escapeartist.com/" target="_blank">Escape Artist</a>|</li>
     <li><a href="https://culturecrossing.net/" target="_blank">Culture Crossing</a>|</li>
     <li><a href="https://www.cyborlink.com/" target="_blank">Cyborlink</a>|</li>
@@ -122,14 +122,6 @@ include("../include/menusup.php");
     <li>Portugal [</li>
     <li><a href="https://www.flytap.com" target="_blank">TAP</a>|</li>
     <li><a href="https://www.cp.pt/" target="_blank">Comboios de Portugal</a>]</li>
-    </ul>
-
-    <h2>Asia</h2>
-    <ul id="hlist">
-    <li>China e-commerce [<a href="https://br.banggood.com" target="_blank">Banggood</a>|</li>
-    <li><a href="https://br.gearbest.com" target="_blank">Gearbest</a>|</li>
-    <li><a href="https://www.dx.com" target="_blank">Deal Extreme</a>|</li>
-    <li><a href="https://pt.aliexpress.com" target="_blank">Ali Express</a>] </li>
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Travel">More sites...</h2>

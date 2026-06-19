@@ -20,8 +20,8 @@ include("../include/menusup.php");
     <a href="https://www.timeanddate.com/" class="btn btn-lg btn-success" target="_blank">Time and Date</a>
     <a href="https://theintercept.com/" class="btn btn-lg btn-success" target="_blank">The Intercept</a>
     <a href="https://www.sapo.pt/" class="btn btn-lg btn-success" target="_blank">Sapo</a>
-    <a href="https://shumian.com.br/" class="btn btn-lg btn-success" target="_blank">Shūmiàn</a>
-    <a href="https://mundo-nipo.com/" class="btn btn-lg btn-success" target="_blank">Mundo Nipo</a>
+    <!-- <a href="https://shumian.com.br/" class="btn btn-lg btn-success" target="_blank">Shūmiàn</a> -->
+    <!-- <a href="https://mundo-nipo.com/" class="btn btn-lg btn-success" target="_blank">Mundo Nipo</a> -->
     <a href="https://www.aljazeera.com/" class="btn btn-lg btn-success" target="_blank">AlJazeera</a>
     <a href="https://www.news.com.au/" class="btn btn-lg btn-success" target="_blank">news.com.au</a>
     <a href="https://www.dw.com/pt-002/not%C3%ADcias/s-13918" class="btn btn-lg btn-success" target="_blank">Africa</a>
@@ -61,14 +61,14 @@ include("../include/menusup.php");
     <a href="https://www.captable.com.br/" class="btn btn-lg btn-success" target="_blank">CapTable</a>
     <a href="https://www.startse.com.br/" class="btn btn-lg btn-success" target="_blank">StartSe</a>
     <a href="https://www.producthunt.com/" class="btn btn-lg btn-success" target="_blank">Product Hunt</a>
-    <a href="https://nomadbase.com/" class="btn btn-lg btn-success"  target="_blank">Nomadbase</a>
+    <!-- <a href="https://nomadbase.com/" class="btn btn-lg btn-success"  target="_blank">Nomadbase</a> -->
     <A href="https://www.bastter.com" class="btn btn-lg btn-success"  target="_blank">Bastter</A>
     <a href="https://www.expatexchange.com/loginexpatexchange" class="btn btn-lg btn-success"  target="_blank">Expat Exchange</a>
-    <a href="https://www.linkedin.com" class="btn btn-lg btn-success"  target="_blank">LinkedIn</a>
-    <a href="https://www.linkedin.com/sales/ssi" class="btn btn-lg btn-success" target="_blank">SSI</a>
+    <!-- <a href="https://www.linkedin.com" class="btn btn-lg btn-success"  target="_blank">LinkedIn</a> -->
+    <!-- <a href="https://www.linkedin.com/sales/ssi" class="btn btn-lg btn-success" target="_blank">SSI</a> -->
     <a href="https://bitcointalk.org" class="btn btn-lg btn-success"  target="_blank">Bitcointalk</a>
     <a href="https://nodesk.co/articles/" class="btn btn-lg btn-success" target="_blank">No Desk</a>
-    <a href="https://web.telegram.org/#/login" class="btn btn-lg btn-success" target="_blank">Telegram</a>
+    <!-- <a href="https://web.telegram.org/#/login" class="btn btn-lg btn-success" target="_blank">Telegram</a> -->
     </p>
 
     <h2>Health</h2>

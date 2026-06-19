@@ -23,7 +23,6 @@ include("../include/menusup.php");
     <li><a href="https://www.zdnet.com/" target="_blank">ZDNet</a>|</li>
     <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a>|</li>
     <li><a href="https://manualdousuario.net/" target="_blank">Manual do Usuário</a>|</li>
-    <br/>
     <li><a href="https://www.osnews.com/" target="_blank">OSnews</a>|</li>
     <li><a href="https://imasters.com.br/" target="_blank">iMasters</a>|</li>
     <li><a href="https://www.macrumors.com/" target="_blank">MacRumors</a>|</li>
@@ -31,7 +30,7 @@ include("../include/menusup.php");
     <li><a href="https://sempreupdate.com.br/" target="_blank">SempreUpdate</a>|</li>
     <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>|</li>
     <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li>
-    <br/>
+    <br/><br/>
     <li>Engineering [</li>
     <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a>|</li>
     <li><a href="https://medium.com/thumbtack-engineering" target="_blank">Thumbtack</a>|</li>
@@ -39,7 +38,6 @@ include("../include/menusup.php");
     <li><a href="https://engineering.fb.com/" target="_blank">Facebook</a>|</li>
     <li><a href="https://labs.spotify.com" target="_blank">Spotify</a>|</li>
     <li><a href="https://stripe.com/blog/engineering" target="_blank">Stripe</a>|</li>
-    <br/>
     <li><a href="https://slack.engineering/" target="_blank">Slack</a>|</li>
     <li><a href="https://engineering.pinterest.com" target="_blank">Pinterest</a>|</li>    
     <li><a href="https://engineering.shopify.com" target="_blank">Shopify</a>|</li>
@@ -52,14 +50,13 @@ include("../include/menusup.php");
     <li><a href="http://eng.uber.com" target="_blank">Uber</a>|</li>
     <li><a href="https://developer.amazon.com/apps-and-games/blogs" target="_blank">Amazon</a>|</li>
     <li><a href="https://developers.googleblog.com" target="_blank">Google</a>]</li>
-    <br/>
-    <li><a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
+    <br/><br/>
+    <li>Resources [<a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
     <li><a href="https://swagger.io/" target="_blank">Swagger</a>|</li>
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
-    <li><a href="https://www.techtudo.com.br/tudo-sobre/softwares/a-z.html" target="_blank">Download A-Z</a>|
     <li><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a>|</li>
     <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a>]</li>
-    <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a></li>
+    <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a>]</li>
     </ul>
 
     <h2>A.I.</h2>

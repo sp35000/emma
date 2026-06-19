@@ -20,7 +20,7 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li>Banks [</li>
     <li><a href="https://www.cgd.pt" target="_blank">CGD</a>|</li>
-    <li><a href="https://www.multibank.com.pa/" target="_blank">Multibank</a>|</li>
+    <!-- <li><a href="https://www.multibank.com.pa/" target="_blank">Multibank</a>|</li> -->
     <li><a href="https://www.bancointer.com.br/" target="_blank">Inter</a>|</li>
     <li><a href="https://www.bancoreal.com.br" target="_blank">Santander</a>]</li>
     <br />
@@ -65,10 +65,10 @@ include("../include/menusup.php");
     <br />
     <li>Other [<a href="https://www.personalcapital.com/" target="_blank">Personal Capital</a>|</li>
     <li><a href="https://www.crunchbase.com" target="_blank">Crunchbase</a>|</li>
-    <li><a href="https://bancodata.com.br/" target="_blank">Bancodata</a>|</li>
+    <!-- <li><a href="https://bancodata.com.br/" target="_blank">Bancodata</a>|</li> -->
     <li><a href="https://www.forbes.com/billionaires" target="_blank">Forbes</a>|</li>
     <li><a href="https://www.sec.gov/edgar/searchedgar/companysearch.html" target="_blank">EDGAR</a>|</li>
-    <li><a href="https://www.berkshirehathaway.com" target="_blank">Berkshire Hathaway</a>|</li>
+    <li><a href="https://www.berkshirehathaway.com" target="_blank">Berkshire Hathaway</a>]</li>
     </ul>
 
     <p><a href="remotework.php" class="btn btn-lg btn-success">Remote Work</a></p>
@@ -78,8 +78,8 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
     <li><a href="https://www.portalbrasil.net/" target="_blank">Portal Brasil</a>|</li>
-    <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li>
-    <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li>
+    <!-- <li><a href="https://www.investing.com/" target="_blank">Investing.com</a>|</li> -->
+    <!-- <li><a href="https://www.infomoney.com.br/" target="_blank">Infomoney</a>|</li> -->
     <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
     <br/>
     <li><a href="https://www.moneyunder30.com/" target="_blank">moneyunder30</a>|</li>
@@ -117,10 +117,10 @@ include("../include/menusup.php");
     <li><a href="https://etherscan.io/gasTracker" target="_blank">Gas Monitor</a>|</li>
     <li><a href="https://etherscan.io/chart/gasprice" target="_blank">Gas Chart</a>]&nbsp;|</li>
     <li><a href="https://wallet.polygon.technology/" target="_blank">Polygon</a>|</li>
-    <li><a href="https://opensea.io" target="_blank">OpenSea</a></li>
+    <!-- <li><a href="https://opensea.io" target="_blank">OpenSea</a></li> -->
     <br />
 
-    <li>Exchanges [<a href="https://poloniex.com/" target="_blank">Poloniex</a>|</li>
+    <li>Exchanges [</li>
     <li><a href="https://www.coinbase.com/" target="_blank">Coinbase</a>|</li>
     <li><a href="https://www.binance.com/" target="_blank">Binance</a>|</li>
     <li><a href="https://www.foxbit.com.br" target="_blank">Foxbit</a>|</li>
@@ -143,6 +143,8 @@ include("../include/menusup.php");
     <br />
     <li>Brasil [<a href="https://www.zapimoveis.com.br" target="_blank">Zap</a>|</li>
     <li><a href="https://www.olx.com.br/" target="_blank">OLX</a>] </li>
+    <li><a href="https://www.clubefii.com.br/" target="_blank">Clube FII</li>
+    <br />    
     <li>CE [<a href="https://fzimoveis.com.br/" target="_blank">FZ Im&oacute;veis</a>|</li>
     <li><a href="https://www.flatshop.com.br/" target="_blank">Flatshop</a>] </li>
     <li>SP [<a href="https://www.loft.com.br" target="_blank">Loft</a>|</li>
@@ -151,6 +153,13 @@ include("../include/menusup.php");
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Finance">More sites...</h2>
+    <ul id="hlist">
+    <li>China e-commerce [<a href="https://br.banggood.com" target="_blank">Banggood</a>|</li>
+    <li><a href="https://br.gearbest.com" target="_blank">Gearbest</a>|</li>
+    <li><a href="https://www.dx.com" target="_blank">Deal Extreme</a>|</li>
+    <li><a href="https://pt.aliexpress.com" target="_blank">Ali Express</a>] </li>
+    </ul>
+
     </div>
   </div>  
   <?php include("../include/footer.php"); ?>
