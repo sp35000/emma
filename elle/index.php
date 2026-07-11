@@ -26,9 +26,11 @@ include("../include/menusup.php");
     <li><a href="https://www.osnews.com/" target="_blank">OSnews</a>|</li>
     <li><a href="https://imasters.com.br/" target="_blank">iMasters</a>|</li>
     <li><a href="https://www.macrumors.com/" target="_blank">MacRumors</a>|</li>
+    <li><a href="https://www.windowscentral.com/" target="_blank">Windows&nbsp;Central</a>|</li>
     <li><a href="https://www.baguete.com.br/" target="_blank">Baguete</a>|</li>
     <li><a href="https://sempreupdate.com.br/" target="_blank">SempreUpdate</a>|</li>
     <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>|</li>
+    <li><a href="https://pedropaulo.net/" target="_blank">PedroPaulo</a>|</li>
     <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li>
     <br/><br/>
     <li>Engineering [</li>
@@ -54,10 +56,12 @@ include("../include/menusup.php");
     <li>Resources [<a href="https://app.diagrams.net/" target="_blank">Draw.io</a>|</li>
     <li><a href="https://swagger.io/" target="_blank">Swagger</a>|</li>
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
+    <li><a href="https://winworldpc.com" target="_blank">WinWorld</a>|</li>
     <li><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a>|</li>
-    <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a>]</li>
-    <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a>]</li>
-    </ul>
+    <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a></li>
+    <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a>|</li>
+    <li><a href="https://european-alternatives.eu/" target="_blank">European Alternatives</a>]</li>
+  </ul>
 
     <h2>A.I.</h2>
     <ul id="hlist">
@@ -132,6 +136,7 @@ include("../include/menusup.php");
     <li><a href="https://www.30secondsofcode.org/" target="_blank">30secondsofcode</a>|</li>
     <li><a href="https://perl.org/" target="_blank">Perl</a>|</li>
     <li><a href="https://www.java.com/" target="_blank">Java</a>|</li>
+    <li><a href="https://refactoring.guru/design-patterns" target="_blank">Design Patterns</a>|</li>
     <li><a href="https://python.org/" target="_blank">Python</a>[</li>
     <li><a href="https://pypi.org/" target="_blank">PyPI</a>]</li>
     <li><a href="https://golang.org/" target="_blank">Go</a>|</li>
@@ -180,6 +185,7 @@ include("../include/menusup.php");
     <li>OS [</li>
     <li><a href="https://www.gnu.org/" target="_blank">GNU</a>/</li>
     <li><a href="https://www.kernel.org/" target="_blank">Linux</a>|</li>
+    <li><a href="https://www.alpinelinux.org" target="_blank">Alpine</a>|</li>
     <li><a href="https://www.debian.org/" target="_blank">Debian</a>]</li>
     <br />
     <li>Virtualization [
