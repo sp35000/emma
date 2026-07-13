@@ -34,6 +34,7 @@ include("../include/menusup.php");
     <a href="https://www3.nhk.or.jp/nhkworld/en/news/" class="btn btn-lg btn-success" target="_blank">NHK</a>
     <a href="https://monacolife.net/" class="btn btn-lg btn-success" target="_blank">Monaco Life</a>    
     <a href="https://www.prensaescrita.com/" class="btn btn-lg btn-success" target="_blank">Prensa Escrita</a>
+    <a href="https://news.entrelinhas.ai/" class="btn btn-lg btn-success" target="_blank">Entrelinhas</a>
     <a href="https://www.painelglobal.com.br" class="btn btn-lg btn-success" target="_blank">Painel Global</a>
     <a href="https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" class="btn btn-lg btn-success" target="_blank">Duck.ai</a>    
     </p>
