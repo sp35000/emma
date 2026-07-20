@@ -16,6 +16,7 @@ include("../include/menusup.php");
     <p>
     <a href="https://www.getyourguide.com/" class="btn btn-lg btn-success" target="_blank">Get Your Guide</a>
     <a href="https://www.civitatis.com/pt/" class="btn btn-lg btn-success" target="_blank">civitatis</a>
+    <a href="https://thepointsguy.com/loyalty-programs/maximizing-points-redemptions-travel/" class="btn btn-lg btn-success" target="_blank">Travel Apps</a>    
     <a href="https://www.melhoresdestinos.com.br/" class="btn btn-lg btn-success" target="_blank">Melhores Destinos</a>
     </p>
     <ul id="hlist">

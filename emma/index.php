@@ -20,17 +20,18 @@ include("../include/menusup.php");
     <a href="https://www.timeanddate.com/" class="btn btn-lg btn-success" target="_blank">Time and Date</a>
     <a href="https://theintercept.com/" class="btn btn-lg btn-success" target="_blank">The Intercept</a>
     <a href="https://www.sapo.pt/" class="btn btn-lg btn-success" target="_blank">Sapo</a>
-    <!-- <a href="https://shumian.com.br/" class="btn btn-lg btn-success" target="_blank">Shūmiàn</a> -->
-    <!-- <a href="https://mundo-nipo.com/" class="btn btn-lg btn-success" target="_blank">Mundo Nipo</a> -->
     <a href="https://www.aljazeera.com/" class="btn btn-lg btn-success" target="_blank">AlJazeera</a>
+    <a href="https://www.elpais.com/" class="btn btn-lg btn-success" target="_blank">El Pais</a>
     <a href="https://www.news.com.au/" class="btn btn-lg btn-success" target="_blank">news.com.au</a>
     <a href="https://www.dw.com/pt-002/not%C3%ADcias/s-13918" class="btn btn-lg btn-success" target="_blank">Africa</a>
     <a href="https://www.swissinfo.ch/por" class="btn btn-lg btn-success" target="_blank">swissinfo.ch</a>
     <a href="https://br.sputniknews.com/" class="btn btn-lg btn-success" target="_blank">Sputnik</a>
+    <a href="https://www.elpais.com.uy" class="btn btn-lg btn-success" target="_blank">El Pais Uruguay</a>
     <a href="https://www.bangkokpost.com/" class="btn btn-lg btn-success" target="_blank">Bangkok Post</a>
     <a href="https://www.prensa.com/" class="btn btn-lg btn-success" target="_blank">Prensa</a>
     <a href="https://www.globaltimes.cn/index.html" class="btn btn-lg btn-success" target="_blank">GT</a>
     <a href="https://www.smh.com.au" class="btn btn-lg btn-success" target="_blank">SMH</a>
+    <a href="https://www.elcolombiano.com/" class="btn btn-lg btn-success" target="_blank">El Colombiano</a>
     <a href="https://www3.nhk.or.jp/nhkworld/en/news/" class="btn btn-lg btn-success" target="_blank">NHK</a>
     <a href="https://monacolife.net/" class="btn btn-lg btn-success" target="_blank">Monaco Life</a>    
     <a href="https://www.prensaescrita.com/" class="btn btn-lg btn-success" target="_blank">Prensa Escrita</a>
@@ -43,13 +44,17 @@ include("../include/menusup.php");
     <a href="https://pralamentar.online/" class="btn btn-lg btn-success" target="_blank">Pra Lamentar</a>
     <a href="https://mapadosconflitos.apublica.org/" class="btn btn-lg btn-success" target="_blank">Mapa dos conflitos</a>
     <a href="https://theintercept.com.br/" class="btn btn-lg btn-success" target="_blank">The Intercept Brasil</a>
+    <a href="https://piaui.uol.com.br/" class="btn btn-lg btn-success" target="_blank">Piau&iacute;</a>    
     <a href="https://www.outraspalavras.net" class="btn btn-lg btn-success" target="_blank">Outras Palavras</a>
     <a href="https://www.bbc.com/portuguese" class="btn btn-lg btn-success" target="_blank">BBC</a>
     <a href="https://www.vermelho.org.br" class="btn btn-lg btn-success" target="_blank">Vermelho</a>
     <a href="https://www.dw.com/pt/not%C3%ADcias/s-7111" class="btn btn-lg btn-success" target="_blank">DW</a>
     <a href="https://www.cartacapital.com.br" class="btn btn-lg btn-success" target="_blank">Carta Capital</a>
+    <a href="https://www.jb.com.br/" class="btn btn-lg btn-success" target="_blank">JB</a>
     <a href="https://www.diariodepernambuco.com.br/" class="btn btn-lg btn-success" target="_blank">Di&aacute;rio de Pernambuco</a>
     <a href="https://www.correiobraziliense.com.br/" class="btn btn-lg btn-success" target="_blank">Correio Braziliense</a>
+    <a href="https://gauchazh.clicrbs.com.br/" class="btn btn-lg btn-success" target="_blank">ZH</a>
+    <a href="https://d24am.com" class="btn btn-lg btn-success" target="_blank">D24am</a>
     <a href="https://g1.globo.com/" class="btn btn-lg btn-success" target="_blank">G1</a>
     <a href="https://diariodonordeste.verdesmares.com.br/" class="btn btn-lg btn-success" target="_blank">DN</a>
     <a href="https://www.omelete.com.br/" class="btn btn-lg btn-success" target="_blank">Omelete</a>        
@@ -62,14 +67,10 @@ include("../include/menusup.php");
     <a href="https://www.captable.com.br/" class="btn btn-lg btn-success" target="_blank">CapTable</a>
     <a href="https://www.startse.com.br/" class="btn btn-lg btn-success" target="_blank">StartSe</a>
     <a href="https://www.producthunt.com/" class="btn btn-lg btn-success" target="_blank">Product Hunt</a>
-    <!-- <a href="https://nomadbase.com/" class="btn btn-lg btn-success"  target="_blank">Nomadbase</a> -->
     <A href="https://www.bastter.com" class="btn btn-lg btn-success"  target="_blank">Bastter</A>
     <a href="https://www.expatexchange.com/loginexpatexchange" class="btn btn-lg btn-success"  target="_blank">Expat Exchange</a>
-    <!-- <a href="https://www.linkedin.com" class="btn btn-lg btn-success"  target="_blank">LinkedIn</a> -->
-    <!-- <a href="https://www.linkedin.com/sales/ssi" class="btn btn-lg btn-success" target="_blank">SSI</a> -->
     <a href="https://bitcointalk.org" class="btn btn-lg btn-success"  target="_blank">Bitcointalk</a>
     <a href="https://nodesk.co/articles/" class="btn btn-lg btn-success" target="_blank">No Desk</a>
-    <!-- <a href="https://web.telegram.org/#/login" class="btn btn-lg btn-success" target="_blank">Telegram</a> -->
     </p>
 
     <h2>Health</h2>

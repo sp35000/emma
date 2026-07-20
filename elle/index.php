@@ -58,7 +58,7 @@ include("../include/menusup.php");
     <li><a href="https://www.portableapps.com" target="_blank">Portable&nbsp;Apps</a>|</li>
     <li><a href="https://winworldpc.com" target="_blank">WinWorld</a>|</li>
     <li><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a>|</li>
-    <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a></li>
+    <li><a href="https://www.oldversion.com/" target="_blank">Oldversion</a>|</li>
     <li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a>|</li>
     <li><a href="https://european-alternatives.eu/" target="_blank">European Alternatives</a>]</li>
   </ul>
@@ -73,29 +73,30 @@ include("../include/menusup.php");
     <li><a href="https://www.deepseek.com/" target="_blank" class="btn btn-lg btn-success">deepseek</a></li>
     
     <br/>
-    <li>[<a href="https://www.startse.com/ferramentas/" target="_blank">StartSe Tools</a>|</li>
+    <li><a href="https://ollama.com/" target="_blank">Ollama</a>|</li>
+    <li><a href="https://www.startse.com/ferramentas/" target="_blank">StartSe Tools</a>|</li>
     <li><a href="https://bing.com" target="_blank">Bing</a>|</li>
     <li><a href="https://www.futurepedia.io/" target="_blank">Futurepedia</a>|</li>
-    <li><a href="/sig/serina/news2.php?category=AI" target="_blank">more...</a>]</li>
+    <li><a href="/sig/serina/news2.php?category=AI" target="_blank">more...</a></li>
     </ul>
 
-    <h2>Blockchain</h2>
+    <!-- <h2>Blockchain</h2>
     <ul id="hlist">
     <li>Courses [<a href="https://cryptozombies.io/" target="_blank">Cryptozombies</a>]</li>
     <li>Jobs [</li>
     <li><a href="https://cryptocurrencyjobs.co" target="_blank">Cryptocurrency Jobs</a>]</li>
-    </ul>
+    </ul> -->
 
     <h2>Data Science</h2>
     <ul id="hlist">
-    <li><a href="https://www.numpy.org/" target="_blank">Numpy</a>|</li>
+    <!-- <li><a href="https://www.numpy.org/" target="_blank">Numpy</a>|</li> -->
     <li><a href="https://www.anaconda.com/" target="_blank">Anaconda</a>|</li>
     <li><a href="https://jupyter.org/" target="_blank">Jupyter</a>|</li>
     <li><a href="https://colab.research.google.com/notebooks/intro.ipynb" target="_blank">Colab</a>|</li>
     <li><a href="https://www.knime.com/" target="_blank">Knime</a>|</li>
     <li><a href="https://datasetsearch.research.google.com/" target="_blank">Google Dataset Search</a>|</li>
-    <li><a href="https://kaggle.com" target="_blank">Kaggle</a>[</li>
-    <li><a href="https://www.kaggle.com/learn/python" target="_blank">Python course</a>]]</li>
+    <li><a href="https://kaggle.com" target="_blank">Kaggle</a>|</li>
+    <li><a href="https://www.r-project.org/" target="_blank">R</a></li>
     <br/>
     <li>Databases [</li>          
     <li><a href="https://dbis-uibk.github.io/relax/calc/local/uibk/local/0" target="_blank">Algebra</a>|</li>
