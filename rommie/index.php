@@ -142,7 +142,7 @@ include("../include/menusup.php");
     <br />
     <li>Brasil [<a href="https://www.zapimoveis.com.br" target="_blank">Zap</a>|</li>
     <li><a href="https://www.olx.com.br/" target="_blank">OLX</a>] </li>
-    <li><a href="https://www.clubefii.com.br/" target="_blank">Clube FII</li>
+    <li><a href="https://www.clubefii.com.br/" target="_blank">Clube FII</a></li>
     <br />    
     <li>CE [<a href="https://fzimoveis.com.br/" target="_blank">FZ Im&oacute;veis</a>|</li>
     <li><a href="https://www.flatshop.com.br/" target="_blank">Flatshop</a>] </li>
