@@ -17,21 +17,21 @@ include("../include/menusup.php");
     <h1>Technology</h1>
     <ul id="hlist">
     <li>News [</li>
-    <li><a href="https://www.techtudo.com.br" target="_blank">techtudo</a>|</li>
-    <li><a href="https://thehackernews.com/" target="_blank">The Hacker News</a>|</li>
-    <li><a href="https://www.infoq.com/" target="_blank">InfoQ</a>|</li>
-    <li><a href="https://www.zdnet.com/" target="_blank">ZDNet</a>|</li>
-    <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a>|</li>
     <li><a href="https://manualdousuario.net/" target="_blank">Manual do Usuário</a>|</li>
+    <li><a href="https://www.zdnet.com/" target="_blank">ZDNet</a>|</li>
+    <li><a href="https://www.techtudo.com.br" target="_blank">techtudo</a>|</li>
     <li><a href="https://www.osnews.com/" target="_blank">OSnews</a>|</li>
+    <li><a href="https://sempreupdate.com.br/" target="_blank">SempreUpdate</a>|</li>
+    <li><a href="https://pedropaulo.net/" target="_blank">PedroPaulo</a>|</li>
+    <li><a href="https://www.windowscentral.com/" target="_blank">Windows&nbsp;Central</a>|</li>
+    <li><a href="https://thehackernews.com/" target="_blank">The Hacker News</a>|</li>
+    <li><a href="https://www.baguete.com.br/" target="_blank">Baguete</a>|</li>
+    <li><a href="https://www.infoq.com/" target="_blank">InfoQ</a>|</li>
+    <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a>|</li>
     <li><a href="https://imasters.com.br/" target="_blank">iMasters</a>|</li>
     <li><a href="https://www.macrumors.com/" target="_blank">MacRumors</a>|</li>
-    <li><a href="https://www.windowscentral.com/" target="_blank">Windows&nbsp;Central</a>|</li>
-    <li><a href="https://www.baguete.com.br/" target="_blank">Baguete</a>|</li>
-    <li><a href="https://sempreupdate.com.br/" target="_blank">SempreUpdate</a>|</li>
-    <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>|</li>
-    <li><a href="https://pedropaulo.net/" target="_blank">PedroPaulo</a>|</li>
-    <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li>
+    <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a>]</li>
+    <!-- <li><a href="https://simpleprogrammer.com/" target="_blank">Simple Programmer</a>]</li> -->
     <br/><br/>
     <li>Engineering [</li>
     <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a>|</li>
@@ -138,6 +138,7 @@ include("../include/menusup.php");
     <li><a href="https://perl.org/" target="_blank">Perl</a>|</li>
     <li><a href="https://www.java.com/" target="_blank">Java</a>|</li>
     <li><a href="https://refactoring.guru/design-patterns" target="_blank">Design Patterns</a>|</li>
+    <li><a href="https://rust-lang.org/" target="_blank">Rust</a>|</li>    
     <li><a href="https://python.org/" target="_blank">Python</a>[</li>
     <li><a href="https://pypi.org/" target="_blank">PyPI</a>]</li>
     <li><a href="https://golang.org/" target="_blank">Go</a>|</li>

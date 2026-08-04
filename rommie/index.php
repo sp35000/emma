@@ -78,6 +78,7 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
     <li><a href="https://www.portalbrasil.net/" target="_blank">Portal Brasil</a>|</li>
+    <li><a href="https://www.mobills.com.br/blog/" target="_blank">Mobills</a>|</li>    
     <li><a href="https://www.investnews.com.br/" target="_blank">InvestNews</a>|</li>
     <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
     <br/>

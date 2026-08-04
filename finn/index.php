@@ -33,12 +33,14 @@ include("../include/menusup.php");
     <li><a href="https://www.booking.com" target="_blank">Booking</a>]&nbsp;</li>
     <br />
     <li>Miles [</li>
-    <li><a href="https://milestalk.com/" target="_blank">MilesTalk</a>|</li>
+    <li><a href="https://thepointsguy.com/" target="_blank">The Points Guy</a>|</li>
+    <li><a href="https://milestalk.com/" target="_blank">MilesTalk</a>|</li>    
     <li><a href="https://dotz.com.br/" target="_blank">Dotz</a>|</li>
     <li><a href="https://www.esfera.com.vc/" target="_blank">Esfera</a>|</li>
     <li><a href="https://uaucaixa.com.br" target="_blank">UAU Caixa</a>|</li>    
     <li><a href="https://www.livelo.com.br/" target="_blank">Livelo</a>|</li>
-    <li><a href="https://www.smiles.com.br" target="_blank">Smiles</a>] </li>
+    <li><a href="https://www.avios.com/" target="_blank">Avios</a>| </li>
+    <li><a href="https://www.smiles.com.br" target="_blank">Smiles</a>] </li>    
     </ul>
     <p>
     <a href="https://www.staralliance.com/" class="btn btn-lg btn-success" target="_blank">Star Alliance</a>
@@ -107,7 +109,9 @@ include("../include/menusup.php");
 
     <h2>Europe</h2>
     <ul id="hlist">
-    <li><a href="https://www.eurodicas.com.br/" target="_blank">Eurodicas</a>|</li>
+    <li><a href="https://www.eurodicas.com.br/" target="_blank">Eurodicas</a>[</li>
+    <li><a href="https://turismo.eurodicas.com.br/" target="_blank">Turismo</a>]</li>
+    
     <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
     <li><a href="https://www.omio.com/" target="_blank">Omio</a></li>
     <br/>
