@@ -25,7 +25,8 @@ include("../include/menusup.php");
     <li><a href="https://seguroviagempro.com.br" target="_blank">Seguro Viagem Pro</a>|</li>
     <li><a href="https://www.segurospromo.com.br" target="_blank">Seguros Promo</a>|</li>
     <li><a href="https://www.xe.com" target="_blank">XE</a>|</li>
-    <li><a href="https://maps.google.com" target="_blank">Maps</a></li>
+    <li><a href="https://maps.google.com" target="_blank">Maps</a>|</li>
+    <li><a href="https://roame.travel/" target="_blank">roame</a></li>    
     <br />
     <li>Hosting [<a href="https://www.airbnb.com/" target="_blank">AirBnb</a>|</li>
     <li><a href="https://www.marriott.com/" target="_blank">Marriott</a>|</li>
@@ -55,7 +56,8 @@ include("../include/menusup.php");
     <li><a href="https://www.frommers.com/" target="_blank">Frommer's</a>|</li>
     <li><a href="https://www.fodors.com/" target="_blank">Fodors</a>|</li>
     <li><a href="https://www.worldtravelguide.net/" target="_blank">World Travel Guide</a>|</li>
-    <li><a href="https://nomadmania.com/" target="_blank">NomadMania</a>|</li>
+    <br/>
+    <!-- <li><a href="https://nomadmania.com/" target="_blank">NomadMania</a>|</li> -->
     <li><a href="https://www.escapeartist.com/" target="_blank">Escape Artist</a>|</li>
     <li><a href="https://culturecrossing.net/" target="_blank">Culture Crossing</a>|</li>
     <li><a href="https://www.cyborlink.com/" target="_blank">Cyborlink</a>|</li>
@@ -111,10 +113,11 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li><a href="https://www.eurodicas.com.br/" target="_blank">Eurodicas</a>[</li>
     <li><a href="https://turismo.eurodicas.com.br/" target="_blank">Turismo</a>]</li>
-    
     <li><a href="https://www.easyjet.com/en/" target="_blank">easyJet</a>|</li>
     <li><a href="https://www.omio.com/" target="_blank">Omio</a></li>
     <br/>
+    <li>UK</li>
+    <li>[<a href="https://britishairways.com/" target="_blank">British Airways</a>]</li>
     <li>France [</li>
     <li><a href="https://www.sncf.com/en" target="_blank">SNCF</a>]</li>
     <li>Monaco [</li>
@@ -127,6 +130,8 @@ include("../include/menusup.php");
     <li>Portugal [</li>
     <li><a href="https://www.flytap.com" target="_blank">TAP</a>|</li>
     <li><a href="https://www.cp.pt/" target="_blank">Comboios de Portugal</a>]</li>
+    <li>España</li>
+    <li>[<a href="https://iberia.com/" target="_blank">Iberia</a>]</li>
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Travel">More sites...</h2>

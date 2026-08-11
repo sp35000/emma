@@ -19,6 +19,7 @@ include("../include/menusup.php");
     <li>News [</li>
     <li><a href="https://manualdousuario.net/" target="_blank">Manual do Usuário</a>|</li>
     <li><a href="https://www.zdnet.com/" target="_blank">ZDNet</a>|</li>
+    <li><a href="https://www.tudocelular.com/" target="_blank">tudocelular</a>|</li>
     <li><a href="https://www.techtudo.com.br" target="_blank">techtudo</a>|</li>
     <li><a href="https://www.osnews.com/" target="_blank">OSnews</a>|</li>
     <li><a href="https://sempreupdate.com.br/" target="_blank">SempreUpdate</a>|</li>
