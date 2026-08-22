@@ -102,7 +102,8 @@ include("../include/menusup.php");
     </li>
     <li><a href="http://www.dominiopublico.gov.br" target="_blank">Dom&iacute;nio
     P&uacute;blico</a>|</li>
-    <li><a href="https://www.todamateria.com.br/" target="_blank">Toda Mat&eacute;ria</a></li>
+    <li><a href="https://www.todamateria.com.br/" target="_blank">Toda Mat&eacute;ria</a>|</li>
+    <li><a href="https://www.openstax.org/" target="_blank">openstax</a></li>
     <br/>
     <li><a href="https://openlibrary.org/" target="_blank">Open Library</a>|</li>
     <li><a href="https://dlivros.com/" target="_blank">dLivros</a>|</li>

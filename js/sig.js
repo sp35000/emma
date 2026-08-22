@@ -230,6 +230,10 @@ function cleanField(titleFieldName,linkFieldName) {
       }
     }    
   }
+  const marker = "... Leia mais";
+  const index = newTitle.indexOf(marker);
+  newTitle = newTitle.slice(0, index);  
+
   for (let i = 0; i < link.length; i++) {
     if (link[i] != "?") {
       newLink = newLink + link[i];

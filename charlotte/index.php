@@ -42,7 +42,6 @@ include("../include/tools.php");
       6/3 a 8/3/26: GP da Austrália
       13/3 a 15/3/26: GP da China (*)
       27/3 a 29/3/26: GP do Japão
-      10/4 a 12/4/26: GP do Bahrein
       17/4 a 19/4/26: GP da Arábia Saudita
       1/5 a 3/5/26: GP de Miami (*)
       22/5 a 24/5/26: GP do Canadá (*)
@@ -56,6 +55,7 @@ include("../include/tools.php");
       4/9 a 6/9/26: GP da Itália
       11/9 a 13/9/26: GP da Espanha
       25/9 a 27/9/26: GP do Azerbaijão      
+      2/10 a 4/10/26: GP do Bahrein in Malaysia
       9/10 a 11/10/26: GP de Singapura (*)
       23/10 a 25/10/26: GP dos EUA
       30/10 a 1/11/26: GP do México
