@@ -66,24 +66,24 @@ include("../include/tools.php");
       ---
       (*) sprint race
       </pre>
-      <!-- <h2 id="2026header" align="center" onclick="showHide()">2026 Season Calendar&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-down"></h2>
+      <h2 id="2027header" align="center" onclick="showHide()">2027 Season Calendar&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-down"></h2>
+
       <script>
          function showHide() {
-            var x = document.getElementById("2026");
-            var y = document.getElementById("2026header");
+            var x = document.getElementById("2027");
+            var y = document.getElementById("2027header");
             if (x.style.display === "none") {
             x.style.display = "block";
-            y.innerHTML="2026 Season Calendar&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-chevron-up\">";
+            y.innerHTML="2027 Season Calendar&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-chevron-up\">";
             } else {
             x.style.display = "none";
-            y.innerHTML="2026 Season Calendar&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-chevron-down\">";
+            y.innerHTML="2027 Season Calendar&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-chevron-down\">";
             }
             }
       </script>
-      <div id="2026" style="display:none">
-      <pre>
-      </pre>
-      </div> -->
+      <div id="2027" style="display:none">
+         <p align="center"><img src="Generic_27_Cal_1080x1350.avif" width="80%"/></p>
+      </div>
       </div>
    </div>
 <?php include("../include/footer.php"); ?>

@@ -68,8 +68,10 @@ include("../include/menusup.php");
     <!-- <li><a href="https://bancodata.com.br/" target="_blank">Bancodata</a>|</li> -->
     <li><a href="https://www.forbes.com/billionaires" target="_blank">Forbes</a>|</li>
     <li><a href="https://www.sec.gov/edgar/searchedgar/companysearch.html" target="_blank">EDGAR</a>|</li>
-    <li><a href="https://www.berkshirehathaway.com" target="_blank">Berkshire Hathaway</a>]</li>
-    </ul>
+    <li><a href="https://www.berkshirehathaway.com" target="_blank">Berkshire Hathaway</a>|</li>
+    <li><a href="https://www.market-clock.com/" target="_blank">Market Clock</a>]</li>
+  
+  </ul>
 
     <p><a href="remotework.php" class="btn btn-lg btn-success">Remote Work</a></p>
 
@@ -78,7 +80,6 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li><a href="https://www.melhorescartoes.com.br/c/contas-digitais" target="_blank">Melhores Cartões</a>|</li>
     <li><a href="https://www.portalbrasil.net/" target="_blank">Portal Brasil</a>|</li>
-    <li><a href="https://www.mobills.com.br/blog/" target="_blank">Mobills</a>|</li>    
     <li><a href="https://www.investnews.com.br/" target="_blank">InvestNews</a>|</li>
     <li><a href="https://borainvestir.b3.com.br/" target="_blank">B3</a></li>    
     <br/>
@@ -117,7 +118,6 @@ include("../include/menusup.php");
     <li><a href="https://etherscan.io/gasTracker" target="_blank">Gas Monitor</a>|</li>
     <li><a href="https://etherscan.io/chart/gasprice" target="_blank">Gas Chart</a>]&nbsp;|</li>
     <li><a href="https://wallet.polygon.technology/" target="_blank">Polygon</a>|</li>
-    <!-- <li><a href="https://opensea.io" target="_blank">OpenSea</a></li> -->
     <br />
 
     <li>Exchanges [</li>
@@ -149,7 +149,8 @@ include("../include/menusup.php");
     <li><a href="https://www.flatshop.com.br/" target="_blank">Flatshop</a>] </li>
     <li>SP [<a href="https://www.loft.com.br" target="_blank">Loft</a>|</li>
     <li><a href="https://morar.housi.com.br/" target="_blank">Housi</a>|</li>
-    <li><a href="https://www.soflatsnet.com.br/" target="_blank">S&oacute; Flats</a>] </li>
+    <li><a href="https://www.soflatsnet.com.br/" target="_blank">S&oacute; Flats</a>|
+    <li><a href="https://falavignaimoveis.com.br/" target="_blank">Falavigna</a>]</li>
     </ul>
 
     <h2><a href="/sig/sites/search.php?category=Finance">More sites...</h2>

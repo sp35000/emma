@@ -66,7 +66,6 @@ include("../include/menusup.php");
     <p>
     <a href="https://www.captable.com.br/" class="btn btn-lg btn-success" target="_blank">CapTable</a>
     <a href="https://www.startse.com.br/" class="btn btn-lg btn-success" target="_blank">StartSe</a>
-    <a href="https://www.producthunt.com/" class="btn btn-lg btn-success" target="_blank">Product Hunt</a>
     <A href="https://www.bastter.com" class="btn btn-lg btn-success"  target="_blank">Bastter</A>
     <a href="https://www.expatexchange.com/loginexpatexchange" class="btn btn-lg btn-success"  target="_blank">Expat Exchange</a>
     <a href="https://bitcointalk.org" class="btn btn-lg btn-success"  target="_blank">Bitcointalk</a>

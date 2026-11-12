@@ -57,11 +57,9 @@ include("../include/menusup.php");
     <li><a href="https://www.fodors.com/" target="_blank">Fodors</a>|</li>
     <li><a href="https://www.worldtravelguide.net/" target="_blank">World Travel Guide</a>|</li>
     <br/>
-    <!-- <li><a href="https://nomadmania.com/" target="_blank">NomadMania</a>|</li> -->
     <li><a href="https://www.escapeartist.com/" target="_blank">Escape Artist</a>|</li>
     <li><a href="https://culturecrossing.net/" target="_blank">Culture Crossing</a>|</li>
     <li><a href="https://www.cyborlink.com/" target="_blank">Cyborlink</a>|</li>
-    <li><a href="https://mundosemfim.com/" target="_blank">Mundo sem fim</a>|</li>
     <li><a href="https://www.traveller.com.au/los-angeles" target="_blank">L.A.</a>|</li>
     <li><a href="https://www.tripadvisor.com" target="_blank">Trip Advisor</a></li>
     <br/>
@@ -84,8 +82,7 @@ include("../include/menusup.php");
     <ul id="hlist">
     <li>Panama [</li>
     <li><a href="https://www.migracion.gob.pa" target="_blank">Migraci&oacute;n</a>|</li>
-    <li><a href="https://www.lamboglialaw.com/" target="_blank">Lamboglia Law Office</a>|</li>
-    <li><a href="https://www.cascoviejo.org" target="_blank">Casco Viejo</a>|</li>
+    <li><a href="https://lamboglialaw.com/" target="_blank">Lamboglia Law Office</a>|</li>
     <li><a href="https://www.degustapanama.com" target="_blank">Degusta</a>]</li>
     </ul>
 
