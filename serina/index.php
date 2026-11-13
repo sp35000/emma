@@ -114,7 +114,8 @@ include("../include/menusup.php");
     <li><a href="https://www.futurelearn.com" target="_blank">Future Learn</a>|</li>
     <li><a href="https://continuingstudies.stanford.edu/" target="_blank">Stanford</a>|</li>
     <li><a href="https://www.udemy.com/" target="_blank">Udemy</a>|</li>
-    <li><a href="https://www.dummies.com/" target="_blank">Dummies</a></li>
+    <li><a href="https://www.dummies.com/" target="_blank">Dummies</a>|</li>
+    <li><a href="https://maptap.gg/" target="_blank">MapTap</a></li>    
     </ul>
 
     <h2>Languages</h2>

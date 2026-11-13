@@ -81,16 +81,8 @@ include("../include/menusup.php");
     <li><a href="/sig/serina/news2.php?category=AI" target="_blank">more...</a></li>
     </ul>
 
-    <!-- <h2>Blockchain</h2>
-    <ul id="hlist">
-    <li>Courses [<a href="https://cryptozombies.io/" target="_blank">Cryptozombies</a>]</li>
-    <li>Jobs [</li>
-    <li><a href="https://cryptocurrencyjobs.co" target="_blank">Cryptocurrency Jobs</a>]</li>
-    </ul> -->
-
     <h2>Data Science</h2>
     <ul id="hlist">
-    <!-- <li><a href="https://www.numpy.org/" target="_blank">Numpy</a>|</li> -->
     <li><a href="https://www.anaconda.com/" target="_blank">Anaconda</a>|</li>
     <li><a href="https://jupyter.org/" target="_blank">Jupyter</a>|</li>
     <li><a href="https://colab.research.google.com/notebooks/intro.ipynb" target="_blank">Colab</a>|</li>
@@ -184,7 +176,7 @@ include("../include/menusup.php");
     <li><a href="https://www.lpi.org/" target="_blank">LPI</a>[</li>
     <li><a href="https://learning.lpi.org/en/" target="_blank">Learning</a>|</li>
     <li><a href="https://wiki.lpi.org/wiki/Main_Page" target="_blank">Wiki</a>] </li>
-    <li><a href="https://ngrok.com/" target="_blank">Ngrok</a></li>
+    <li><a href="https://ngrok.com/" target="_blank">Ngrok</a>|</li>
     <li>OS [</li>
     <li><a href="https://www.gnu.org/" target="_blank">GNU</a>/</li>
     <li><a href="https://www.kernel.org/" target="_blank">Linux</a>|</li>
@@ -206,7 +198,8 @@ include("../include/menusup.php");
     <li><a href="https://kubernetes.io/" target="_blank">Kubernetes</a>|</li>
     <li><a href="https://docs.docker.com/" target="_blank">Docker</a> [</li>
     <li><a href="https://hub.docker.com/search?q=&type=image&image_filter=official" target="_blank">Images</a>] ] </li>
-    <li><a href="https://www.cloudflare.com" target="_blank">Cloudflare</a></li>
+    <li><a href="https://www.cloudflare.com" target="_blank">Cloudflare</a>|</li>
+    <li><a href="https://tailscale.com/" target="_blank">Tailscale</a></li>
     </ul>
 
     <h2>Design</h2>
