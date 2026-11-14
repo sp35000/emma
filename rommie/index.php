@@ -62,7 +62,9 @@ include("../include/menusup.php");
     <li><a href="https://www.bcb.gov.br/" target="_blank">BCB</a> [</li>
     <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank">Cotações</a>|</li>
     <li><a href="https://registrato.bcb.gov.br/registrato/" target="_blank">Registrato</a>]]</li>
+    <li><a href="https://www.pciconcursos.com.br" target="_blank">Concursos</a></li>
     <br />
+
     <li>Other [<a href="https://www.personalcapital.com/" target="_blank">Personal Capital</a>|</li>
     <li><a href="https://www.crunchbase.com" target="_blank">Crunchbase</a>|</li>
     <!-- <li><a href="https://bancodata.com.br/" target="_blank">Bancodata</a>|</li> -->
